@@ -1,12 +1,12 @@
 import "./index.css";
+import { Helmet } from "react-helmet-async";
 
 const Presentation = () => {
   return (
-    <main>
-      <div className="button-container">
-        <h1>Presentation</h1>
-      </div>
-    </main>
+    <Helmet>
+      <script src="/flutter/flutter.js" defer></script>
+      <script src="/flutter_init.js" defer></script>
+    </Helmet>
   );
 };
 
