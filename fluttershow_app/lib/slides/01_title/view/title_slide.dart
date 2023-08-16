@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_flutter_kaigi_logo.dart';
+import 'package:flutter_show/slides/01_title/widgets/title_slide_osaka_castle.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_title.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_tokyo_tower.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
@@ -37,7 +38,8 @@ class TitleSlide extends ConsumerWidget {
             titleSubTitleSpacing: verticalMargin12,
           ),
           const TitleSlideFlutterKaigiLogo(),
-          const TitleSlideTokyoTower()
+          const TitleSlideOsakaCastle(),
+          const TitleSlideTokyoTower(),
         ],
       ),
     );

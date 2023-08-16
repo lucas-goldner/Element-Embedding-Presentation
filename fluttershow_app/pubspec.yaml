@@ -16,6 +16,7 @@ dependencies:
   flutter_hooks: ^0.18.6
   flutter_localizations:
     sdk: flutter
+  flutter_shaders: ^0.1.2
   flutter_svg: ^2.0.7
   fluttershow_base: ^1.1.1
   fluttershow_keynote: ^1.1.0
@@ -35,6 +36,7 @@ flutter:
   generate: true
   assets:
     - assets/fonts/
+    - assets/shaders/
     - assets/images/custom/
     - assets/images/shared/
     - assets/images/title_slide/

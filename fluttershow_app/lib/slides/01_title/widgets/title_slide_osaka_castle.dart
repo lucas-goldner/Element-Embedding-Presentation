@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
-class TitleSlideTokyoTower extends StatelessWidget {
-  const TitleSlideTokyoTower({super.key});
+class TitleSlideOsakaCastle extends StatelessWidget {
+  const TitleSlideOsakaCastle({super.key});
 
   @override
   Widget build(BuildContext context) => Positioned(
-        bottom: -40,
-        left: 40,
+        bottom: -180,
+        left: 100,
         child: Transform.rotate(
-          angle: 270,
+          angle: 19,
           child: Image.asset(
-            'assets/images/title_slide/tokyo_tower.png',
-            height: 500,
+            'assets/images/title_slide/osaka_castle.png',
+            height: 600,
           ),
         ),
       )
@@ -20,5 +20,5 @@ class TitleSlideTokyoTower extends StatelessWidget {
             autoPlay: true,
             onPlay: (controller) => controller.repeat(reverse: true),
           )
-          .moveY(begin: 0, end: 20, duration: const Duration(seconds: 4));
+          .moveY(begin: 0, end: 12, duration: const Duration(seconds: 2));
 }
