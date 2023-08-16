@@ -34,9 +34,9 @@ dev_dependencies:
 
 flutter:
   generate: true
+
   assets:
     - assets/fonts/
-    - assets/shaders/
     - assets/images/custom/
     - assets/images/shared/
     - assets/images/title_slide/
@@ -51,6 +51,9 @@ flutter:
           weight: 500
         - asset: assets/fonts/GraphikRegular.otf
           weight: 400
+
+  shaders:
+    - shaders/glitch.frag
 
 flutter_intl:
   enabled: true

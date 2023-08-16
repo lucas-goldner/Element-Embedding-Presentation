@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_show/generated/l10n.dart';
@@ -9,7 +11,12 @@ import 'package:fluttershow_base/components/model/presentation_page.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 void main() {
+  loadMyShader();
   runApp(const ProviderScope(child: MyFlutterShow()));
+}
+
+Future<void> loadMyShader() async {
+  final program = await FragmentProgram.fromAsset('shaders/glitch.frag');
 }
 
 class MyFlutterShow extends ConsumerWidget {
