@@ -140,11 +140,11 @@ class S {
     );
   }
 
-  /// `FlutterShow Updated`
-  String get flutterShow {
+  /// `Flutter on the Web`
+  String get presentationTitle {
     return Intl.message(
-      'FlutterShow Updated',
-      name: 'flutterShow',
+      'Flutter on the Web',
+      name: 'presentationTitle',
       desc: '',
       args: [],
     );
@@ -160,10 +160,10 @@ class S {
     );
   }
 
-  /// `Presentations made easy in Flutter`
+  /// `Element Embedding for Next-Level Websites`
   String get presentationsInFlutter {
     return Intl.message(
-      'Presentations made easy in Flutter',
+      'Element Embedding for Next-Level Websites',
       name: 'presentationsInFlutter',
       desc: '',
       args: [],

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
-import 'package:flutter_show/slides/01_title/widgets/title_slide_overlay.dart';
+import 'package:flutter_show/slides/01_title/widgets/title_slide_flutter_kaigi_logo.dart';
+import 'package:flutter_show/slides/01_title/widgets/title_slide_tokyo_tower.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
 import 'package:flutter_show/styles/fs_text_styles.dart';
 import 'package:fluttershow_keynote/fluttershow_keynote.dart';
@@ -23,15 +24,16 @@ class TitleSlide extends ConsumerWidget {
       child: Stack(
         children: [
           KeynoteTitleSlide(
-            titleText: t.flutterShow,
+            titleText: t.presentationTitle,
             subTitleText: t.presentationsInFlutter,
             footerText: t.author,
             titleGradient: FSGradients.titlePrimary,
             titleStyle: KeynoteTextstyles.title(),
-            subtitleStyle: KeynoteTextstyles.subtitle(),
+            subtitleStyle: KeynoteTextstyles.subtitleSmall(),
             footerStyle: FSTextStyles.footerText(),
           ),
-          const TitleSlideOverlay()
+          const TitleSlideFlutterKaigiLogo(),
+          const TitleSlideTokyoTower()
         ],
       ),
     );

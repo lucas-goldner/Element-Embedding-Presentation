@@ -8,7 +8,7 @@
   "basic": "基本",
   "hidden": "非表示",
   "custom": "カスタム",
-  "flutterShow": "FlutterShow",
+  "presentationTitle": "Web上のFlutter",
   "madeWith": "このプレゼンフレームワークは",
   "presentationsInFlutter": "Flutterで簡単にプレゼンテーション",
   "author": "ルーカス・ゴールドナーによって作成されました",

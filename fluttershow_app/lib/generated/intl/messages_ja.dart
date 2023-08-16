@@ -35,7 +35,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "custom": MessageLookupByLibrary.simpleMessage("カスタム"),
         "darkMode": MessageLookupByLibrary.simpleMessage("ダークモード"),
         "downsides": MessageLookupByLibrary.simpleMessage("デメリット"),
-        "flutterShow": MessageLookupByLibrary.simpleMessage("FlutterShow"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
@@ -48,6 +47,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "notFlutter": MessageLookupByLibrary.simpleMessage("Flutterではありません"),
         "outstanding": MessageLookupByLibrary.simpleMessage("傑出"),
         "party": MessageLookupByLibrary.simpleMessage("パーティー 🎉"),
+        "presentationTitle":
+            MessageLookupByLibrary.simpleMessage("Web上のFlutter"),
         "presentationsInFlutter":
             MessageLookupByLibrary.simpleMessage("Flutterで簡単にプレゼンテーション"),
         "reallyBad": MessageLookupByLibrary.simpleMessage("本当に悪い"),

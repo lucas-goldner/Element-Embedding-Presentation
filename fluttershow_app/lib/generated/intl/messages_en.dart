@@ -34,8 +34,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "custom": MessageLookupByLibrary.simpleMessage("Custom"),
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
-        "flutterShow":
-            MessageLookupByLibrary.simpleMessage("FlutterShow Updated"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),
@@ -49,8 +47,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "notFlutter": MessageLookupByLibrary.simpleMessage("Its not Flutter"),
         "outstanding": MessageLookupByLibrary.simpleMessage("Outstanding"),
         "party": MessageLookupByLibrary.simpleMessage("Party 🎉"),
+        "presentationTitle":
+            MessageLookupByLibrary.simpleMessage("Flutter on the Web"),
         "presentationsInFlutter": MessageLookupByLibrary.simpleMessage(
-            "Presentations made easy in Flutter"),
+            "Element Embedding for Next-Level Websites"),
         "reallyBad": MessageLookupByLibrary.simpleMessage("Really bad"),
         "repoLink": MessageLookupByLibrary.simpleMessage(
             "https://github.com/lucas-goldner/FlutterShow"),
