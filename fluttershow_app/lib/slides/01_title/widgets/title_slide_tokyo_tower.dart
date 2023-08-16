@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class TitleSlideTokyoTower extends StatelessWidget {
   const TitleSlideTokyoTower({super.key});
@@ -16,5 +17,10 @@ class TitleSlideTokyoTower extends StatelessWidget {
             ),
           ),
         ),
-      );
+      )
+          .animate(
+            autoPlay: true,
+            onPlay: (controller) => controller.repeat(reverse: true),
+          )
+          .moveY(begin: 0, end: 20, duration: const Duration(seconds: 4));
 }

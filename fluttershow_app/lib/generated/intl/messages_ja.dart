@@ -50,7 +50,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "presentationTitle":
             MessageLookupByLibrary.simpleMessage("Web上のFlutter"),
         "presentationsInFlutter":
-            MessageLookupByLibrary.simpleMessage("Flutterで簡単にプレゼンテーション"),
+            MessageLookupByLibrary.simpleMessage("最先端のウェブサイトのためのエレメントエンベディング"),
         "reallyBad": MessageLookupByLibrary.simpleMessage("本当に悪い"),
         "repoLink": MessageLookupByLibrary.simpleMessage(
             "https://github.com/lucas-goldner/FlutterShow"),
