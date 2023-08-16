@@ -2,13 +2,18 @@ import 'package:flutter/cupertino.dart';
 
 class FSGradients {
   static const LinearGradient titlePrimary = LinearGradient(
-    begin: Alignment.topLeft,
-    end: Alignment.bottomRight,
     colors: [
-      CupertinoColors.systemTeal,
-      CupertinoColors.systemIndigo,
-      CupertinoColors.systemPurple,
-      CupertinoColors.systemPink,
+      Color.fromARGB(255, 255, 87, 221),
+      Color.fromARGB(255, 86, 194, 255),
+    ],
+  );
+
+  static const LinearGradient flutterKaigiBackground = LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [
+      Color(0xFF602678),
+      Color(0x004B0082),
     ],
   );
 
@@ -33,5 +38,5 @@ class FSGradients {
   );
 
   static LinearGradient dynamicBackground(Brightness brightness) =>
-      brightness == Brightness.dark ? backgroundDark : background;
+      brightness == Brightness.dark ? flutterKaigiBackground : background;
 }

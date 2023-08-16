@@ -44,38 +44,11 @@ class PresentationSlides extends HookConsumerWidget {
         child: Stack(
           children: [
             CupertinoPageScaffold(
-              child:
-
-                  /// Use the prebuild widgets such as [PageBuilderPresentation]
-                  /// for your presentation format. Check out more presentation
-                  /// widgets at: [https://flutter-show-docs.vercel.app/docs/fluttershow_base/presentations]
-                  ///
-                  /// Notice: Some of the prebuilt slides are wrapped with a
-                  /// custom animation. The presentation widgets here can be
-                  /// seen as the `default` way of animating between slides.
-                  PageBuilderPresentation(
+              child: FadingPresentation(
+                pageIndex: presentation.page,
                 presentationPages: presentationSlides,
                 pageController: presentation.pageController,
               ),
-
-              /// You are a fan of fading? Try this one!
-              ///
-              //  FadingPresentation(
-              //   pageIndex: presentation.page,
-              //   presentationPages: presentationSlides,
-              //   pageController: presentation.pageController,
-              // ),
-
-              /// Or craft something amazing yourself
-              /// using the default implementation as a template.
-              ///
-              //  PageView.builder(
-              //   physics: const NeverScrollableScrollPhysics(),
-              //   itemCount: presentationSlides.length,
-              //   controller: presentation.pageController,
-              //   itemBuilder: (context, index) =>
-              //       presentationSlides[index].slideWidget,
-              // ),
             ),
             Align(
               alignment: Alignment.bottomCenter,

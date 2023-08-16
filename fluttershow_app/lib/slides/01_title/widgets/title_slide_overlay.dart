@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fluttershow_base/components/widgets/fluttershow_base_components.dart';
 
@@ -16,7 +15,7 @@ class TitleSlideOverlay extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 20, top: 20),
                 child: SvgPicture.asset(
-                  'assets/images/shared/flutter_icon.svg',
+                  'assets/images/custom/flutterkaigi_logo.svg',
                   height: 80,
                 ),
               ),
