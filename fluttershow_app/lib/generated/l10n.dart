@@ -140,10 +140,10 @@ class S {
     );
   }
 
-  /// `FlutterShow`
+  /// `FlutterShow Updated`
   String get flutterShow {
     return Intl.message(
-      'FlutterShow',
+      'FlutterShow Updated',
       name: 'flutterShow',
       desc: '',
       args: [],

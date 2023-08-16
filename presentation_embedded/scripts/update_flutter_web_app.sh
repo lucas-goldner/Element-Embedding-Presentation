@@ -1,14 +1,29 @@
 #!/bin/bash
 
 # Paths relative to the script's location
-SOURCE_DIR="../fluttershow_app/build/web/"
+SOURCE_DIR="../fluttershow_app/"
+BUILD_DIR="../fluttershow_app/build/web/"
 DESTINATION_DIR="./public/flutter"
 MAIN_DART_FILE="$DESTINATION_DIR/main.dart.js"
 FLUTTER_FILE="$DESTINATION_DIR/flutter.js"
 
-# Check if the source directory exists
-if [ ! -d "$SOURCE_DIR" ]; then
-    echo "Error: Source directory $SOURCE_DIR does not exist."
+# Navigate to the SOURCE_DIR and run steps to build the flutter web app
+cd "$SOURCE_DIR"
+flutter pub run intl_utils:generate
+flutter build web --profile --dart-define=Dart2jsOptimization=O0
+
+# Check for any errors during the flutter build
+if [ $? -ne 0 ]; then
+    echo "Error: Failed to build flutter web app in $SOURCE_DIR"
+    exit 1
+fi
+
+# Change directory back to the script's location
+cd - 
+
+# Check if the build directory exists
+if [ ! -d "$BUILD_DIR" ]; then
+    echo "Error: Source directory $BUILD_DIR does not exist."
     exit 1
 fi
 
@@ -19,12 +34,12 @@ if [ -d "$DESTINATION_DIR" ]; then
 fi
 
 # Copy the source to the destination
-echo "Copying $SOURCE_DIR to $DESTINATION_DIR..."
-cp -r "$SOURCE_DIR" "$DESTINATION_DIR"
+echo "Copying $BUILD_DIR to $DESTINATION_DIR..."
+cp -r "$BUILD_DIR" "$DESTINATION_DIR"
 
 # Check for any errors during the copy
 if [ $? -ne 0 ]; then
-    echo "Error: Failed to copy $SOURCE_DIR to $DESTINATION_DIR"
+    echo "Error: Failed to copy $BUILD_DIR to $DESTINATION_DIR"
     exit 1
 fi
 

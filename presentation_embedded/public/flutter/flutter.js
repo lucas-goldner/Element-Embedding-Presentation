@@ -8,6 +8,8 @@ if (!_flutter) {
 _flutter.loader = null;
 
 (function () {
+  "use strict";
+
   const baseUri = ensureTrailingSlash(getBaseURI());
 
   function getBaseURI() {
@@ -68,10 +70,12 @@ _flutter.loader = null;
      * @param {String} policyName the policy name (optional)
      */
     constructor(validPatterns, policyName = "flutter-js") {
-      const patterns = validPatterns || [/\.js$/];
+      const patterns = validPatterns || [
+        /\.js$/,
+      ];
       if (window.trustedTypes) {
         this.policy = trustedTypes.createPolicy(policyName, {
-          createScriptURL: function (url) {
+          createScriptURL: function(url) {
             const parsed = new URL(url, window.location);
             const file = parsed.pathname.split("/").pop();
             const matches = patterns.some((pattern) => pattern.test(file));
@@ -80,12 +84,8 @@ _flutter.loader = null;
             }
             console.error(
               "URL rejected by TrustedTypes policy",
-              policyName,
-              ":",
-              url,
-              "(download prevented)"
-            );
-          },
+              policyName, ":", url, "(download prevented)");
+          }
         });
       }
     }
@@ -122,11 +122,12 @@ _flutter.loader = null;
       if (!("serviceWorker" in navigator)) {
         let errorMessage = "Service Worker API unavailable.";
         if (!window.isSecureContext) {
-          errorMessage += "\nThe current context is NOT secure.";
-          errorMessage +=
-            "\nRead more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts";
+          errorMessage += "\nThe current context is NOT secure."
+          errorMessage += "\nRead more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts";
         }
-        return Promise.reject(new Error(errorMessage));
+        return Promise.reject(
+          new Error(errorMessage)
+        );
       }
       const {
         serviceWorkerVersion,
@@ -361,7 +362,7 @@ _flutter.loader = null;
       // (and dynamically imported from a module if not present).
       const serviceWorkerLoader = new FlutterServiceWorkerLoader();
       serviceWorkerLoader.setTrustedTypesPolicy(flutterTT.policy);
-      await serviceWorkerLoader.loadServiceWorker(serviceWorker).catch((e) => {
+      await serviceWorkerLoader.loadServiceWorker(serviceWorker).catch(e => {
         // Regardless of what happens with the injection of the SW, the show must go on
         console.warn("Exception while loading service worker:", e);
       });

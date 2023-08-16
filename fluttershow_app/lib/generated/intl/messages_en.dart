@@ -34,7 +34,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "custom": MessageLookupByLibrary.simpleMessage("Custom"),
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
-        "flutterShow": MessageLookupByLibrary.simpleMessage("FlutterShow"),
+        "flutterShow":
+            MessageLookupByLibrary.simpleMessage("FlutterShow Updated"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),
