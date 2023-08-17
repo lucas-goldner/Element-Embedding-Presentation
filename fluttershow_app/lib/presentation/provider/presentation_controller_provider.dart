@@ -15,7 +15,7 @@ class PresentationController extends StateNotifier<Presentation> {
           Presentation(
             animationIndex: 0,
             page: 0,
-            locale: const Locale('en'),
+            locale: const Locale('ja'),
             menuOpen: false,
             brightness: PlatformDispatcher.instance.platformBrightness,
             pageController: PageController(),

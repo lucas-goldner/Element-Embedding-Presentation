@@ -25,7 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "agenda": MessageLookupByLibrary.simpleMessage("アジェンダ"),
         "amazing": MessageLookupByLibrary.simpleMessage("驚くばかり"),
         "annoying": MessageLookupByLibrary.simpleMessage("厄介"),
-        "author": MessageLookupByLibrary.simpleMessage("金・ルーカスr"),
+        "author": MessageLookupByLibrary.simpleMessage("金・ルーカス"),
         "awesome": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "basic": MessageLookupByLibrary.simpleMessage("基本"),
         "benefits": MessageLookupByLibrary.simpleMessage("利点"),
