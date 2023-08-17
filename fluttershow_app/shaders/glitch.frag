@@ -12,7 +12,7 @@ uniform float iTime;
 out vec4 fragColor;
 
 void main() {
-    vec2 fragCoord = FlutterFragCoord();
+  vec2 fragCoord = FlutterFragCoord();
 	vec2 uv = fragCoord.xy / iResolution.xy;
 	vec2 block = floor(fragCoord.xy / vec2(16));
 	vec2 uv_noise = block / vec2(64);

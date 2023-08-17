@@ -7,7 +7,7 @@ class TitleSlideOsakaCastle extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Positioned(
         bottom: -180,
-        left: 100,
+        left: 40,
         child: Transform.rotate(
           angle: 19,
           child: Image.asset(
