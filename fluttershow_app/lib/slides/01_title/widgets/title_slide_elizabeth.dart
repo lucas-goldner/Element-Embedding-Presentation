@@ -13,15 +13,10 @@ class TitleSlideElizabeth extends StatelessWidget {
           height: 500,
           width: 500,
         ),
-      )
-          .animate(
-            autoPlay: true,
-            onPlay: (controller) => controller.repeat(reverse: true),
-          )
-          .moveY(
+      ).animate().moveY(
             begin: 400,
             end: 0,
-            duration: 4.seconds,
-            delay: 12.seconds,
+            duration: 5.seconds,
+            delay: 30.seconds,
           );
 }

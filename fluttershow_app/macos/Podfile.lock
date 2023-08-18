@@ -2,20 +2,26 @@ PODS:
   - custom_mouse_cursor (0.0.1):
     - FlutterMacOS
   - FlutterMacOS (1.0.0)
+  - rive_common (0.0.1):
+    - FlutterMacOS
 
 DEPENDENCIES:
   - custom_mouse_cursor (from `Flutter/ephemeral/.symlinks/plugins/custom_mouse_cursor/macos`)
   - FlutterMacOS (from `Flutter/ephemeral`)
+  - rive_common (from `Flutter/ephemeral/.symlinks/plugins/rive_common/macos`)
 
 EXTERNAL SOURCES:
   custom_mouse_cursor:
     :path: Flutter/ephemeral/.symlinks/plugins/custom_mouse_cursor/macos
   FlutterMacOS:
     :path: Flutter/ephemeral
+  rive_common:
+    :path: Flutter/ephemeral/.symlinks/plugins/rive_common/macos
 
 SPEC CHECKSUMS:
   custom_mouse_cursor: 19b9cb1bcd2e792e326c15e32b48f8dba06132da
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  rive_common: acedcab7802c0ece4b0d838b71d7deb637e1309a
 
 PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
 

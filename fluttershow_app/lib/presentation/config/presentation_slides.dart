@@ -1,6 +1,6 @@
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/01_title/view/title_slide.dart';
-import 'package:flutter_show/slides/02_agenda/view/agenda_slide.dart';
+import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
 import 'package:flutter_show/slides/03_motivation/view/motivation.dart';
 import 'package:flutter_show/slides/04_downsides/view/downsides_slide.dart';
 import 'package:flutter_show/slides/05_benefits/view/benefits_slide.dart';
@@ -16,8 +16,9 @@ enum PagesOfPresentation {
   ),
   agendaSlide(
     PresentationSlide(
-      slideWidget: AgendaSlide(),
-      title: 'Agenda',
+      slideWidget: IntroductionSlide(),
+      title: 'Introduction',
+      animationSteps: 4,
     ),
   ),
   motivation(

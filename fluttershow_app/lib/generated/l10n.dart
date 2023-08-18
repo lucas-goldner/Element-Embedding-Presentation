@@ -389,6 +389,16 @@ class S {
       args: [],
     );
   }
+
+  /// `About me`
+  String get selfIntroduction {
+    return Intl.message(
+      'About me',
+      name: 'selfIntroduction',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
