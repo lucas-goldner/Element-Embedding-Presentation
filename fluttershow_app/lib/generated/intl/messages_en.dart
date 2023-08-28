@@ -34,6 +34,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "custom": MessageLookupByLibrary.simpleMessage("Custom"),
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
+        "fileOne": MessageLookupByLibrary.simpleMessage(
+            "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory"),
+        "fileThree": MessageLookupByLibrary.simpleMessage(
+            "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵"),
+        "fileTwo": MessageLookupByLibrary.simpleMessage(
+            "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),

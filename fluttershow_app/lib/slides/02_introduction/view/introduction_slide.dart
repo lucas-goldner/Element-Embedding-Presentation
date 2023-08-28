@@ -3,6 +3,7 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/model/presentation.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
+import 'package:flutter_show/slides/02_introduction/widgets/folder_file.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
 import 'package:flutter_show/styles/fs_text_styles.dart';
 import 'package:fluttershow_base/components/widgets/fluttershow_base_components.dart';
@@ -15,12 +16,14 @@ class IntroductionSlide extends HookConsumerWidget {
 
   void listenToAnimationIndexChanges(
     Presentation presentation,
-    ValueNotifier<SimpleAnimation> animationController,
+    ValueNotifier<SimpleAnimation> openAnimationController,
   ) {
-    if (presentation.animationIndex == 3) openFolder(animationController);
+    if (presentation.animationIndex >= 3) {
+      activateAnimation(openAnimationController);
+    }
   }
 
-  void openFolder(ValueNotifier<SimpleAnimation> animationController) {
+  void activateAnimation(ValueNotifier<SimpleAnimation> animationController) {
     animationController.value.isActive = true;
   }
 
@@ -28,11 +31,14 @@ class IntroductionSlide extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final t = S.of(context);
     final presentation = ref.watch(presentationController);
-    final animationController = useState(
+    final openAnimationController = useState(
       SimpleAnimation('Open', autoplay: false),
     );
 
-    listenToAnimationIndexChanges(presentation, animationController);
+    listenToAnimationIndexChanges(
+      presentation,
+      openAnimationController,
+    );
 
     return DecoratedBox(
       decoration: BoxDecoration(
@@ -70,7 +76,21 @@ class IntroductionSlide extends HookConsumerWidget {
                 child: RiveAnimation.asset(
                   'assets/rive/folder.riv',
                   artboard: 'fold_er.svg',
-                  controllers: [animationController.value],
+                  controllers: [
+                    openAnimationController.value,
+                  ],
+                ),
+              ),
+            ),
+            Visibility(
+              visible: presentation.animationIndex >= 3,
+              child: Center(
+                child: Stack(
+                  children: [
+                    FolderFile(t.fileOne, 4),
+                    FolderFile(t.fileTwo, 5),
+                    FolderFile(t.fileThree, 6),
+                  ],
                 ),
               ),
             ),

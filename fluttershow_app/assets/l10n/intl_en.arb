@@ -33,5 +33,8 @@
   "step1": "Step One",
   "step2": "Step Two",
   "step3": "Step Three",
-  "selfIntroduction": "About me"
+  "selfIntroduction": "About me",
+  "fileOne": "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory",
+  "fileTwo": "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development",
+  "fileThree": "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵"
 }

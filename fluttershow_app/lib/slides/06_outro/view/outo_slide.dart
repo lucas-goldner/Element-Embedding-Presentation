@@ -44,7 +44,7 @@ class OutroSlide extends ConsumerWidget {
                   ),
                   Image.asset(
                     'assets/images/custom/fluttershow.png',
-                  )
+                  ),
                 ],
               ),
             ],
@@ -55,7 +55,7 @@ class OutroSlide extends ConsumerWidget {
             style: FSTextStyles.regularText(
               fontSize: 32,
             ),
-          )
+          ),
         ],
       ),
     );

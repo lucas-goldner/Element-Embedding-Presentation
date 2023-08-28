@@ -16,7 +16,7 @@ void main() {
 }
 
 Future<void> loadMyShader() async {
-  final program = await FragmentProgram.fromAsset('shaders/glitch.frag');
+  await FragmentProgram.fromAsset('shaders/glitch.frag');
 }
 
 class MyFlutterShow extends ConsumerWidget {

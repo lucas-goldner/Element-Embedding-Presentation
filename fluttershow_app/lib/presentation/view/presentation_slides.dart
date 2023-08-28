@@ -64,7 +64,7 @@ class PresentationSlides extends HookConsumerWidget {
                   ),
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),

@@ -399,6 +399,36 @@ class S {
       args: [],
     );
   }
+
+  /// `🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory`
+  String get fileOne {
+    return Intl.message(
+      '🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory',
+      name: 'fileOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development`
+  String get fileTwo {
+    return Intl.message(
+      'Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development',
+      name: 'fileTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵`
+  String get fileThree {
+    return Intl.message(
+      'Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵',
+      name: 'fileThree',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -22,7 +22,7 @@ class MenuOption extends StatelessWidget {
           CupertinoSwitch(
             value: value,
             onChanged: (value) => callback(value: value),
-          )
+          ),
         ],
       );
 }

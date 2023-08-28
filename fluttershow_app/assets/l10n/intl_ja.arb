@@ -33,5 +33,8 @@
   "step1": "ステップ一",
   "step2": "ステップ二",
   "step3": "ステップ三",
-  "selfIntroduction": "自己紹介"
+  "selfIntroduction": "自己紹介",
+  "fileOne": "🇩🇪🇧🇷\n22歳\n大学生\nビツファクトリーで働いています",
+  "fileTwo": "三年ぐらいプログラミングしています。flutterとiOSが好きですが、ウェブのフルスタッコ開発",
+  "fileThree": "言語の勉強が好きなので、今、日本語を勉強しています"
 }

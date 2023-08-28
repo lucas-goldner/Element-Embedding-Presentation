@@ -4,12 +4,12 @@ enum KeyActions {
   goToLastSlide([
     PhysicalKeyboardKey.keyA,
     PhysicalKeyboardKey.arrowLeft,
-    PhysicalKeyboardKey.arrowDown
+    PhysicalKeyboardKey.arrowDown,
   ]),
   goToNextSlide([
     PhysicalKeyboardKey.keyD,
     PhysicalKeyboardKey.arrowRight,
-    PhysicalKeyboardKey.arrowUp
+    PhysicalKeyboardKey.arrowUp,
   ]),
   openMenu([
     PhysicalKeyboardKey.keyM,
