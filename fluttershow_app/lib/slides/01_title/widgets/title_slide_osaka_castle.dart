@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_show/generated/assets.gen.dart';
 
 class TitleSlideOsakaCastle extends StatelessWidget {
   const TitleSlideOsakaCastle({super.key});
@@ -10,8 +11,7 @@ class TitleSlideOsakaCastle extends StatelessWidget {
         left: 40,
         child: Transform.rotate(
           angle: 19,
-          child: Image.asset(
-            'assets/images/title_slide/osaka_castle.png',
+          child: Assets.images.titleSlide.osakaCastle.image(
             height: 600,
           ),
         ),

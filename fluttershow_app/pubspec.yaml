@@ -41,7 +41,7 @@ flutter:
     - assets/images/custom/
     - assets/images/shared/
     - assets/images/title_slide/
-    - assets/images/introduction_slide/
+    - assets/images/golden_hammer/
     - assets/rive/
 
   fonts:
@@ -62,3 +62,9 @@ flutter_intl:
   main_locale: en
   arb_dir: assets/l10n
   ouput_dir: lib/generated
+
+flutter_gen:
+  output: lib/generated
+  line_length: 80
+  integrations:
+    flutter_svg: true

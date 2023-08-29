@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:flutter_show/generated/assets.gen.dart';
 
 class TitleSlideFlutterKaigiLogo extends StatelessWidget {
   const TitleSlideFlutterKaigiLogo({super.key});
@@ -7,8 +7,7 @@ class TitleSlideFlutterKaigiLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.only(left: 20, top: 20),
-        child: SvgPicture.asset(
-          'assets/images/shared/flutterkaigi_logo.svg',
+        child: Assets.images.shared.flutterkaigiLogo.svg(
           height: 80,
         ),
       );

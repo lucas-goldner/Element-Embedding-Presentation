@@ -66,6 +66,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "step1": MessageLookupByLibrary.simpleMessage("Step One"),
         "step2": MessageLookupByLibrary.simpleMessage("Step Two"),
         "step3": MessageLookupByLibrary.simpleMessage("Step Three"),
-        "thanks": MessageLookupByLibrary.simpleMessage("Thanks!")
+        "thanks": MessageLookupByLibrary.simpleMessage("Thanks!"),
+        "what": MessageLookupByLibrary.simpleMessage("What?")
       };
 }

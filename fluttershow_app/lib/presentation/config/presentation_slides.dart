@@ -1,7 +1,7 @@
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
-import 'package:flutter_show/slides/03_motivation/view/motivation.dart';
+import 'package:flutter_show/slides/03_goldenhammer/view/golden_hammer_slide.dart';
 import 'package:flutter_show/slides/04_downsides/view/downsides_slide.dart';
 import 'package:flutter_show/slides/05_benefits/view/benefits_slide.dart';
 import 'package:flutter_show/slides/06_outro/view/outo_slide.dart';
@@ -23,8 +23,9 @@ enum PagesOfPresentation {
   ),
   motivation(
     PresentationSlide(
-      slideWidget: MotivationSlide(),
-      animationSteps: 4,
+      slideWidget: GoldenHammerSlide(),
+      title: 'Golden Hammer',
+      animationSteps: 2,
     ),
   ),
   downsides(

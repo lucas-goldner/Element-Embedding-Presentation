@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:flutter_show/generated/assets.gen.dart';
 
 class TitleSlideElizabeth extends StatelessWidget {
   const TitleSlideElizabeth({super.key});
@@ -8,8 +9,7 @@ class TitleSlideElizabeth extends StatelessWidget {
   Widget build(BuildContext context) => Positioned(
         bottom: -100,
         right: 20,
-        child: Image.asset(
-          'assets/images/title_slide/elizabeth_welcome.png',
+        child: Assets.images.titleSlide.elizabethWelcome.image(
           height: 500,
           width: 500,
         ),
