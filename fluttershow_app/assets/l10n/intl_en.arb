@@ -37,5 +37,9 @@
   "fileOne": "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory",
   "fileTwo": "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development",
   "fileThree": "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵",
-  "what": "What?"
+  "what": "What?",
+  "flutterWebStateCard": "Flutter Web State Card",
+  "flutterWebBenefitProgressiveWebApp": "プログレッシブウェブアプリに良い",
+  "flutterWebBenefitSinglePageApp": "シングルページアプリにとっても良い",
+  "flutterWebBenefitEasyWebRelease": "ウェッブに既存のアプリリリスしやすい"
 }

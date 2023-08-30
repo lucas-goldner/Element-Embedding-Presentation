@@ -439,6 +439,46 @@ class S {
       args: [],
     );
   }
+
+  /// `Flutter Web State Card`
+  String get flutterWebStateCard {
+    return Intl.message(
+      'Flutter Web State Card',
+      name: 'flutterWebStateCard',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `プログレッシブウェブアプリに良い`
+  String get flutterWebBenefitProgressiveWebApp {
+    return Intl.message(
+      'プログレッシブウェブアプリに良い',
+      name: 'flutterWebBenefitProgressiveWebApp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `シングルページアプリにとっても良い`
+  String get flutterWebBenefitSinglePageApp {
+    return Intl.message(
+      'シングルページアプリにとっても良い',
+      name: 'flutterWebBenefitSinglePageApp',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ウェッブに既存のアプリリリスしやすい`
+  String get flutterWebBenefitEasyWebRelease {
+    return Intl.message(
+      'ウェッブに既存のアプリリリスしやすい',
+      name: 'flutterWebBenefitEasyWebRelease',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

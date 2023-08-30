@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_show/presentation/config/cursor_style.dart';
 import 'package:flutter_show/presentation/config/presentation_slides.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
-import 'package:flutter_show/slides/04_downsides/view/downsides_slide.dart';
+import 'package:flutter_show/slides/04_flutterweb_state/view/flutterweb_state_slide.dart';
 
 @immutable
 class Presentation {
@@ -27,7 +27,7 @@ class Presentation {
   /// It keeps track of the progress of the animation, indicating the current
   /// step in the sequence.
   ///
-  /// An example usage can be seen in the [DownsidesSlide] slide.
+  /// An example usage can be seen in the [FlutterWebStateSlide] slide.
   /// The enum member [PagesOfPresentation.downsides] has 6 `animationSteps`.
   /// Clicking on the slide increments the `animationIndex` by one.
   ///

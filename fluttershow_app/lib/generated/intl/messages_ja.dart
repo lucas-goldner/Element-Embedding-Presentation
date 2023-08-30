@@ -28,7 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "author": MessageLookupByLibrary.simpleMessage("金・ルーカス"),
         "awesome": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "basic": MessageLookupByLibrary.simpleMessage("基本"),
-        "benefits": MessageLookupByLibrary.simpleMessage("利点"),
+        "benefits": MessageLookupByLibrary.simpleMessage("メリット"),
         "boring": MessageLookupByLibrary.simpleMessage("退屈"),
         "close": MessageLookupByLibrary.simpleMessage("閉じる"),
         "custom": MessageLookupByLibrary.simpleMessage("カスタム"),
@@ -40,6 +40,14 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("言語の勉強が好きなので、今、日本語を勉強しています"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "三年ぐらいプログラミングしています。flutterとiOSが好きですが、ウェブのフルスタッコ開発"),
+        "flutterWebBenefitEasyWebRelease":
+            MessageLookupByLibrary.simpleMessage("ウェッブに既存のアプリリリスしやすい"),
+        "flutterWebBenefitProgressiveWebApp":
+            MessageLookupByLibrary.simpleMessage("プログレッシブウェブアプリに良い"),
+        "flutterWebBenefitSinglePageApp":
+            MessageLookupByLibrary.simpleMessage("シングルページアプリにとっても良い"),
+        "flutterWebStateCard":
+            MessageLookupByLibrary.simpleMessage("Flutterウェッブのステージカードー"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),

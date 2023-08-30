@@ -40,6 +40,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development"),
+        "flutterWebBenefitEasyWebRelease":
+            MessageLookupByLibrary.simpleMessage("ウェッブに既存のアプリリリスしやすい"),
+        "flutterWebBenefitProgressiveWebApp":
+            MessageLookupByLibrary.simpleMessage("プログレッシブウェブアプリに良い"),
+        "flutterWebBenefitSinglePageApp":
+            MessageLookupByLibrary.simpleMessage("シングルページアプリにとっても良い"),
+        "flutterWebStateCard":
+            MessageLookupByLibrary.simpleMessage("Flutter Web State Card"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),

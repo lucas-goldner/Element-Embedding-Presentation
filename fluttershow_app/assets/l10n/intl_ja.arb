@@ -21,7 +21,7 @@
   "lazy": "怠惰",
   "boring": "退屈",
   "notFlutter": "Flutterではありません",
-  "benefits": "利点",
+  "benefits": "メリット",
   "great": "素晴らしい",
   "awesome": "素晴らしい",
   "outstanding": "傑出",
@@ -37,5 +37,9 @@
   "fileOne": "🇩🇪🇧🇷\n22歳\n大学生\nビツファクトリーで働いています",
   "fileTwo": "三年ぐらいプログラミングしています。flutterとiOSが好きですが、ウェブのフルスタッコ開発",
   "fileThree": "言語の勉強が好きなので、今、日本語を勉強しています",
-  "what": "何"
+  "what": "何",
+  "flutterWebStateCard": "Flutterウェッブのステージカードー",
+  "flutterWebBenefitProgressiveWebApp": "プログレッシブウェブアプリに良い",
+  "flutterWebBenefitSinglePageApp": "シングルページアプリにとっても良い",
+  "flutterWebBenefitEasyWebRelease": "ウェッブに既存のアプリリリスしやすい"
 }
