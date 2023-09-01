@@ -34,12 +34,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "custom": MessageLookupByLibrary.simpleMessage("Custom"),
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
+        "elementEmbedding":
+            MessageLookupByLibrary.simpleMessage("Element Embedding"),
         "fileOne": MessageLookupByLibrary.simpleMessage(
             "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory"),
         "fileThree": MessageLookupByLibrary.simpleMessage(
             "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development"),
+        "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterWebBenefitEasyWebRelease": MessageLookupByLibrary.simpleMessage(
             "Easy to port existing apps to web"),
         "flutterWebBenefitProgressiveWebApp":
@@ -67,6 +70,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "menu": MessageLookupByLibrary.simpleMessage("Menu"),
         "motiviation": MessageLookupByLibrary.simpleMessage("Motiviation"),
         "mouse": MessageLookupByLibrary.simpleMessage("Mouse"),
+        "noiseText1": MessageLookupByLibrary.simpleMessage(
+            "njkawawdiokjnadw09uin12k qwd9u0qe2oink dawuadwio jk29"),
+        "noiseText2": MessageLookupByLibrary.simpleMessage(
+            "ör23qi0ß90r2uijr29ufqw9jin-lq3r0ü#qr3oihqr3ho8r238hqrhoi"),
+        "noiseText3": MessageLookupByLibrary.simpleMessage(
+            "okü2309r2jer12pokpoäq3r9uaw9niinr2hioa9j9jr29qfpijoklnfpo"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Its not Flutter"),
         "outstanding": MessageLookupByLibrary.simpleMessage("Outstanding"),
         "party": MessageLookupByLibrary.simpleMessage("Party 🎉"),

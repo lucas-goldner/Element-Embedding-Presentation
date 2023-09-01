@@ -509,6 +509,56 @@ class S {
       args: [],
     );
   }
+
+  /// `Element Embedding`
+  String get elementEmbedding {
+    return Intl.message(
+      'Element Embedding',
+      name: 'elementEmbedding',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Flutter`
+  String get flutter {
+    return Intl.message(
+      'Flutter',
+      name: 'flutter',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `njkawawdiokjnadw09uin12k qwd9u0qe2oink dawuadwio jk29`
+  String get noiseText1 {
+    return Intl.message(
+      'njkawawdiokjnadw09uin12k qwd9u0qe2oink dawuadwio jk29',
+      name: 'noiseText1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ör23qi0ß90r2uijr29ufqw9jin-lq3r0ü#qr3oihqr3ho8r238hqrhoi`
+  String get noiseText2 {
+    return Intl.message(
+      'ör23qi0ß90r2uijr29ufqw9jin-lq3r0ü#qr3oihqr3ho8r238hqrhoi',
+      name: 'noiseText2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `okü2309r2jer12pokpoäq3r9uaw9niinr2hioa9j9jr29qfpijoklnfpo`
+  String get noiseText3 {
+    return Intl.message(
+      'okü2309r2jer12pokpoäq3r9uaw9niinr2hioa9j9jr29qfpijoklnfpo',
+      name: 'noiseText3',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

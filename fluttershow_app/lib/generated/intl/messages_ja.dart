@@ -34,12 +34,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "custom": MessageLookupByLibrary.simpleMessage("カスタム"),
         "darkMode": MessageLookupByLibrary.simpleMessage("ダークモード"),
         "downsides": MessageLookupByLibrary.simpleMessage("デメリット"),
+        "elementEmbedding":
+            MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
         "fileOne": MessageLookupByLibrary.simpleMessage(
             "🇩🇪🇧🇷\n22歳\n大学生\nビツファクトリーで働いています"),
         "fileThree":
             MessageLookupByLibrary.simpleMessage("言語の勉強が好きなので、今、日本語を勉強しています"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "三年ぐらいプログラミングしています。flutterとiOSが好きですが、ウェブのフルスタッコ開発"),
+        "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterWebBenefitEasyWebRelease":
             MessageLookupByLibrary.simpleMessage("ウェッブに既存のアプリリリスしやすい"),
         "flutterWebBenefitProgressiveWebApp":
@@ -63,6 +66,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "menu": MessageLookupByLibrary.simpleMessage("メニュー"),
         "motiviation": MessageLookupByLibrary.simpleMessage("モチベーション"),
         "mouse": MessageLookupByLibrary.simpleMessage("マウス"),
+        "noiseText1":
+            MessageLookupByLibrary.simpleMessage("ケロケロケロケロケロケロケロケロケロケロケロケロケロ"),
+        "noiseText2":
+            MessageLookupByLibrary.simpleMessage("ワンワンワンワンワンワンワンワンワンワンワンワン"),
+        "noiseText3":
+            MessageLookupByLibrary.simpleMessage("ニャンニャンニャンニャンニャンニャン"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Flutterではありません"),
         "outstanding": MessageLookupByLibrary.simpleMessage("傑出"),
         "party": MessageLookupByLibrary.simpleMessage("パーティー 🎉"),

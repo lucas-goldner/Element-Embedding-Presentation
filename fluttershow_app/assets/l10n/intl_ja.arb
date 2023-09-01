@@ -44,5 +44,10 @@
   "flutterWebBenefitEasyWebRelease": "ウェッブに既存のアプリリリスしやすい",
   "flutterWebDownsideSEOHeavyWebsite": "静的なウェブページに多くのテキストがある場合❌",
   "flutterWebDownsideHotRestart": "ホットリロど出来ません",
-  "flutterWebDownsidePackageSupport": "たまにパケージはウェッブサポートがありません"
+  "flutterWebDownsidePackageSupport": "たまにパケージはウェッブサポートがありません",
+  "elementEmbedding": "エレメントエンベディング",
+  "flutter": "Flutter",
+  "noiseText1": "ケロケロケロケロケロケロケロケロケロケロケロケロケロ",
+  "noiseText2": "ワンワンワンワンワンワンワンワンワンワンワンワン",
+  "noiseText3": "ニャンニャンニャンニャンニャンニャン"
 }

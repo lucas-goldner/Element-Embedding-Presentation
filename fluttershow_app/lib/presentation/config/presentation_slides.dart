@@ -3,7 +3,7 @@ import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
 import 'package:flutter_show/slides/03_goldenhammer/view/golden_hammer_slide.dart';
 import 'package:flutter_show/slides/04_flutterweb_state/view/flutterweb_state_slide.dart';
-import 'package:flutter_show/slides/05_benefits/view/benefits_slide.dart';
+import 'package:flutter_show/slides/05_call/view/call_slide.dart';
 import 'package:flutter_show/slides/06_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
 
@@ -31,14 +31,14 @@ enum PagesOfPresentation {
   downsides(
     PresentationSlide(
       slideWidget: FlutterWebStateSlide(),
-      animationSteps: 6,
       title: 'FlutterWebState',
     ),
   ),
   benefits(
     PresentationSlide(
-      slideWidget: BenefitsSlide(),
-      animationSteps: 6,
+      slideWidget: CallSlide(),
+      title: 'CallSlide',
+      animationSteps: 2,
     ),
   ),
   outro(
