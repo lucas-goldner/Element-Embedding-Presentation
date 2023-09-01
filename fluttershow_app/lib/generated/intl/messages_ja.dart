@@ -46,6 +46,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("プログレッシブウェブアプリに良い"),
         "flutterWebBenefitSinglePageApp":
             MessageLookupByLibrary.simpleMessage("シングルページアプリにとっても良い"),
+        "flutterWebDownsideHotRestart":
+            MessageLookupByLibrary.simpleMessage("ホットリロど出来ません"),
+        "flutterWebDownsidePackageSupport":
+            MessageLookupByLibrary.simpleMessage("たまにパケージはウェッブサポートがありません"),
+        "flutterWebDownsideSEOHeavyWebsite":
+            MessageLookupByLibrary.simpleMessage("静的なウェブページに多くのテキストがある場合❌"),
         "flutterWebStateCard":
             MessageLookupByLibrary.simpleMessage("Flutterウェッブのステージカードー"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),

@@ -450,31 +450,61 @@ class S {
     );
   }
 
-  /// `プログレッシブウェブアプリに良い`
+  /// `Good for progressive web apps`
   String get flutterWebBenefitProgressiveWebApp {
     return Intl.message(
-      'プログレッシブウェブアプリに良い',
+      'Good for progressive web apps',
       name: 'flutterWebBenefitProgressiveWebApp',
       desc: '',
       args: [],
     );
   }
 
-  /// `シングルページアプリにとっても良い`
+  /// `Especially good for singlepage applications`
   String get flutterWebBenefitSinglePageApp {
     return Intl.message(
-      'シングルページアプリにとっても良い',
+      'Especially good for singlepage applications',
       name: 'flutterWebBenefitSinglePageApp',
       desc: '',
       args: [],
     );
   }
 
-  /// `ウェッブに既存のアプリリリスしやすい`
+  /// `Easy to port existing apps to web`
   String get flutterWebBenefitEasyWebRelease {
     return Intl.message(
-      'ウェッブに既存のアプリリリスしやすい',
+      'Easy to port existing apps to web',
       name: 'flutterWebBenefitEasyWebRelease',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Not good for Static websites with text-rich content`
+  String get flutterWebDownsideSEOHeavyWebsite {
+    return Intl.message(
+      'Not good for Static websites with text-rich content',
+      name: 'flutterWebDownsideSEOHeavyWebsite',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Only supports hot restart`
+  String get flutterWebDownsideHotRestart {
+    return Intl.message(
+      'Only supports hot restart',
+      name: 'flutterWebDownsideHotRestart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Web support for some packages is lacking`
+  String get flutterWebDownsidePackageSupport {
+    return Intl.message(
+      'Web support for some packages is lacking',
+      name: 'flutterWebDownsidePackageSupport',
       desc: '',
       args: [],
     );

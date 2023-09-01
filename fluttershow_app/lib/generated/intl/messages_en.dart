@@ -40,12 +40,21 @@ class MessageLookup extends MessageLookupByLibrary {
             "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development"),
-        "flutterWebBenefitEasyWebRelease":
-            MessageLookupByLibrary.simpleMessage("ウェッブに既存のアプリリリスしやすい"),
+        "flutterWebBenefitEasyWebRelease": MessageLookupByLibrary.simpleMessage(
+            "Easy to port existing apps to web"),
         "flutterWebBenefitProgressiveWebApp":
-            MessageLookupByLibrary.simpleMessage("プログレッシブウェブアプリに良い"),
-        "flutterWebBenefitSinglePageApp":
-            MessageLookupByLibrary.simpleMessage("シングルページアプリにとっても良い"),
+            MessageLookupByLibrary.simpleMessage(
+                "Good for progressive web apps"),
+        "flutterWebBenefitSinglePageApp": MessageLookupByLibrary.simpleMessage(
+            "Especially good for singlepage applications"),
+        "flutterWebDownsideHotRestart":
+            MessageLookupByLibrary.simpleMessage("Only supports hot restart"),
+        "flutterWebDownsidePackageSupport":
+            MessageLookupByLibrary.simpleMessage(
+                "Web support for some packages is lacking"),
+        "flutterWebDownsideSEOHeavyWebsite":
+            MessageLookupByLibrary.simpleMessage(
+                "Not good for Static websites with text-rich content"),
         "flutterWebStateCard":
             MessageLookupByLibrary.simpleMessage("Flutter Web State Card"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),

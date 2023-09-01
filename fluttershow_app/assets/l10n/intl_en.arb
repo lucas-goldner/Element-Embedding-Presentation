@@ -39,7 +39,10 @@
   "fileThree": "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵",
   "what": "What?",
   "flutterWebStateCard": "Flutter Web State Card",
-  "flutterWebBenefitProgressiveWebApp": "プログレッシブウェブアプリに良い",
-  "flutterWebBenefitSinglePageApp": "シングルページアプリにとっても良い",
-  "flutterWebBenefitEasyWebRelease": "ウェッブに既存のアプリリリスしやすい"
+  "flutterWebBenefitProgressiveWebApp": "Good for progressive web apps",
+  "flutterWebBenefitSinglePageApp": "Especially good for singlepage applications",
+  "flutterWebBenefitEasyWebRelease": "Easy to port existing apps to web",
+  "flutterWebDownsideSEOHeavyWebsite": "Not good for Static websites with text-rich content",
+  "flutterWebDownsideHotRestart": "Only supports hot restart",
+  "flutterWebDownsidePackageSupport": "Web support for some packages is lacking"
 }

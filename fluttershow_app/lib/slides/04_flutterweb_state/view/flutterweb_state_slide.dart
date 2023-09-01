@@ -54,7 +54,7 @@ class FlutterWebStateSlide extends ConsumerWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Text(
-                      'Its good',
+                      t.flutterWebBenefitProgressiveWebApp,
                       style: FSTextStyles.regularText(),
                     ),
                     horizontalMargin48,
@@ -64,7 +64,7 @@ class FlutterWebStateSlide extends ConsumerWidget {
                 Row(
                   children: [
                     Text(
-                      t.flutterWebBenefitProgressiveWebApp,
+                      t.flutterWebDownsideHotRestart,
                       style: FSTextStyles.regularText(),
                     ),
                     horizontalMargin48,
@@ -105,7 +105,7 @@ class FlutterWebStateSlide extends ConsumerWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Text(
-                      'Its good',
+                      t.flutterWebDownsideSEOHeavyWebsite,
                       style: FSTextStyles.regularText(),
                     ),
                     horizontalMargin48,
@@ -116,7 +116,7 @@ class FlutterWebStateSlide extends ConsumerWidget {
                     horizontalMargin48,
                     horizontalMargin48,
                     Text(
-                      'Its good 2',
+                      t.flutterWebDownsidePackageSupport,
                       style: FSTextStyles.regularText(),
                     ),
                     horizontalMargin48,

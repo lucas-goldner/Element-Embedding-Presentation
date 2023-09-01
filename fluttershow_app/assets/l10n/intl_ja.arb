@@ -41,5 +41,8 @@
   "flutterWebStateCard": "Flutterウェッブのステージカードー",
   "flutterWebBenefitProgressiveWebApp": "プログレッシブウェブアプリに良い",
   "flutterWebBenefitSinglePageApp": "シングルページアプリにとっても良い",
-  "flutterWebBenefitEasyWebRelease": "ウェッブに既存のアプリリリスしやすい"
+  "flutterWebBenefitEasyWebRelease": "ウェッブに既存のアプリリリスしやすい",
+  "flutterWebDownsideSEOHeavyWebsite": "静的なウェブページに多くのテキストがある場合❌",
+  "flutterWebDownsideHotRestart": "ホットリロど出来ません",
+  "flutterWebDownsidePackageSupport": "たまにパケージはウェッブサポートがありません"
 }
