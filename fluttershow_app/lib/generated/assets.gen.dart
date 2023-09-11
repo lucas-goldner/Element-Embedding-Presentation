@@ -44,8 +44,11 @@ class $AssetsRiveGen {
   /// File path: assets/rive/folder.riv
   String get folder => 'assets/rive/folder.riv';
 
+  /// File path: assets/rive/guy.riv
+  String get guy => 'assets/rive/guy.riv';
+
   /// List of all assets
-  List<String> get values => [folder];
+  List<String> get values => [folder, guy];
 }
 
 class $AssetsImagesCustomGen {

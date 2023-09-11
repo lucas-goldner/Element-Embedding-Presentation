@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "agenda": MessageLookupByLibrary.simpleMessage("Agenda"),
         "amazing": MessageLookupByLibrary.simpleMessage("Amazing"),
         "annoying": MessageLookupByLibrary.simpleMessage("Annoying"),
@@ -33,9 +34,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "close": MessageLookupByLibrary.simpleMessage("Close"),
         "custom": MessageLookupByLibrary.simpleMessage("Custom"),
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
+        "decline": MessageLookupByLibrary.simpleMessage("Decline"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("Element Embedding"),
+        "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime Video"),
         "fileOne": MessageLookupByLibrary.simpleMessage(
             "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory"),
         "fileThree": MessageLookupByLibrary.simpleMessage(
@@ -61,6 +64,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "flutterWebStateCard":
             MessageLookupByLibrary.simpleMessage("Flutter Web State Card"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
+        "guyName": MessageLookupByLibrary.simpleMessage("FlutterFAN98"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),
         "lazy": MessageLookupByLibrary.simpleMessage("Lazy"),

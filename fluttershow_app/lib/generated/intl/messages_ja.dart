@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "accept": MessageLookupByLibrary.simpleMessage("応答"),
         "agenda": MessageLookupByLibrary.simpleMessage("アジェンダ"),
         "amazing": MessageLookupByLibrary.simpleMessage("驚くばかり"),
         "annoying": MessageLookupByLibrary.simpleMessage("厄介"),
@@ -33,9 +34,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "close": MessageLookupByLibrary.simpleMessage("閉じる"),
         "custom": MessageLookupByLibrary.simpleMessage("カスタム"),
         "darkMode": MessageLookupByLibrary.simpleMessage("ダークモード"),
+        "decline": MessageLookupByLibrary.simpleMessage("拒否"),
         "downsides": MessageLookupByLibrary.simpleMessage("デメリット"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
+        "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime ビデオ"),
         "fileOne": MessageLookupByLibrary.simpleMessage(
             "🇩🇪🇧🇷\n22歳\n大学生\nビツファクトリーで働いています"),
         "fileThree":
@@ -58,6 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "flutterWebStateCard":
             MessageLookupByLibrary.simpleMessage("Flutterウェッブのステージカードー"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),
+        "guyName": MessageLookupByLibrary.simpleMessage("新八さん"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
         "lazy": MessageLookupByLibrary.simpleMessage("怠惰"),

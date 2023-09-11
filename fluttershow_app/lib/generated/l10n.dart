@@ -559,6 +559,46 @@ class S {
       args: [],
     );
   }
+
+  /// `FlutterFAN98`
+  String get guyName {
+    return Intl.message(
+      'FlutterFAN98',
+      name: 'guyName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Accept`
+  String get accept {
+    return Intl.message(
+      'Accept',
+      name: 'accept',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Decline`
+  String get decline {
+    return Intl.message(
+      'Decline',
+      name: 'decline',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Facetime Video`
+  String get faceTimeVideo {
+    return Intl.message(
+      'Facetime Video',
+      name: 'faceTimeVideo',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

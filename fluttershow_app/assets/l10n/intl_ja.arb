@@ -49,5 +49,9 @@
   "flutter": "Flutter",
   "noiseText1": "ケロケロケロケロケロケロケロケロケロケロケロケロケロ",
   "noiseText2": "ワンワンワンワンワンワンワンワンワンワンワンワン",
-  "noiseText3": "ニャンニャンニャンニャンニャンニャン"
+  "noiseText3": "ニャンニャンニャンニャンニャンニャン",
+  "guyName": "新八さん",
+  "accept": "応答",
+  "decline": "拒否",
+  "faceTimeVideo": "Facetime ビデオ"
 }
