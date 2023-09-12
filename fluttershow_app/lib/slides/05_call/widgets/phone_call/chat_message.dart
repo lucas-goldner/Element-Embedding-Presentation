@@ -1,16 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_show/styles/fs_text_styles.dart';
+import 'package:fluttershow_base/components/widgets/spacing/paddings.dart';
 
 class ChatMessage extends StatelessWidget {
-  const ChatMessage({required this.text, this.opposite = false, super.key});
+  const ChatMessage({required this.text, this.incoming = false, super.key});
   final String text;
-  final bool opposite;
+  final bool incoming;
 
   @override
   Widget build(BuildContext context) {
     final messageColorBox =
-        opposite ? CupertinoColors.white : CupertinoColors.activeBlue;
-    final colorText = opposite ? CupertinoColors.black : CupertinoColors.white;
+        incoming ? CupertinoColors.activeBlue : CupertinoColors.white;
+    final colorText = incoming ? CupertinoColors.white : CupertinoColors.black;
 
     final widgetList = [
       const Spacer(),
@@ -19,14 +20,14 @@ class ChatMessage extends StatelessWidget {
           maxWidth: 540,
         ),
         child: Padding(
-          padding: const EdgeInsets.all(8),
+          padding: allPadding12,
           child: DecoratedBox(
             decoration: BoxDecoration(
               color: messageColorBox,
               borderRadius: const BorderRadius.all(Radius.circular(8)),
             ),
             child: Padding(
-              padding: const EdgeInsets.all(8),
+              padding: allPadding12,
               child: Text(
                 text,
                 style: FSTextStyles.regularText(
@@ -41,7 +42,7 @@ class ChatMessage extends StatelessWidget {
     ];
 
     return Row(
-      children: opposite ? widgetList : widgetList.reversed.toList(),
+      children: incoming ? widgetList.reversed.toList() : widgetList,
     );
   }
 }

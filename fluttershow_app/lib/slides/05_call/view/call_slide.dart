@@ -1,6 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/05_call/widgets/fake_slide/element_embedding_fake_slide.dart';
 import 'package:flutter_show/slides/05_call/widgets/phone_call/chat_view.dart';

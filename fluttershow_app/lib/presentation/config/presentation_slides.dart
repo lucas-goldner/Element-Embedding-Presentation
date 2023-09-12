@@ -38,7 +38,7 @@ enum PagesOfPresentation {
     PresentationSlide(
       slideWidget: CallSlide(),
       title: 'CallSlide',
-      animationSteps: 4,
+      animationSteps: 8,
     ),
   ),
   outro(

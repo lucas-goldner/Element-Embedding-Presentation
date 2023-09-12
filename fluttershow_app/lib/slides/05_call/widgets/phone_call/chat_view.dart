@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/assets.gen.dart';
@@ -8,14 +7,13 @@ import 'package:flutter_show/slides/05_call/widgets/phone_call/chat_box.dart';
 import 'package:flutter_show/styles/fs_text_styles.dart';
 import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:fluttershow_base/components/widgets/spacing/paddings.dart';
-import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:rive/rive.dart';
 
-class ChatView extends ConsumerWidget {
+class ChatView extends StatelessWidget {
   const ChatView({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final t = S.of(context);
 
     return BackdropFilter(
