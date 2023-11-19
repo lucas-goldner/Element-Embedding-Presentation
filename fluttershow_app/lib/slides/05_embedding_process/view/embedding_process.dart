@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/assets.gen.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/05_embedding_process/widgets/build_web.dart';
+import 'package:flutter_show/slides/05_embedding_process/widgets/host_element.dart';
+import 'package:flutter_show/slides/05_embedding_process/widgets/load_scripts.dart';
 import 'package:flutter_show/slides/shared/widgets/explanation_step.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
 import 'package:fluttershow_base/components/model/enum/code_display_themes.dart';
@@ -43,12 +45,14 @@ class EmbeddingProcess extends ConsumerWidget {
               verticalMargin48,
               const ExplanationStep(
                 count: 2,
-                explanation: Text('Load script and initialize engine'),
+                title: '- Load script and initialize engine',
+                explanation: LoadScripts(),
               ),
               verticalMargin48,
               const ExplanationStep(
                 count: 3,
-                explanation: Text('Congrats you are done!'),
+                title: '- Load app into div',
+                explanation: HostElement(),
               ),
             ],
           ),

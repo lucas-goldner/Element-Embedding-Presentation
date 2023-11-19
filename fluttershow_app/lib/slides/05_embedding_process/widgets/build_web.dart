@@ -21,6 +21,7 @@ class BuildWeb extends StatelessWidget {
           ),
           verticalMargin4,
           SizedBox(
+            width: 180,
             child: CodeDisplay(
               'flutter build web',
               codeColorTheme: CodeDisplayColorThemes.cobalt,
@@ -32,7 +33,7 @@ class BuildWeb extends StatelessWidget {
             'Output',
             style: KeynoteTextstyles.body(),
           ),
-          verticalMargin4,
+          verticalMargin16,
           Assets.images.embeddingProcess.webOutput.image(),
         ],
       );

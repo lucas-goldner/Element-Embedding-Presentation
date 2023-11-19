@@ -78,12 +78,20 @@ class $AssetsImagesCustomGen {
 class $AssetsImagesEmbeddingProcessGen {
   const $AssetsImagesEmbeddingProcessGen();
 
+  /// File path: assets/images/embedding_process/host_element.png
+  AssetGenImage get hostElement =>
+      const AssetGenImage('assets/images/embedding_process/host_element.png');
+
+  /// File path: assets/images/embedding_process/loading_scripts.png
+  AssetGenImage get loadingScripts => const AssetGenImage(
+      'assets/images/embedding_process/loading_scripts.png');
+
   /// File path: assets/images/embedding_process/web_output.png
   AssetGenImage get webOutput =>
       const AssetGenImage('assets/images/embedding_process/web_output.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [webOutput];
+  List<AssetGenImage> get values => [hostElement, loadingScripts, webOutput];
 }
 
 class $AssetsImagesGoldenHammerGen {
