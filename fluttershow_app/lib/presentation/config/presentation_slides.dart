@@ -1,7 +1,7 @@
 import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
 import 'package:flutter_show/slides/03_element_emebdding/view/element_embedding.dart';
-import 'package:flutter_show/slides/06_website_review/website_review.dart';
+import 'package:flutter_show/slides/04_website_review/view/website_review.dart';
 import 'package:flutter_show/slides/20_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
 
