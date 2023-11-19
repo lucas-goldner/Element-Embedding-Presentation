@@ -3,6 +3,7 @@ import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart
 import 'package:flutter_show/slides/03_element_emebdding/view/element_embedding.dart';
 import 'package:flutter_show/slides/04_website_review/view/website_review.dart';
 import 'package:flutter_show/slides/05_embedding_process/view/embedding_process.dart';
+import 'package:flutter_show/slides/06_website_read_only/website_read_only.dart';
 import 'package:flutter_show/slides/20_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
 
@@ -38,6 +39,13 @@ enum PagesOfPresentation {
     PresentationSlide(
       slideWidget: EmbeddingProcess(),
       title: 'Embedding Process',
+      animationSteps: 2,
+    ),
+  ),
+  websiteInteractive(
+    PresentationSlide(
+      slideWidget: WebsiteReadOnly(),
+      title: 'Interactive Website',
       animationSteps: 2,
     ),
   ),

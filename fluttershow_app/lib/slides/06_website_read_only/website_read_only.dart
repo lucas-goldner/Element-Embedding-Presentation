@@ -5,8 +5,8 @@ import 'package:flutter_show/styles/fs_gradients.dart';
 import 'package:fluttershow_keynote/slides/blank/keynote_blank_slide.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class WebsiteReview extends ConsumerWidget {
-  const WebsiteReview({super.key});
+class WebsiteReadOnly extends ConsumerWidget {
+  const WebsiteReadOnly({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -17,7 +17,8 @@ class WebsiteReview extends ConsumerWidget {
         gradient: FSGradients.dynamicBackground(presentation.brightness),
       ),
       child: const KeynoteBlankSlide(
-        bodyWidget: WebView('https://red-counter-app-demo.vercel.app/'),
+        bodyWidget:
+            WebView('https://red-counter-app-demo.vercel.app/read_only.html'),
       ),
     );
   }

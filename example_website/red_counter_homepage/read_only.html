@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Red Counter - Revolutionary Counting App</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./flutter_app/flutter.js" defer></script>
+
+    <script>
+      window.addEventListener("load", function (ev) {
+        const basePath = "./flutter_app/";
+
+        _flutter.loader.loadEntrypoint({
+          entrypointUrl: basePath + "main.dart.js",
+          onEntrypointLoaded: async function (engineInitializer) {
+            let appRunner = await engineInitializer.initializeEngine({
+              assetBase: basePath,
+              hostElement: document.querySelector("#flutter_host"),
+            });
+            await appRunner.runApp();
+          },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Red Counter!</h1>
+      <p>The Revolutionary Counting Experience</p>
+    </header>
+    <div class="main-content">
+      <main>
+        <section class="introduction">
+          <h2>Revolutionize Your Counting</h2>
+          <p>
+            Experience counting like never before with our groundbreaking,
+            all-red interface.
+          </p>
+        </section>
+
+        <section class="interactive-iphone-display">
+          <div id="flutter_host" style="height: 812px; width: 375px">
+            Loading...
+          </div>
+        </section>
+
+        <section class="features">
+          <h2>Features</h2>
+          <ul>
+            <li>Stunning Red Color Scheme</li>
+            <li>Intuitive and Simple Counter Interface</li>
+            <li>Revolutionary One-Tap Counting Technology</li>
+          </ul>
+        </section>
+
+        <section class="download">
+          <h2>Download Now</h2>
+          <p>Join the counting revolution today. Available on all platforms.</p>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2023 Red Counter. All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
