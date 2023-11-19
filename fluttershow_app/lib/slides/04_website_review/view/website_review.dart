@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_show/generated/assets.gen.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/shared/widgets/webview/web_view.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';

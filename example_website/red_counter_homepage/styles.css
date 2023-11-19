@@ -5,6 +5,7 @@ body {
   padding: 0;
   background-color: #fff;
   color: #333;
+  font-size: 20px;
 }
 
 .main-content {
@@ -57,22 +58,22 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; /* Footer height */
+  height: 60px;
   background-color: #f2f2f2;
   text-align: center;
   padding: 20px 0;
 }
 
 .iphone-display {
-  text-align: center; /* Center the image */
-  padding: 20px 0; /* Add some padding around the image */
+  text-align: center;
+  padding: 20px 0;
 }
 
 .iphone-image {
   width: 375px; /* Width of a typical iPhone */
   height: 812px; /* Height of a typical iPhone */
-  max-width: 100%; /* Ensure it is responsive */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  height: auto;
 }
 
 .interactive-iphone-display {

@@ -2,6 +2,7 @@ import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
 import 'package:flutter_show/slides/03_element_emebdding/view/element_embedding.dart';
 import 'package:flutter_show/slides/04_website_review/view/website_review.dart';
+import 'package:flutter_show/slides/05_embedding_process/view/embedding_process.dart';
 import 'package:flutter_show/slides/20_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
 
@@ -19,17 +20,24 @@ enum PagesOfPresentation {
       animationSteps: 4,
     ),
   ),
-  callSlide(
+  elementEmbedding(
     PresentationSlide(
       slideWidget: ElementEmbeddingSlide(),
       title: 'Element Embedding',
       animationSteps: 13,
     ),
   ),
-  benefits(
+  websiteReview(
     PresentationSlide(
       slideWidget: WebsiteReview(),
       title: 'WebsiteReview',
+      animationSteps: 2,
+    ),
+  ),
+  embeddingProcess(
+    PresentationSlide(
+      slideWidget: EmbeddingProcess(),
+      title: 'Embedding Process',
       animationSteps: 2,
     ),
   ),

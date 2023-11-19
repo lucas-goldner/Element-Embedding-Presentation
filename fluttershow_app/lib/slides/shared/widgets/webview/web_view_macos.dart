@@ -5,7 +5,7 @@ class WebViewMacOs extends StatelessWidget {
   const WebViewMacOs({super.key});
 
   Future<void> _onOpenPressed() async => FlutterMacOSWebView().open(
-        url: 'https://google.com',
+        url: 'https://red-counter-app-demo.vercel.app/',
       );
 
   @override
