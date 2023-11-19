@@ -37,6 +37,7 @@ class $AssetsImagesGen {
       const $AssetsImagesGoldenHammerGen();
   $AssetsImagesIntroductionGen get introduction =>
       const $AssetsImagesIntroductionGen();
+  $AssetsImagesJsInteropGen get jsInterop => const $AssetsImagesJsInteropGen();
   $AssetsImagesSharedGen get shared => const $AssetsImagesSharedGen();
   $AssetsImagesTitleSlideGen get titleSlide =>
       const $AssetsImagesTitleSlideGen();
@@ -118,6 +119,21 @@ class $AssetsImagesIntroductionGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [tsukubaDaigaku];
+}
+
+class $AssetsImagesJsInteropGen {
+  const $AssetsImagesJsInteropGen();
+
+  /// File path: assets/images/js_interop/bind_fields.png
+  AssetGenImage get bindFields =>
+      const AssetGenImage('assets/images/js_interop/bind_fields.png');
+
+  /// File path: assets/images/js_interop/main_js.png
+  AssetGenImage get mainJs =>
+      const AssetGenImage('assets/images/js_interop/main_js.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [bindFields, mainJs];
 }
 
 class $AssetsImagesSharedGen {

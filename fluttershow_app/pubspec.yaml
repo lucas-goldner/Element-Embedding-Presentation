@@ -47,6 +47,7 @@ flutter:
     - assets/images/golden_hammer/
     - assets/images/website_review/
     - assets/images/embedding_process/
+    - assets/images/js_interop/
     - assets/rive/
 
   fonts:

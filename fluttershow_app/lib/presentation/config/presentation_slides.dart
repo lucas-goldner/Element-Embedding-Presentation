@@ -4,6 +4,7 @@ import 'package:flutter_show/slides/03_element_emebdding/view/element_embedding_
 import 'package:flutter_show/slides/04_website_review/view/website_review_slide.dart';
 import 'package:flutter_show/slides/05_embedding_process/view/embedding_process_slide.dart';
 import 'package:flutter_show/slides/06_website_read_only/view/website_read_only_slide.dart';
+import 'package:flutter_show/slides/07_js_interop/view/js_interop_slide.dart';
 import 'package:flutter_show/slides/20_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
 
@@ -49,7 +50,7 @@ enum PagesOfPresentation {
   ),
   jsInterop(
     PresentationSlide(
-      slideWidget: WebsiteReadOnlySlide(),
+      slideWidget: JSInteropSlide(),
       title: 'JS Interop',
     ),
   ),

@@ -6,6 +6,7 @@
     <title>Interactive Red Counter - Revolutionary Counting App</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="./flutter_app/flutter.js" defer></script>
+    <script src="./main.js" defer></script>
 
     <script>
       window.addEventListener("load", function (ev) {
@@ -48,7 +49,12 @@
             <button id="increase-btn">Increase</button>
             <div class="current-number">
               <label for="current-number-field">Current Number:</label>
-              <input type="text" id="current-number-field" value="0" />
+              <input
+                id="value"
+                type="text"
+                id="current-number-field"
+                value="0"
+              />
             </div>
           </div>
         </section>
