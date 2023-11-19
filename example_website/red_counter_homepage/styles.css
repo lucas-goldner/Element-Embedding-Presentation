@@ -74,3 +74,40 @@ footer {
   max-width: 100%; /* Ensure it is responsive */
   height: auto; /* Maintain aspect ratio */
 }
+
+.interactive-iphone-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.interactive-iphone-container {
+  text-align: center;
+}
+
+.counter-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#increase-btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.current-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#current-number-field {
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+}
