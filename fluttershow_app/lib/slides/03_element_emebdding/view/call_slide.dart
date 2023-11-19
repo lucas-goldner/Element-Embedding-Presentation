@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
-import 'package:flutter_show/slides/05_call/widgets/fake_slide/element_embedding_fake_slide.dart';
-import 'package:flutter_show/slides/05_call/widgets/phone_call/chat_view.dart';
-import 'package:flutter_show/slides/05_call/widgets/phone_call/facetime_call_box.dart';
+import 'package:flutter_show/slides/03_element_emebdding/widgets/fake_slide/element_embedding_fake_slide.dart';
+import 'package:flutter_show/slides/03_element_emebdding/widgets/phone_call/chat_view.dart';
+import 'package:flutter_show/slides/03_element_emebdding/widgets/phone_call/facetime_call_box.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
 import 'package:fluttershow_base/components/widgets/animation/fade_animation.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class CallSlide extends ConsumerWidget {
-  const CallSlide({super.key});
+class ElementEmbeddingSlide extends ConsumerWidget {
+  const ElementEmbeddingSlide({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

@@ -54,5 +54,6 @@
   "accept": "応答",
   "decline": "拒否",
   "faceTimeVideo": "Facetime ビデオ",
-  "flutterInsideOfAWebsite": "flutterアプリのウェッブサイトの中に"
+  "flutterInsideOfAWebsite": "flutterアプリのウェッブサイトの中に",
+  "reset": "リセット"
 }

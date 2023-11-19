@@ -92,6 +92,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "reallyBad": MessageLookupByLibrary.simpleMessage("Really bad"),
         "repoLink": MessageLookupByLibrary.simpleMessage(
             "https://github.com/lucas-goldner/FlutterShow"),
+        "reset": MessageLookupByLibrary.simpleMessage("Reset"),
         "selfIntroduction": MessageLookupByLibrary.simpleMessage("About me"),
         "sideWidget": MessageLookupByLibrary.simpleMessage("Side Widget"),
         "slides": MessageLookupByLibrary.simpleMessage("Slides"),

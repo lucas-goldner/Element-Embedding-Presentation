@@ -54,5 +54,6 @@
   "accept": "Accept",
   "decline": "Decline",
   "faceTimeVideo": "Facetime Video",
-  "flutterInsideOfAWebsite": "Flutter apps inside of websites"
+  "flutterInsideOfAWebsite": "Flutter apps inside of websites",
+  "reset": "Reset"
 }

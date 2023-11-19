@@ -1,9 +1,7 @@
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
-import 'package:flutter_show/slides/03_goldenhammer/view/golden_hammer_slide.dart';
-import 'package:flutter_show/slides/04_flutterweb_state/view/flutterweb_state_slide.dart';
-import 'package:flutter_show/slides/05_call/view/call_slide.dart';
+import 'package:flutter_show/slides/03_element_emebdding/view/call_slide.dart';
 import 'package:flutter_show/slides/06_website_review/website_review.dart';
 import 'package:flutter_show/slides/20_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
@@ -22,23 +20,10 @@ enum PagesOfPresentation {
       animationSteps: 4,
     ),
   ),
-  goldenHammerSlide(
-    PresentationSlide(
-      slideWidget: GoldenHammerSlide(),
-      title: 'Golden Hammer',
-      animationSteps: 2,
-    ),
-  ),
-  webStateSlide(
-    PresentationSlide(
-      slideWidget: FlutterWebStateSlide(),
-      title: 'FlutterWebState',
-    ),
-  ),
   callSlide(
     PresentationSlide(
-      slideWidget: CallSlide(),
-      title: 'CallSlide',
+      slideWidget: ElementEmbeddingSlide(),
+      title: 'Element Embedding',
       animationSteps: 8,
     ),
   ),
@@ -77,7 +62,7 @@ enum PagesOfPresentation {
   /// It keeps track of the progress of the animation, indicating the current
   /// step in the sequence.
   ///
-  /// An example usage can be seen in the [FlutterWebStateSlide] slide.
+  /// An example usage can be seen in the [ElementEmbeddingSlide] slide.
   /// The enum member [PagesOfPresentation.downsides] has 6 `animationSteps`.
   /// Clicking on the slide increments the `animationIndex` by one.
   ///

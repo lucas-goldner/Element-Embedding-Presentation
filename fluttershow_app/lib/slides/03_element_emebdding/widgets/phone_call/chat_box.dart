@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
-import 'package:flutter_show/slides/05_call/widgets/phone_call/chat_message.dart';
+import 'package:flutter_show/slides/03_element_emebdding/widgets/phone_call/chat_message.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class ChatBox extends ConsumerWidget {
