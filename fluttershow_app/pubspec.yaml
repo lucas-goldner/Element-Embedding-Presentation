@@ -41,6 +41,7 @@ flutter:
     - assets/fonts/
     - assets/images/custom/
     - assets/images/shared/
+    - assets/images/introduction/
     - assets/images/title_slide/
     - assets/images/golden_hammer/
     - assets/images/website_review/

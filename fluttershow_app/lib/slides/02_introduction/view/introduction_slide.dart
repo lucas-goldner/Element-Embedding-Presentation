@@ -87,9 +87,9 @@ class IntroductionSlide extends HookConsumerWidget {
               child: Center(
                 child: Stack(
                   children: [
-                    FolderFile(t.fileOne, 4),
-                    FolderFile(t.fileTwo, 5),
                     FolderFile(t.fileThree, 6),
+                    FolderFile(t.fileTwo, 5),
+                    FolderFile(t.fileOne, 4),
                   ],
                 ),
               ),

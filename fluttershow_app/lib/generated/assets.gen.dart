@@ -33,6 +33,8 @@ class $AssetsImagesGen {
   $AssetsImagesCustomGen get custom => const $AssetsImagesCustomGen();
   $AssetsImagesGoldenHammerGen get goldenHammer =>
       const $AssetsImagesGoldenHammerGen();
+  $AssetsImagesIntroductionGen get introduction =>
+      const $AssetsImagesIntroductionGen();
   $AssetsImagesSharedGen get shared => const $AssetsImagesSharedGen();
   $AssetsImagesTitleSlideGen get titleSlide =>
       const $AssetsImagesTitleSlideGen();
@@ -64,15 +66,11 @@ class $AssetsImagesCustomGen {
   AssetGenImage get fluttershow =>
       const AssetGenImage('assets/images/custom/fluttershow.png');
 
-  /// File path: assets/images/custom/jaspr_logo.png
-  AssetGenImage get jasprLogo =>
-      const AssetGenImage('assets/images/custom/jaspr_logo.png');
-
   /// File path: assets/images/custom/qr.png
   AssetGenImage get qr => const AssetGenImage('assets/images/custom/qr.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [distortion, fluttershow, jasprLogo, qr];
+  List<AssetGenImage> get values => [distortion, fluttershow, qr];
 }
 
 class $AssetsImagesGoldenHammerGen {
@@ -88,6 +86,17 @@ class $AssetsImagesGoldenHammerGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [explosion, goldenHammer];
+}
+
+class $AssetsImagesIntroductionGen {
+  const $AssetsImagesIntroductionGen();
+
+  /// File path: assets/images/introduction/tsukuba_daigaku.png
+  AssetGenImage get tsukubaDaigaku =>
+      const AssetGenImage('assets/images/introduction/tsukuba_daigaku.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [tsukubaDaigaku];
 }
 
 class $AssetsImagesSharedGen {

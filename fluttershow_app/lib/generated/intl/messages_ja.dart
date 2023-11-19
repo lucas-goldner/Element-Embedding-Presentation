@@ -39,10 +39,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime ビデオ"),
-        "fileOne": MessageLookupByLibrary.simpleMessage("🇩🇪🇧🇷\n23歳"),
+        "fileOne": MessageLookupByLibrary.simpleMessage(
+            "🇩🇪🇧🇷\n23歳\nモバイルと\nウェブエンジニア"),
         "fileThree":
-            MessageLookupByLibrary.simpleMessage("言語の勉強が好きなので、日本語を勉強しています"),
-        "fileTwo": MessageLookupByLibrary.simpleMessage("筑波大学で留学しています"),
+            MessageLookupByLibrary.simpleMessage("言語の勉強が好き\n今日本語を勉強しています"),
+        "fileTwo": MessageLookupByLibrary.simpleMessage("筑波大学の留学"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterInsideOfAWebsite":
             MessageLookupByLibrary.simpleMessage("flutterアプリのウェッブサイトの中に"),
