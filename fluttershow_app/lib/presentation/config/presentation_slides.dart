@@ -1,9 +1,9 @@
 import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
-import 'package:flutter_show/slides/03_element_emebdding/view/element_embedding.dart';
-import 'package:flutter_show/slides/04_website_review/view/website_review.dart';
-import 'package:flutter_show/slides/05_embedding_process/view/embedding_process.dart';
-import 'package:flutter_show/slides/06_website_read_only/website_read_only.dart';
+import 'package:flutter_show/slides/03_element_emebdding/view/element_embedding_slide.dart';
+import 'package:flutter_show/slides/04_website_review/view/website_review_slide.dart';
+import 'package:flutter_show/slides/05_embedding_process/view/embedding_process_slide.dart';
+import 'package:flutter_show/slides/06_website_read_only/view/website_read_only_slide.dart';
 import 'package:flutter_show/slides/20_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
 
@@ -30,23 +30,27 @@ enum PagesOfPresentation {
   ),
   websiteReview(
     PresentationSlide(
-      slideWidget: WebsiteReview(),
+      slideWidget: WebsiteReviewSlide(),
       title: 'WebsiteReview',
-      animationSteps: 2,
     ),
   ),
   embeddingProcess(
     PresentationSlide(
-      slideWidget: EmbeddingProcess(),
+      slideWidget: EmbeddingProcessSlide(),
       title: 'Embedding Process',
       animationSteps: 2,
     ),
   ),
-  websiteInteractive(
+  websiteReadonly(
     PresentationSlide(
-      slideWidget: WebsiteReadOnly(),
-      title: 'Interactive Website',
-      animationSteps: 2,
+      slideWidget: WebsiteReadOnlySlide(),
+      title: 'Readonly Website',
+    ),
+  ),
+  jsInterop(
+    PresentationSlide(
+      slideWidget: WebsiteReadOnlySlide(),
+      title: 'JS Interop',
     ),
   ),
   outro(

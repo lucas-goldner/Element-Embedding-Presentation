@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_macos_webview/flutter_macos_webview.dart';
 
 class WebViewMacOs extends StatelessWidget {
@@ -11,14 +10,10 @@ class WebViewMacOs extends StatelessWidget {
       );
 
   @override
-  Widget build(BuildContext context) {
-    _onOpenPressed();
-
-    return Center(
-      child: CupertinoButton.filled(
-        onPressed: _onOpenPressed,
-        child: const Text('Reopen'),
-      ),
-    );
-  }
+  Widget build(BuildContext context) => Center(
+        child: CupertinoButton.filled(
+          onPressed: _onOpenPressed,
+          child: const Text('Open'),
+        ),
+      );
 }
