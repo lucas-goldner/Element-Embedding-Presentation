@@ -4,10 +4,8 @@ import 'package:flutter_show/slides/07_js_interop/widgets/bind_functions_in_js.d
 import 'package:flutter_show/slides/07_js_interop/widgets/setup_js_in_flutter.dart';
 import 'package:flutter_show/slides/shared/widgets/explanation_step.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
-import 'package:fluttershow_base/components/model/enum/code_display_themes.dart';
 import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:fluttershow_base/components/widgets/spacing/paddings.dart';
-import 'package:fluttershow_base/components/widgets/wrapper/code_display.dart';
 import 'package:fluttershow_keynote/style/keynote_textstyles.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

@@ -69,11 +69,11 @@ class $AssetsImagesCustomGen {
   AssetGenImage get fluttershow =>
       const AssetGenImage('assets/images/custom/fluttershow.png');
 
-  /// File path: assets/images/custom/qr.png
-  AssetGenImage get qr => const AssetGenImage('assets/images/custom/qr.png');
+  /// File path: assets/images/custom/qr.svg
+  SvgGenImage get qr => const SvgGenImage('assets/images/custom/qr.svg');
 
   /// List of all assets
-  List<AssetGenImage> get values => [distortion, fluttershow, qr];
+  List<dynamic> get values => [distortion, fluttershow, qr];
 }
 
 class $AssetsImagesEmbeddingProcessGen {

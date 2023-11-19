@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_show/generated/assets.gen.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
@@ -23,8 +24,7 @@ class OutroSlide extends ConsumerWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(
-                'assets/images/custom/qr.png',
+              Assets.images.custom.qr.svg(
                 height: 400,
                 width: 400,
               ),
@@ -42,9 +42,7 @@ class OutroSlide extends ConsumerWidget {
                     textAlign: TextAlign.left,
                     style: FSTextStyles.regularText(),
                   ),
-                  Image.asset(
-                    'assets/images/custom/fluttershow.png',
-                  ),
+                  Assets.images.custom.fluttershow.image(),
                 ],
               ),
             ],
