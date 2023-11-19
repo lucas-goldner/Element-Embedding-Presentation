@@ -31,6 +31,8 @@ class $AssetsImagesGen {
   const $AssetsImagesGen();
 
   $AssetsImagesCustomGen get custom => const $AssetsImagesCustomGen();
+  $AssetsImagesEmbeddingProcessGen get embeddingProcess =>
+      const $AssetsImagesEmbeddingProcessGen();
   $AssetsImagesGoldenHammerGen get goldenHammer =>
       const $AssetsImagesGoldenHammerGen();
   $AssetsImagesIntroductionGen get introduction =>
@@ -71,6 +73,17 @@ class $AssetsImagesCustomGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [distortion, fluttershow, qr];
+}
+
+class $AssetsImagesEmbeddingProcessGen {
+  const $AssetsImagesEmbeddingProcessGen();
+
+  /// File path: assets/images/embedding_process/web_output.png
+  AssetGenImage get webOutput =>
+      const AssetGenImage('assets/images/embedding_process/web_output.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [webOutput];
 }
 
 class $AssetsImagesGoldenHammerGen {

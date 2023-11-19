@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_show/generated/assets.gen.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
-import 'package:flutter_show/slides/shared/widgets/steps/step.dart';
+import 'package:flutter_show/slides/05_embedding_process/widgets/build_web.dart';
+import 'package:flutter_show/slides/shared/widgets/explanation_step.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
+import 'package:fluttershow_base/components/model/enum/code_display_themes.dart';
+import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
+import 'package:fluttershow_base/components/widgets/spacing/paddings.dart';
+import 'package:fluttershow_base/components/widgets/wrapper/code_display.dart';
 import 'package:fluttershow_keynote/slides/blank/keynote_blank_slide.dart';
 import 'package:fluttershow_keynote/style/keynote_textstyles.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -17,17 +23,33 @@ class EmbeddingProcess extends ConsumerWidget {
       decoration: BoxDecoration(
         gradient: FSGradients.dynamicBackground(presentation.brightness),
       ),
-      child: KeynoteBlankSlide(
-        headerWidget: Text(
-          'Header',
-          style: KeynoteTextstyles.title(),
-        ),
-        bodyWidget: const SingleChildScrollView(
+      child: SingleChildScrollView(
+        child: Padding(
+          padding: allPadding48,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              ExplanationStep(1, Text('Build web version')),
-              ExplanationStep(2, Text('Load script and initialize engine')),
+              Text(
+                'How to embedd your Flutter app?',
+                style: KeynoteTextstyles.title(fontSize: 64),
+              ),
+              verticalMargin48,
+              verticalMargin48,
+              const ExplanationStep(
+                count: 1,
+                title: '- Build web version',
+                explanation: BuildWeb(),
+              ),
+              verticalMargin48,
+              const ExplanationStep(
+                count: 2,
+                explanation: Text('Load script and initialize engine'),
+              ),
+              verticalMargin48,
+              const ExplanationStep(
+                count: 3,
+                explanation: Text('Congrats you are done!'),
+              ),
             ],
           ),
         ),
