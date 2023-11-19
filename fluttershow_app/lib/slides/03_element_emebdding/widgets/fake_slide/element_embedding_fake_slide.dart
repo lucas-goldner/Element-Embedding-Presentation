@@ -19,6 +19,7 @@ class ElementEmbeddingFakeSlide extends ConsumerWidget {
         gradient: FSGradients.dynamicBackground(presentation.brightness),
       ),
       child: KeynoteTitleAndBulletsSlide(
+        animationIndex: presentation.animationIndex,
         titleText: t.flutter,
         subTitleText: t.elementEmbedding,
         bulletPoints: [t.noiseText1, t.noiseText2, t.noiseText3],

@@ -3,9 +3,15 @@ import 'package:flutter_show/styles/fs_text_styles.dart';
 import 'package:fluttershow_base/components/widgets/spacing/paddings.dart';
 
 class ChatMessage extends StatelessWidget {
-  const ChatMessage({required this.text, this.incoming = false, super.key});
+  const ChatMessage({
+    required this.text,
+    this.incoming = false,
+    this.link = false,
+    super.key,
+  });
   final String text;
   final bool incoming;
+  final bool link;
 
   @override
   Widget build(BuildContext context) {
@@ -33,6 +39,8 @@ class ChatMessage extends StatelessWidget {
                 style: FSTextStyles.regularText(
                   color: colorText,
                   fontSize: 22,
+                  decoration:
+                      link ? TextDecoration.underline : TextDecoration.none,
                 ),
               ),
             ),

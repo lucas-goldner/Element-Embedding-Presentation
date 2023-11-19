@@ -13,12 +13,14 @@ class FSTextStyles {
     Color? color,
     double? fontSize,
     FontWeight? fontWeight,
+    TextDecoration? decoration,
   }) =>
       TextStyle(
         fontSize: fontSize ?? 52,
         fontWeight: fontWeight ?? FontWeight.w500,
         fontFamily: AppConstants.fontGraphik,
         color: color,
+        decoration: decoration,
       );
 
   static TextStyle footerText({

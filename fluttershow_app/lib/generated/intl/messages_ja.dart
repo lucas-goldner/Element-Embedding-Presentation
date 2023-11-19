@@ -31,6 +31,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "basic": MessageLookupByLibrary.simpleMessage("基本"),
         "benefits": MessageLookupByLibrary.simpleMessage("メリット"),
         "boring": MessageLookupByLibrary.simpleMessage("退屈"),
+        "chatMessage1":
+            MessageLookupByLibrary.simpleMessage("金さん、新しいアプリを作りました！"),
+        "chatMessage2":
+            MessageLookupByLibrary.simpleMessage("早くホームページをチェックしてください！"),
+        "chatMessage3": MessageLookupByLibrary.simpleMessage("今ちょっと忙しいですけど。。。"),
+        "chatMessage4": MessageLookupByLibrary.simpleMessage("お願いします！"),
+        "chatMessage5": MessageLookupByLibrary.simpleMessage("オーけ、ちょっとだけ見ましょう"),
+        "chatMessage6":
+            MessageLookupByLibrary.simpleMessage("ありがとうございます！！！これで見られます。"),
+        "chatMessage7": MessageLookupByLibrary.simpleMessage("これで見られます。"),
         "close": MessageLookupByLibrary.simpleMessage("閉じる"),
         "custom": MessageLookupByLibrary.simpleMessage("カスタム"),
         "darkMode": MessageLookupByLibrary.simpleMessage("ダークモード"),
@@ -87,7 +97,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "reallyBad": MessageLookupByLibrary.simpleMessage("本当に悪い"),
         "repoLink": MessageLookupByLibrary.simpleMessage(
             "https://github.com/lucas-goldner/FlutterShow"),
-        "reset": MessageLookupByLibrary.simpleMessage("リセット"),
         "selfIntroduction": MessageLookupByLibrary.simpleMessage("自己紹介"),
         "sideWidget": MessageLookupByLibrary.simpleMessage("サイドwidget"),
         "slides": MessageLookupByLibrary.simpleMessage("スライド"),

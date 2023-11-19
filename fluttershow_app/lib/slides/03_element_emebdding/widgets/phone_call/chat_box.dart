@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/03_element_emebdding/widgets/phone_call/chat_message.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -9,49 +10,57 @@ class ChatBox extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final presentation = ref.watch(presentationController);
     final animationIndex = presentation.animationIndex;
+    final t = S.of(context);
 
     return SingleChildScrollView(
       child: Column(
         children: [
           Visibility(
-            visible: animationIndex >= 3,
-            child: const ChatMessage(
-              text: 'Lucas I need your help',
-              incoming: true,
-            ),
-          ),
-          Visibility(
-            visible: animationIndex >= 4,
-            child: const ChatMessage(
-              text: 'I heard you are good at web development',
-              incoming: true,
-            ),
-          ),
-          Visibility(
-            visible: animationIndex >= 5,
-            child: const ChatMessage(
-              text: 'You could say so...',
-            ),
-          ),
-          Visibility(
             visible: animationIndex >= 6,
-            child: const ChatMessage(
-              text:
-                  'I have built my landing page for my new app can you check it out?',
+            child: ChatMessage(
+              text: t.chatMessage1,
               incoming: true,
             ),
           ),
           Visibility(
             visible: animationIndex >= 7,
-            child: const ChatMessage(
-              text: 'Now?',
+            child: ChatMessage(
+              text: t.chatMessage2,
+              incoming: true,
             ),
           ),
           Visibility(
             visible: animationIndex >= 8,
-            child: const ChatMessage(
-              text: 'Yes please!',
+            child: ChatMessage(
+              text: t.chatMessage3,
+            ),
+          ),
+          Visibility(
+            visible: animationIndex >= 9,
+            child: ChatMessage(
+              text: t.chatMessage4,
               incoming: true,
+            ),
+          ),
+          Visibility(
+            visible: animationIndex >= 10,
+            child: ChatMessage(
+              text: t.chatMessage5,
+            ),
+          ),
+          Visibility(
+            visible: animationIndex >= 11,
+            child: ChatMessage(
+              text: t.chatMessage6,
+              incoming: true,
+            ),
+          ),
+          Visibility(
+            visible: animationIndex >= 12,
+            child: ChatMessage(
+              text: t.chatMessage7,
+              incoming: true,
+              link: true,
             ),
           ),
         ],

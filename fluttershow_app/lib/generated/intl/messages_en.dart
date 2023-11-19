@@ -31,6 +31,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "basic": MessageLookupByLibrary.simpleMessage("Basic"),
         "benefits": MessageLookupByLibrary.simpleMessage("Benefits"),
         "boring": MessageLookupByLibrary.simpleMessage("Boring"),
+        "chatMessage1": MessageLookupByLibrary.simpleMessage(
+            "Hey Lucas I have released an new app!"),
+        "chatMessage2": MessageLookupByLibrary.simpleMessage(
+            "Can you check out the homepage quick pls?"),
+        "chatMessage3":
+            MessageLookupByLibrary.simpleMessage("I am kind of busy right now"),
+        "chatMessage4": MessageLookupByLibrary.simpleMessage("PLEASE..."),
+        "chatMessage5":
+            MessageLookupByLibrary.simpleMessage("Okay lets have a quick look"),
+        "chatMessage6": MessageLookupByLibrary.simpleMessage("Thanks a lot!"),
+        "chatMessage7":
+            MessageLookupByLibrary.simpleMessage("You can check it out here"),
         "close": MessageLookupByLibrary.simpleMessage("Close"),
         "custom": MessageLookupByLibrary.simpleMessage("Custom"),
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
@@ -42,7 +54,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fileOne": MessageLookupByLibrary.simpleMessage(
             "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory"),
         "fileThree": MessageLookupByLibrary.simpleMessage(
-            "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵"),
+            "Love learning languages\n\nCurrently studying Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
@@ -92,7 +104,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "reallyBad": MessageLookupByLibrary.simpleMessage("Really bad"),
         "repoLink": MessageLookupByLibrary.simpleMessage(
             "https://github.com/lucas-goldner/FlutterShow"),
-        "reset": MessageLookupByLibrary.simpleMessage("Reset"),
         "selfIntroduction": MessageLookupByLibrary.simpleMessage("About me"),
         "sideWidget": MessageLookupByLibrary.simpleMessage("Side Widget"),
         "slides": MessageLookupByLibrary.simpleMessage("Slides"),

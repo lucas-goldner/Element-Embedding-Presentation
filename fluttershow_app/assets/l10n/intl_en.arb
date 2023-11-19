@@ -36,7 +36,7 @@
   "selfIntroduction": "About me",
   "fileOne": "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory",
   "fileTwo": "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development",
-  "fileThree": "Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵",
+  "fileThree": "Love learning languages\n\nCurrently studying Japanese🇯🇵",
   "what": "What?",
   "flutterWebStateCard": "Flutter Web State Card",
   "flutterWebBenefitProgressiveWebApp": "Good for progressive web apps",
@@ -55,5 +55,11 @@
   "decline": "Decline",
   "faceTimeVideo": "Facetime Video",
   "flutterInsideOfAWebsite": "Flutter apps inside of websites",
-  "reset": "Reset"
+  "chatMessage1": "Hey Lucas I have released an new app!",
+  "chatMessage2": "Can you check out the homepage quick pls?",
+  "chatMessage3": "I am kind of busy right now",
+  "chatMessage4": "PLEASE...",
+  "chatMessage5": "Okay lets have a quick look",
+  "chatMessage6": "Thanks a lot!",
+  "chatMessage7": "You can check it out here"
 }

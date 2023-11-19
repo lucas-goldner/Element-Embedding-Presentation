@@ -22,7 +22,7 @@ class ElementEmbeddingSlide extends ConsumerWidget {
         children: [
           const ElementEmbeddingFakeSlide(),
           Visibility(
-            visible: presentation.animationIndex <= 1,
+            visible: presentation.animationIndex >= 5,
             child: AnimatedPositioned(
               top: 40,
               right: presentation.animationIndex >= 1 ? 40 : -440,
@@ -31,7 +31,7 @@ class ElementEmbeddingSlide extends ConsumerWidget {
             ),
           ),
           Visibility(
-            visible: presentation.animationIndex >= 2,
+            visible: presentation.animationIndex >= 6,
             child: const FadeAnimation(
               delay: 3,
               child: ChatView(),

@@ -420,10 +420,10 @@ class S {
     );
   }
 
-  /// `Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵`
+  /// `Love learning languages\n\nCurrently studying Japanese🇯🇵`
   String get fileThree {
     return Intl.message(
-      'Love learning languages❤️‍🔥\n\nCurrently studying Japanese🇯🇵',
+      'Love learning languages\n\nCurrently studying Japanese🇯🇵',
       name: 'fileThree',
       desc: '',
       args: [],
@@ -610,11 +610,71 @@ class S {
     );
   }
 
-  /// `Reset`
-  String get reset {
+  /// `Hey Lucas I have released an new app!`
+  String get chatMessage1 {
     return Intl.message(
-      'Reset',
-      name: 'reset',
+      'Hey Lucas I have released an new app!',
+      name: 'chatMessage1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Can you check out the homepage quick pls?`
+  String get chatMessage2 {
+    return Intl.message(
+      'Can you check out the homepage quick pls?',
+      name: 'chatMessage2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `I am kind of busy right now`
+  String get chatMessage3 {
+    return Intl.message(
+      'I am kind of busy right now',
+      name: 'chatMessage3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `PLEASE...`
+  String get chatMessage4 {
+    return Intl.message(
+      'PLEASE...',
+      name: 'chatMessage4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Okay lets have a quick look`
+  String get chatMessage5 {
+    return Intl.message(
+      'Okay lets have a quick look',
+      name: 'chatMessage5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Thanks a lot!`
+  String get chatMessage6 {
+    return Intl.message(
+      'Thanks a lot!',
+      name: 'chatMessage6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `You can check it out here`
+  String get chatMessage7 {
+    return Intl.message(
+      'You can check it out here',
+      name: 'chatMessage7',
       desc: '',
       args: [],
     );
