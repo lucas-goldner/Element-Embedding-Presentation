@@ -46,6 +46,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
+        "flutterInsideOfAWebsite": MessageLookupByLibrary.simpleMessage(
+            "Flutter apps inside of websites"),
         "flutterWebBenefitEasyWebRelease": MessageLookupByLibrary.simpleMessage(
             "Easy to port existing apps to web"),
         "flutterWebBenefitProgressiveWebApp":

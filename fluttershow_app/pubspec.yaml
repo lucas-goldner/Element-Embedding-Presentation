@@ -23,7 +23,7 @@ dependencies:
   hooks_riverpod: ^2.3.6
   intl: ^0.18.0
   intl_utils: ^2.8.1
-  rive: ^0.11.4
+  rive: ^0.12.3
   scratcher: ^2.3.0
 
 dev_dependencies:
@@ -43,6 +43,7 @@ flutter:
     - assets/images/shared/
     - assets/images/title_slide/
     - assets/images/golden_hammer/
+    - assets/images/website_review/
     - assets/rive/
 
   fonts:

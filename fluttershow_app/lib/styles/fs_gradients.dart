@@ -8,15 +8,6 @@ class FSGradients {
     ],
   );
 
-  static const LinearGradient flutterKaigiBackground = LinearGradient(
-    begin: Alignment.topCenter,
-    end: Alignment.bottomCenter,
-    colors: [
-      Color(0xFF602678),
-      Color(0x004B0082),
-    ],
-  );
-
   static const LinearGradient background = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
@@ -38,5 +29,5 @@ class FSGradients {
   );
 
   static LinearGradient dynamicBackground(Brightness brightness) =>
-      brightness == Brightness.dark ? flutterKaigiBackground : background;
+      brightness == Brightness.dark ? backgroundDark : background;
 }

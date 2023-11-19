@@ -7,7 +7,7 @@ import 'package:flutter_show/styles/fs_gradients.dart';
 import 'package:fluttershow_base/components/widgets/animation/fade_animation.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class CallSlide extends HookConsumerWidget {
+class CallSlide extends ConsumerWidget {
   const CallSlide({super.key});
 
   @override

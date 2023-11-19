@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_elizabeth.dart';
-import 'package:flutter_show/slides/01_title/widgets/title_slide_flutter_kaigi_logo.dart';
-import 'package:flutter_show/slides/01_title/widgets/title_slide_osaka_castle.dart';
+import 'package:flutter_show/slides/01_title/widgets/title_slide_gdg_tokyo_logo.dart';
+import 'package:flutter_show/slides/01_title/widgets/title_slide_meiji_jingu.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_title.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_tokyo_tower.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
@@ -29,17 +29,17 @@ class TitleSlide extends ConsumerWidget {
         children: [
           KeynoteTitleSlide(
             titleText: t.presentationTitle,
-            subTitleText: t.presentationsInFlutter,
+            subTitleText: t.flutterInsideOfAWebsite,
             footerText: t.author,
             titleGradient: FSGradients.titlePrimary,
             titleStyle: KeynoteTextstyles.title(),
             subtitleStyle: KeynoteTextstyles.subtitle(fontSize: 44),
-            footerStyle: FSTextStyles.footerText(),
+            footerStyle: FSTextStyles.footerText(fontSize: 48),
             titleWidgetReplacement: const TitleSlideTitle(),
             titleSubTitleSpacing: verticalMargin12,
           ),
-          const TitleSlideFlutterKaigiLogo(),
-          const TitleSlideOsakaCastle(),
+          const TitleSlideGDGTokyoLogo(),
+          const TitleSlideMeijiJingu(),
           const TitleSlideTokyoTower(),
           const TitleSlideElizabeth(),
         ],

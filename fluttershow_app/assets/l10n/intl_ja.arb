@@ -8,7 +8,7 @@
   "basic": "基本",
   "hidden": "非表示",
   "custom": "カスタム",
-  "presentationTitle": "Web上のFlutter",
+  "presentationTitle": "エレメントエンベディング",
   "madeWith": "このプレゼンフレームワークは",
   "presentationsInFlutter": "最先端のウェブサイトのためのエレメントエンベディング",
   "author": "金・ルーカス",
@@ -34,9 +34,9 @@
   "step2": "ステップ二",
   "step3": "ステップ三",
   "selfIntroduction": "自己紹介",
-  "fileOne": "🇩🇪🇧🇷\n22歳\n大学生\nビツファクトリーで働いています",
-  "fileTwo": "三年ぐらいプログラミングしています。flutterとiOSが好きですが、ウェブのフルスタッコ開発",
-  "fileThree": "言語の勉強が好きなので、今、日本語を勉強しています",
+  "fileOne": "🇩🇪🇧🇷\n23歳",
+  "fileTwo": "筑波大学で留学しています",
+  "fileThree": "言語の勉強が好きなので、日本語を勉強しています",
   "what": "何",
   "flutterWebStateCard": "Flutterウェッブのステージカードー",
   "flutterWebBenefitProgressiveWebApp": "プログレッシブウェブアプリに良い",
@@ -53,5 +53,6 @@
   "guyName": "新八さん",
   "accept": "応答",
   "decline": "拒否",
-  "faceTimeVideo": "Facetime ビデオ"
+  "faceTimeVideo": "Facetime ビデオ",
+  "flutterInsideOfAWebsite": "flutterアプリのウェッブサイトの中に"
 }

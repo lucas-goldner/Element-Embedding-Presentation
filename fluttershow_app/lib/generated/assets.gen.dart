@@ -36,6 +36,8 @@ class $AssetsImagesGen {
   $AssetsImagesSharedGen get shared => const $AssetsImagesSharedGen();
   $AssetsImagesTitleSlideGen get titleSlide =>
       const $AssetsImagesTitleSlideGen();
+  $AssetsImagesWebsiteReviewGen get websiteReview =>
+      const $AssetsImagesWebsiteReviewGen();
 }
 
 class $AssetsRiveGen {
@@ -95,12 +97,12 @@ class $AssetsImagesSharedGen {
   SvgGenImage get flutterIcon =>
       const SvgGenImage('assets/images/shared/flutter_icon.svg');
 
-  /// File path: assets/images/shared/flutterkaigi_logo.svg
-  SvgGenImage get flutterkaigiLogo =>
-      const SvgGenImage('assets/images/shared/flutterkaigi_logo.svg');
+  /// File path: assets/images/shared/gdgtokyo_logo.png
+  AssetGenImage get gdgtokyoLogo =>
+      const AssetGenImage('assets/images/shared/gdgtokyo_logo.png');
 
   /// List of all assets
-  List<SvgGenImage> get values => [flutterIcon, flutterkaigiLogo];
+  List<dynamic> get values => [flutterIcon, gdgtokyoLogo];
 }
 
 class $AssetsImagesTitleSlideGen {
@@ -109,6 +111,10 @@ class $AssetsImagesTitleSlideGen {
   /// File path: assets/images/title_slide/elizabeth_welcome.png
   AssetGenImage get elizabethWelcome =>
       const AssetGenImage('assets/images/title_slide/elizabeth_welcome.png');
+
+  /// File path: assets/images/title_slide/meiji_jingu.png
+  AssetGenImage get meijiJingu =>
+      const AssetGenImage('assets/images/title_slide/meiji_jingu.png');
 
   /// File path: assets/images/title_slide/osaka_castle.png
   AssetGenImage get osakaCastle =>
@@ -119,7 +125,19 @@ class $AssetsImagesTitleSlideGen {
       const AssetGenImage('assets/images/title_slide/tokyo_tower.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [elizabethWelcome, osakaCastle, tokyoTower];
+  List<AssetGenImage> get values =>
+      [elizabethWelcome, meijiJingu, osakaCastle, tokyoTower];
+}
+
+class $AssetsImagesWebsiteReviewGen {
+  const $AssetsImagesWebsiteReviewGen();
+
+  /// File path: assets/images/website_review/website_preview.png
+  AssetGenImage get websitePreview =>
+      const AssetGenImage('assets/images/website_review/website_preview.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [websitePreview];
 }
 
 class Assets {

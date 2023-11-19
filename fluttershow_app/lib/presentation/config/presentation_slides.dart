@@ -4,7 +4,8 @@ import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart
 import 'package:flutter_show/slides/03_goldenhammer/view/golden_hammer_slide.dart';
 import 'package:flutter_show/slides/04_flutterweb_state/view/flutterweb_state_slide.dart';
 import 'package:flutter_show/slides/05_call/view/call_slide.dart';
-import 'package:flutter_show/slides/06_outro/view/outo_slide.dart';
+import 'package:flutter_show/slides/06_website_review/website_review.dart';
+import 'package:flutter_show/slides/20_outro/view/outo_slide.dart';
 import 'package:fluttershow_base/components/model/presentation_page.dart';
 
 enum PagesOfPresentation {
@@ -21,24 +22,31 @@ enum PagesOfPresentation {
       animationSteps: 4,
     ),
   ),
-  motivation(
+  goldenHammerSlide(
     PresentationSlide(
       slideWidget: GoldenHammerSlide(),
       title: 'Golden Hammer',
       animationSteps: 2,
     ),
   ),
-  downsides(
+  webStateSlide(
     PresentationSlide(
       slideWidget: FlutterWebStateSlide(),
       title: 'FlutterWebState',
     ),
   ),
-  benefits(
+  callSlide(
     PresentationSlide(
       slideWidget: CallSlide(),
       title: 'CallSlide',
       animationSteps: 8,
+    ),
+  ),
+  benefits(
+    PresentationSlide(
+      slideWidget: WebsiteReview(),
+      title: 'WebsiteReview',
+      animationSteps: 2,
     ),
   ),
   outro(

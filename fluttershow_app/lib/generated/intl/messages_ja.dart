@@ -39,13 +39,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime ビデオ"),
-        "fileOne": MessageLookupByLibrary.simpleMessage(
-            "🇩🇪🇧🇷\n22歳\n大学生\nビツファクトリーで働いています"),
+        "fileOne": MessageLookupByLibrary.simpleMessage("🇩🇪🇧🇷\n23歳"),
         "fileThree":
-            MessageLookupByLibrary.simpleMessage("言語の勉強が好きなので、今、日本語を勉強しています"),
-        "fileTwo": MessageLookupByLibrary.simpleMessage(
-            "三年ぐらいプログラミングしています。flutterとiOSが好きですが、ウェブのフルスタッコ開発"),
+            MessageLookupByLibrary.simpleMessage("言語の勉強が好きなので、日本語を勉強しています"),
+        "fileTwo": MessageLookupByLibrary.simpleMessage("筑波大学で留学しています"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
+        "flutterInsideOfAWebsite":
+            MessageLookupByLibrary.simpleMessage("flutterアプリのウェッブサイトの中に"),
         "flutterWebBenefitEasyWebRelease":
             MessageLookupByLibrary.simpleMessage("ウェッブに既存のアプリリリスしやすい"),
         "flutterWebBenefitProgressiveWebApp":
@@ -80,7 +80,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "outstanding": MessageLookupByLibrary.simpleMessage("傑出"),
         "party": MessageLookupByLibrary.simpleMessage("パーティー 🎉"),
         "presentationTitle":
-            MessageLookupByLibrary.simpleMessage("Web上のFlutter"),
+            MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
         "presentationsInFlutter":
             MessageLookupByLibrary.simpleMessage("最先端のウェブサイトのためのエレメントエンベディング"),
         "reallyBad": MessageLookupByLibrary.simpleMessage("本当に悪い"),

@@ -599,6 +599,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Flutter apps inside of websites`
+  String get flutterInsideOfAWebsite {
+    return Intl.message(
+      'Flutter apps inside of websites',
+      name: 'flutterInsideOfAWebsite',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

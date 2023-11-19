@@ -17,6 +17,6 @@ class TitleSlideElizabeth extends StatelessWidget {
             begin: 400,
             end: 0,
             duration: 5.seconds,
-            delay: 30.seconds,
+            delay: 10.seconds,
           );
 }
