@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/05_embedding_process/widgets/build_web.dart';
 import 'package:flutter_show/slides/05_embedding_process/widgets/host_element.dart';
@@ -15,6 +16,7 @@ class EmbeddingProcessSlide extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final t = S.of(context);
     final presentation = ref.watch(presentationController);
 
     return DecoratedBox(
@@ -28,27 +30,27 @@ class EmbeddingProcessSlide extends ConsumerWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
-                'How to embedd your Flutter app?',
+                t.howToEmbedd,
                 style: KeynoteTextstyles.title(fontSize: 64),
               ),
               verticalMargin48,
               verticalMargin48,
-              const ExplanationStep(
+              ExplanationStep(
                 count: 1,
-                title: '- Build web version',
-                explanation: BuildWeb(),
+                title: t.buildWeb,
+                explanation: const BuildWeb(),
               ),
               verticalMargin48,
-              const ExplanationStep(
+              ExplanationStep(
                 count: 2,
-                title: '- Load script and initialize engine',
-                explanation: LoadScripts(),
+                title: t.initEngine,
+                explanation: const LoadScripts(),
               ),
               verticalMargin48,
-              const ExplanationStep(
+              ExplanationStep(
                 count: 3,
-                title: '- Load app into div',
-                explanation: HostElement(),
+                title: t.loadAppIntoDiv,
+                explanation: const HostElement(),
               ),
             ],
           ),

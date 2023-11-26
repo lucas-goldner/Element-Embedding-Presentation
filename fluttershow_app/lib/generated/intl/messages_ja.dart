@@ -31,6 +31,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "basic": MessageLookupByLibrary.simpleMessage("基本"),
         "benefits": MessageLookupByLibrary.simpleMessage("メリット"),
         "boring": MessageLookupByLibrary.simpleMessage("退屈"),
+        "buildWeb":
+            MessageLookupByLibrary.simpleMessage("- flutterアプリのwebのバシオンをビルドする"),
         "chatMessage1":
             MessageLookupByLibrary.simpleMessage("金さん、新しいアプリを作りました！"),
         "chatMessage2":
@@ -61,18 +63,24 @@ class MessageLookup extends MessageLookupByLibrary {
         "fileTwo": MessageLookupByLibrary.simpleMessage("筑波大学の留学"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterInsideOfAWebsite":
-            MessageLookupByLibrary.simpleMessage("flutterアプリのウェッブサイトの中に"),
+            MessageLookupByLibrary.simpleMessage("flutterアプリのwebサイトの中に"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "guyName": MessageLookupByLibrary.simpleMessage("新八さん"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
+        "howToEmbedd": MessageLookupByLibrary.simpleMessage("どうやってエンベディングする"),
+        "initEngine":
+            MessageLookupByLibrary.simpleMessage("- スクリップとエンジンを初期化する"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
         "lazy": MessageLookupByLibrary.simpleMessage("怠惰"),
+        "loadAppIntoDiv":
+            MessageLookupByLibrary.simpleMessage("- アプリはdivにロードする"),
         "madeWith": MessageLookupByLibrary.simpleMessage("このプレゼンフレームワークは"),
         "madeWithFlutter": MessageLookupByLibrary.simpleMessage("Flutterで作成💙"),
         "menu": MessageLookupByLibrary.simpleMessage("メニュー"),
         "motiviation": MessageLookupByLibrary.simpleMessage("モチベーション"),
         "mouse": MessageLookupByLibrary.simpleMessage("マウス"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Flutterではありません"),
+        "output": MessageLookupByLibrary.simpleMessage("アウトプット"),
         "outstanding": MessageLookupByLibrary.simpleMessage("傑出"),
         "party": MessageLookupByLibrary.simpleMessage("パーティー 🎉"),
         "presentationTitle":
@@ -89,6 +97,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "step2": MessageLookupByLibrary.simpleMessage("ステップ二"),
         "step3": MessageLookupByLibrary.simpleMessage("ステップ三"),
         "thanks": MessageLookupByLibrary.simpleMessage("ありがとう!"),
+        "webBuildCommand":
+            MessageLookupByLibrary.simpleMessage("webビリどのコマンドをする"),
         "what": MessageLookupByLibrary.simpleMessage("何")
       };
 }

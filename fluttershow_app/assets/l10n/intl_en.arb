@@ -54,5 +54,11 @@
   "chatMessage4": "PLEASE...",
   "chatMessage5": "Okay lets have a quick look",
   "chatMessage6": "Thanks a lot!",
-  "chatMessage7": "You can check it out here"
+  "chatMessage7": "You can check it out here",
+  "howToEmbedd": "How to embedd your Flutter app?",
+  "buildWeb": "- Build web version",
+  "webBuildCommand": "Run build command",
+  "output": "Output",
+  "initEngine": "- Load script and initialize engine",
+  "loadAppIntoDiv": "- Load app into div"
 }

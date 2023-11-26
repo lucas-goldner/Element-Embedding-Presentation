@@ -31,6 +31,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "basic": MessageLookupByLibrary.simpleMessage("Basic"),
         "benefits": MessageLookupByLibrary.simpleMessage("Benefits"),
         "boring": MessageLookupByLibrary.simpleMessage("Boring"),
+        "buildWeb": MessageLookupByLibrary.simpleMessage("- Build web version"),
         "chatMessage1": MessageLookupByLibrary.simpleMessage(
             "Hey Lucas I have released an new app!"),
         "chatMessage2": MessageLookupByLibrary.simpleMessage(
@@ -69,8 +70,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "guyName": MessageLookupByLibrary.simpleMessage("FlutterFAN98"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
+        "howToEmbedd": MessageLookupByLibrary.simpleMessage(
+            "How to embedd your Flutter app?"),
+        "initEngine": MessageLookupByLibrary.simpleMessage(
+            "- Load script and initialize engine"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),
         "lazy": MessageLookupByLibrary.simpleMessage("Lazy"),
+        "loadAppIntoDiv":
+            MessageLookupByLibrary.simpleMessage("- Load app into div"),
         "madeWith": MessageLookupByLibrary.simpleMessage("Made with:"),
         "madeWithFlutter":
             MessageLookupByLibrary.simpleMessage("Made with Flutter💙"),
@@ -78,6 +85,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "motiviation": MessageLookupByLibrary.simpleMessage("Motiviation"),
         "mouse": MessageLookupByLibrary.simpleMessage("Mouse"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Its not Flutter"),
+        "output": MessageLookupByLibrary.simpleMessage("Output"),
         "outstanding": MessageLookupByLibrary.simpleMessage("Outstanding"),
         "party": MessageLookupByLibrary.simpleMessage("Party 🎉"),
         "presentationTitle":
@@ -94,6 +102,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "step2": MessageLookupByLibrary.simpleMessage("Step Two"),
         "step3": MessageLookupByLibrary.simpleMessage("Step Three"),
         "thanks": MessageLookupByLibrary.simpleMessage("Thanks!"),
+        "webBuildCommand":
+            MessageLookupByLibrary.simpleMessage("Run build command"),
         "what": MessageLookupByLibrary.simpleMessage("What?")
       };
 }

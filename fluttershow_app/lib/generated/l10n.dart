@@ -609,6 +609,66 @@ class S {
       args: [],
     );
   }
+
+  /// `How to embedd your Flutter app?`
+  String get howToEmbedd {
+    return Intl.message(
+      'How to embedd your Flutter app?',
+      name: 'howToEmbedd',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `- Build web version`
+  String get buildWeb {
+    return Intl.message(
+      '- Build web version',
+      name: 'buildWeb',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Run build command`
+  String get webBuildCommand {
+    return Intl.message(
+      'Run build command',
+      name: 'webBuildCommand',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Output`
+  String get output {
+    return Intl.message(
+      'Output',
+      name: 'output',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `- Load script and initialize engine`
+  String get initEngine {
+    return Intl.message(
+      '- Load script and initialize engine',
+      name: 'initEngine',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `- Load app into div`
+  String get loadAppIntoDiv {
+    return Intl.message(
+      '- Load app into div',
+      name: 'loadAppIntoDiv',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

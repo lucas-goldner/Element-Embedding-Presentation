@@ -47,12 +47,18 @@
   "accept": "応答",
   "decline": "拒否",
   "faceTimeVideo": "Facetime ビデオ",
-  "flutterInsideOfAWebsite": "flutterアプリのウェッブサイトの中に",
+  "flutterInsideOfAWebsite": "flutterアプリのwebサイトの中に",
   "chatMessage1": "金さん、新しいアプリを作りました！",
   "chatMessage2": "早くホームページをチェックしてください！",
   "chatMessage3": "今ちょっと忙しいですけど。。。",
   "chatMessage4": "お願いします！",
   "chatMessage5": "オーけ、ちょっとだけ見ましょう",
   "chatMessage6": "ありがとうございます！！！これで見られます。",
-  "chatMessage7": "これで見られます。"
+  "chatMessage7": "これで見られます。",
+  "howToEmbedd": "どうやってエンベディングする",
+  "buildWeb": "- flutterアプリのwebのバシオンをビルドする",
+  "webBuildCommand": "webビリどのコマンドをする",
+  "output": "アウトプット",
+  "initEngine": "- スクリップとエンジンを初期化する",
+  "loadAppIntoDiv": "- アプリはdivにロードする"
 }
