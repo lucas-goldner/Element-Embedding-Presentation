@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
-import 'package:flutter_show/slides/03_element_emebdding/widgets/fake_slide/element_embedding_fake_slide.dart';
+import 'package:flutter_show/slides/03_element_emebdding/widgets/element_embedding_info.dart';
 import 'package:flutter_show/slides/03_element_emebdding/widgets/phone_call/chat_view.dart';
 import 'package:flutter_show/slides/03_element_emebdding/widgets/phone_call/facetime_call_box.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
@@ -20,7 +20,7 @@ class ElementEmbeddingSlide extends ConsumerWidget {
       ),
       child: Stack(
         children: [
-          const ElementEmbeddingFakeSlide(),
+          const ElementEmbeddingInfo(),
           Visibility(
             visible: presentation.animationIndex >= 5,
             child: AnimatedPositioned(

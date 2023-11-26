@@ -440,76 +440,6 @@ class S {
     );
   }
 
-  /// `Flutter Web State Card`
-  String get flutterWebStateCard {
-    return Intl.message(
-      'Flutter Web State Card',
-      name: 'flutterWebStateCard',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Good for progressive web apps`
-  String get flutterWebBenefitProgressiveWebApp {
-    return Intl.message(
-      'Good for progressive web apps',
-      name: 'flutterWebBenefitProgressiveWebApp',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Especially good for singlepage applications`
-  String get flutterWebBenefitSinglePageApp {
-    return Intl.message(
-      'Especially good for singlepage applications',
-      name: 'flutterWebBenefitSinglePageApp',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Easy to port existing apps to web`
-  String get flutterWebBenefitEasyWebRelease {
-    return Intl.message(
-      'Easy to port existing apps to web',
-      name: 'flutterWebBenefitEasyWebRelease',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Not good for Static websites with text-rich content`
-  String get flutterWebDownsideSEOHeavyWebsite {
-    return Intl.message(
-      'Not good for Static websites with text-rich content',
-      name: 'flutterWebDownsideSEOHeavyWebsite',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Only supports hot restart`
-  String get flutterWebDownsideHotRestart {
-    return Intl.message(
-      'Only supports hot restart',
-      name: 'flutterWebDownsideHotRestart',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Web support for some packages is lacking`
-  String get flutterWebDownsidePackageSupport {
-    return Intl.message(
-      'Web support for some packages is lacking',
-      name: 'flutterWebDownsidePackageSupport',
-      desc: '',
-      args: [],
-    );
-  }
-
   /// `Element Embedding`
   String get elementEmbedding {
     return Intl.message(
@@ -530,31 +460,31 @@ class S {
     );
   }
 
-  /// `njkawawdiokjnadw09uin12k qwd9u0qe2oink dawuadwio jk29`
-  String get noiseText1 {
+  /// `Flutterアプリをウェブサイトに統合する方法`
+  String get elementEmbInfo1 {
     return Intl.message(
-      'njkawawdiokjnadw09uin12k qwd9u0qe2oink dawuadwio jk29',
-      name: 'noiseText1',
+      'Flutterアプリをウェブサイトに統合する方法',
+      name: 'elementEmbInfo1',
       desc: '',
       args: [],
     );
   }
 
-  /// `ör23qi0ß90r2uijr29ufqw9jin-lq3r0ü#qr3oihqr3ho8r238hqrhoi`
-  String get noiseText2 {
+  /// `アプリとウェブサイト間で情報の交換が可能`
+  String get elementEmbInfo2 {
     return Intl.message(
-      'ör23qi0ß90r2uijr29ufqw9jin-lq3r0ü#qr3oihqr3ho8r238hqrhoi',
-      name: 'noiseText2',
+      'アプリとウェブサイト間で情報の交換が可能',
+      name: 'elementEmbInfo2',
       desc: '',
       args: [],
     );
   }
 
-  /// `okü2309r2jer12pokpoäq3r9uaw9niinr2hioa9j9jr29qfpijoklnfpo`
-  String get noiseText3 {
+  /// `アプリとウェブサイト間で情報の交換が可能`
+  String get elementEmbInfo3 {
     return Intl.message(
-      'okü2309r2jer12pokpoäq3r9uaw9niinr2hioa9j9jr29qfpijoklnfpo',
-      name: 'noiseText3',
+      'アプリとウェブサイト間で情報の交換が可能',
+      name: 'elementEmbInfo3',
       desc: '',
       args: [],
     );

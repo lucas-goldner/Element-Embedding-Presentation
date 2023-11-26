@@ -48,6 +48,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
         "decline": MessageLookupByLibrary.simpleMessage("Decline"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
+        "elementEmbInfo1":
+            MessageLookupByLibrary.simpleMessage("Flutterアプリをウェブサイトに統合する方法"),
+        "elementEmbInfo2":
+            MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
+        "elementEmbInfo3":
+            MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("Element Embedding"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime Video"),
@@ -60,23 +66,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterInsideOfAWebsite": MessageLookupByLibrary.simpleMessage(
             "Flutter apps inside of websites"),
-        "flutterWebBenefitEasyWebRelease": MessageLookupByLibrary.simpleMessage(
-            "Easy to port existing apps to web"),
-        "flutterWebBenefitProgressiveWebApp":
-            MessageLookupByLibrary.simpleMessage(
-                "Good for progressive web apps"),
-        "flutterWebBenefitSinglePageApp": MessageLookupByLibrary.simpleMessage(
-            "Especially good for singlepage applications"),
-        "flutterWebDownsideHotRestart":
-            MessageLookupByLibrary.simpleMessage("Only supports hot restart"),
-        "flutterWebDownsidePackageSupport":
-            MessageLookupByLibrary.simpleMessage(
-                "Web support for some packages is lacking"),
-        "flutterWebDownsideSEOHeavyWebsite":
-            MessageLookupByLibrary.simpleMessage(
-                "Not good for Static websites with text-rich content"),
-        "flutterWebStateCard":
-            MessageLookupByLibrary.simpleMessage("Flutter Web State Card"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "guyName": MessageLookupByLibrary.simpleMessage("FlutterFAN98"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
@@ -88,12 +77,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "menu": MessageLookupByLibrary.simpleMessage("Menu"),
         "motiviation": MessageLookupByLibrary.simpleMessage("Motiviation"),
         "mouse": MessageLookupByLibrary.simpleMessage("Mouse"),
-        "noiseText1": MessageLookupByLibrary.simpleMessage(
-            "njkawawdiokjnadw09uin12k qwd9u0qe2oink dawuadwio jk29"),
-        "noiseText2": MessageLookupByLibrary.simpleMessage(
-            "ör23qi0ß90r2uijr29ufqw9jin-lq3r0ü#qr3oihqr3ho8r238hqrhoi"),
-        "noiseText3": MessageLookupByLibrary.simpleMessage(
-            "okü2309r2jer12pokpoäq3r9uaw9niinr2hioa9j9jr29qfpijoklnfpo"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Its not Flutter"),
         "outstanding": MessageLookupByLibrary.simpleMessage("Outstanding"),
         "party": MessageLookupByLibrary.simpleMessage("Party 🎉"),

@@ -46,31 +46,22 @@ class MessageLookup extends MessageLookupByLibrary {
         "darkMode": MessageLookupByLibrary.simpleMessage("ダークモード"),
         "decline": MessageLookupByLibrary.simpleMessage("拒否"),
         "downsides": MessageLookupByLibrary.simpleMessage("デメリット"),
+        "elementEmbInfo1":
+            MessageLookupByLibrary.simpleMessage("Flutter 3.7から出来ます"),
+        "elementEmbInfo2":
+            MessageLookupByLibrary.simpleMessage("Flutterアプリをウェブサイトに統合する方法"),
+        "elementEmbInfo3":
+            MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime ビデオ"),
         "fileOne": MessageLookupByLibrary.simpleMessage(
             "🇩🇪🇧🇷\n23歳\nモバイルと\nウェブエンジニア"),
-        "fileThree":
-            MessageLookupByLibrary.simpleMessage("言語の勉強が好き\n今日本語を勉強しています"),
+        "fileThree": MessageLookupByLibrary.simpleMessage("２年ぐらい独学で本語を勉強しています"),
         "fileTwo": MessageLookupByLibrary.simpleMessage("筑波大学の留学"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterInsideOfAWebsite":
             MessageLookupByLibrary.simpleMessage("flutterアプリのウェッブサイトの中に"),
-        "flutterWebBenefitEasyWebRelease":
-            MessageLookupByLibrary.simpleMessage("ウェッブに既存のアプリリリスしやすい"),
-        "flutterWebBenefitProgressiveWebApp":
-            MessageLookupByLibrary.simpleMessage("プログレッシブウェブアプリに良い"),
-        "flutterWebBenefitSinglePageApp":
-            MessageLookupByLibrary.simpleMessage("シングルページアプリにとっても良い"),
-        "flutterWebDownsideHotRestart":
-            MessageLookupByLibrary.simpleMessage("ホットリロど出来ません"),
-        "flutterWebDownsidePackageSupport":
-            MessageLookupByLibrary.simpleMessage("たまにパケージはウェッブサポートがありません"),
-        "flutterWebDownsideSEOHeavyWebsite":
-            MessageLookupByLibrary.simpleMessage("静的なウェブページに多くのテキストがある場合❌"),
-        "flutterWebStateCard":
-            MessageLookupByLibrary.simpleMessage("Flutterウェッブのステージカードー"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "guyName": MessageLookupByLibrary.simpleMessage("新八さん"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
@@ -81,12 +72,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "menu": MessageLookupByLibrary.simpleMessage("メニュー"),
         "motiviation": MessageLookupByLibrary.simpleMessage("モチベーション"),
         "mouse": MessageLookupByLibrary.simpleMessage("マウス"),
-        "noiseText1":
-            MessageLookupByLibrary.simpleMessage("ケロケロケロケロケロケロケロケロケロケロケロケロケロ"),
-        "noiseText2":
-            MessageLookupByLibrary.simpleMessage("ワンワンワンワンワンワンワンワンワンワンワンワン"),
-        "noiseText3":
-            MessageLookupByLibrary.simpleMessage("ニャンニャンニャンニャンニャンニャン"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Flutterではありません"),
         "outstanding": MessageLookupByLibrary.simpleMessage("傑出"),
         "party": MessageLookupByLibrary.simpleMessage("パーティー 🎉"),

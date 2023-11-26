@@ -27,7 +27,7 @@ enum PagesOfPresentation {
     PresentationSlide(
       slideWidget: ElementEmbeddingSlide(),
       title: 'Element Embedding',
-      animationSteps: 13,
+      animationSteps: 12,
     ),
   ),
   websiteReview(

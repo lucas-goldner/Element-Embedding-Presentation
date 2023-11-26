@@ -6,8 +6,8 @@ import 'package:fluttershow_keynote/slides/title_and_bullets/keynote_title_and_b
 import 'package:fluttershow_keynote/style/keynote_textstyles.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class ElementEmbeddingFakeSlide extends ConsumerWidget {
-  const ElementEmbeddingFakeSlide({super.key});
+class ElementEmbeddingInfo extends ConsumerWidget {
+  const ElementEmbeddingInfo({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -22,7 +22,11 @@ class ElementEmbeddingFakeSlide extends ConsumerWidget {
         animationIndex: presentation.animationIndex,
         titleText: t.flutter,
         subTitleText: t.elementEmbedding,
-        bulletPoints: [t.noiseText1, t.noiseText2, t.noiseText3],
+        bulletPoints: [
+          t.elementEmbInfo1,
+          t.elementEmbInfo2,
+          t.elementEmbInfo3,
+        ],
         titleStyle: KeynoteTextstyles.title(),
         subtitleStyle: KeynoteTextstyles.subtitle(),
         bulletTextStyle: KeynoteTextstyles.body(),
