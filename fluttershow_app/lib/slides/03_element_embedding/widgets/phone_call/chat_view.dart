@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/assets.gen.dart';
 import 'package:flutter_show/generated/l10n.dart';
-import 'package:flutter_show/slides/03_element_emebdding/widgets/phone_call/chat_box.dart';
+import 'package:flutter_show/slides/03_element_embedding/widgets/phone_call/chat_box.dart';
 import 'package:flutter_show/styles/fs_text_styles.dart';
 import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:fluttershow_base/components/widgets/spacing/paddings.dart';
@@ -40,7 +40,10 @@ class ChatView extends StatelessWidget {
                       children: [
                         Text(
                           t.guyName,
-                          style: FSTextStyles.title(fontSize: 80),
+                          style: FSTextStyles.title(
+                            fontSize: 80,
+                            color: CupertinoColors.white,
+                          ),
                         ),
                       ],
                     ),

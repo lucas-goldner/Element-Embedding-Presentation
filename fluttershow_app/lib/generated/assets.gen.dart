@@ -130,8 +130,12 @@ class $AssetsImagesSharedGen {
   AssetGenImage get gdgtokyoLogo =>
       const AssetGenImage('assets/images/shared/gdgtokyo_logo.png');
 
+  /// File path: assets/images/shared/gdgtokyo_logo_dark_mode.png
+  AssetGenImage get gdgtokyoLogoDarkMode =>
+      const AssetGenImage('assets/images/shared/gdgtokyo_logo_dark_mode.png');
+
   /// List of all assets
-  List<dynamic> get values => [flutterIcon, gdgtokyoLogo];
+  List<dynamic> get values => [flutterIcon, gdgtokyoLogo, gdgtokyoLogoDarkMode];
 }
 
 class $AssetsImagesTitleSlideGen {

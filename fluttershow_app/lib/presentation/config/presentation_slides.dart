@@ -1,6 +1,6 @@
 import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
-import 'package:flutter_show/slides/03_element_emebdding/view/element_embedding_slide.dart';
+import 'package:flutter_show/slides/03_element_embedding/view/element_embedding_slide.dart';
 import 'package:flutter_show/slides/04_website_review/view/website_review_slide.dart';
 import 'package:flutter_show/slides/05_embedding_process/view/embedding_process_slide.dart';
 import 'package:flutter_show/slides/06_website_read_only/view/website_read_only_slide.dart';
