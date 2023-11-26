@@ -400,20 +400,20 @@ class S {
     );
   }
 
-  /// `🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory`
+  /// `🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM`
   String get fileOne {
     return Intl.message(
-      '🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory',
+      '🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM',
       name: 'fileOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development`
+  /// `Programming for 3 years\n\nMostly interested in Flutter and iOS development`
   String get fileTwo {
     return Intl.message(
-      'Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development',
+      'Programming for 3 years\n\nMostly interested in Flutter and iOS development',
       name: 'fileTwo',
       desc: '',
       args: [],
@@ -460,30 +460,30 @@ class S {
     );
   }
 
-  /// `Flutterアプリをウェブサイトに統合する方法`
+  /// `Released with Flutter 3.7`
   String get elementEmbInfo1 {
     return Intl.message(
-      'Flutterアプリをウェブサイトに統合する方法',
+      'Released with Flutter 3.7',
       name: 'elementEmbInfo1',
       desc: '',
       args: [],
     );
   }
 
-  /// `アプリとウェブサイト間で情報の交換が可能`
+  /// `Allows embedding Flutter apps into any website`
   String get elementEmbInfo2 {
     return Intl.message(
-      'アプリとウェブサイト間で情報の交換が可能',
+      'Allows embedding Flutter apps into any website',
       name: 'elementEmbInfo2',
       desc: '',
       args: [],
     );
   }
 
-  /// `アプリとウェブサイト間で情報の交換が可能`
+  /// `Sharing state between Flutter and JS`
   String get elementEmbInfo3 {
     return Intl.message(
-      'アプリとウェブサイト間で情報の交換が可能',
+      'Sharing state between Flutter and JS',
       name: 'elementEmbInfo3',
       desc: '',
       args: [],
@@ -665,6 +665,76 @@ class S {
     return Intl.message(
       '- Load app into div',
       name: 'loadAppIntoDiv',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Interact with app using JS Interop`
+  String get jsInteropInteract {
+    return Intl.message(
+      'Interact with app using JS Interop',
+      name: 'jsInteropInteract',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `- Setup Js Interop`
+  String get setupJSInterop {
+    return Intl.message(
+      '- Setup Js Interop',
+      name: 'setupJSInterop',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Add the js dependency`
+  String get addJSDep {
+    return Intl.message(
+      'Add the js dependency',
+      name: 'addJSDep',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Export state and functions`
+  String get exportStateAndFunctions {
+    return Intl.message(
+      'Export state and functions',
+      name: 'exportStateAndFunctions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `- Bind functions from Dart using Js`
+  String get bindFunctionsFromDart {
+    return Intl.message(
+      '- Bind functions from Dart using Js',
+      name: 'bindFunctionsFromDart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Init app state and set callbacks`
+  String get initAppStateSetCallbacks {
+    return Intl.message(
+      'Init app state and set callbacks',
+      name: 'initAppStateSetCallbacks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Set ids on input fields`
+  String get setIds {
+    return Intl.message(
+      'Set ids on input fields',
+      name: 'setIds',
       desc: '',
       args: [],
     );

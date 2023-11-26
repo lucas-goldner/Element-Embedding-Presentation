@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
 import 'package:flutter_show/slides/07_js_interop/widgets/bind_functions_in_js.dart';
 import 'package:flutter_show/slides/07_js_interop/widgets/setup_js_in_flutter.dart';
@@ -14,6 +15,7 @@ class JSInteropSlide extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final t = S.of(context);
     final presentation = ref.watch(presentationController);
 
     return DecoratedBox(
@@ -27,21 +29,21 @@ class JSInteropSlide extends ConsumerWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
-                'Interact with app using JS Interop',
+                t.jsInteropInteract,
                 style: KeynoteTextstyles.title(fontSize: 64),
               ),
               verticalMargin48,
               verticalMargin48,
-              const ExplanationStep(
+              ExplanationStep(
                 count: 1,
-                title: '- Setup JS Interop in Flutter app',
-                explanation: SetupJSInFlutter(),
+                title: t.setupJSInterop,
+                explanation: const SetupJSInFlutter(),
               ),
               verticalMargin48,
-              const ExplanationStep(
+              ExplanationStep(
                 count: 2,
-                title: '- Bind functions from Dart to JS',
-                explanation: BindFunctionsInsJs(),
+                title: t.bindFunctionsFromDart,
+                explanation: const BindFunctionsInsJs(),
               ),
             ],
           ),

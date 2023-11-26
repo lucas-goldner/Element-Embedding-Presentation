@@ -33,8 +33,6 @@ class $AssetsImagesGen {
   $AssetsImagesCustomGen get custom => const $AssetsImagesCustomGen();
   $AssetsImagesEmbeddingProcessGen get embeddingProcess =>
       const $AssetsImagesEmbeddingProcessGen();
-  $AssetsImagesGoldenHammerGen get goldenHammer =>
-      const $AssetsImagesGoldenHammerGen();
   $AssetsImagesIntroductionGen get introduction =>
       const $AssetsImagesIntroductionGen();
   $AssetsImagesJsInteropGen get jsInterop => const $AssetsImagesJsInteropGen();
@@ -93,21 +91,6 @@ class $AssetsImagesEmbeddingProcessGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [hostElement, loadingScripts, webOutput];
-}
-
-class $AssetsImagesGoldenHammerGen {
-  const $AssetsImagesGoldenHammerGen();
-
-  /// File path: assets/images/golden_hammer/explosion.png
-  AssetGenImage get explosion =>
-      const AssetGenImage('assets/images/golden_hammer/explosion.png');
-
-  /// File path: assets/images/golden_hammer/golden_hammer.png
-  AssetGenImage get goldenHammer =>
-      const AssetGenImage('assets/images/golden_hammer/golden_hammer.png');
-
-  /// List of all assets
-  List<AssetGenImage> get values => [explosion, goldenHammer];
 }
 
 class $AssetsImagesIntroductionGen {

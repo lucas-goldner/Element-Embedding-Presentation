@@ -23,6 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "accept": MessageLookupByLibrary.simpleMessage("応答"),
+        "addJSDep":
+            MessageLookupByLibrary.simpleMessage("pubspec.yamlに「js」を追加する"),
         "agenda": MessageLookupByLibrary.simpleMessage("アジェンダ"),
         "amazing": MessageLookupByLibrary.simpleMessage("驚くばかり"),
         "annoying": MessageLookupByLibrary.simpleMessage("厄介"),
@@ -30,6 +32,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "awesome": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "basic": MessageLookupByLibrary.simpleMessage("基本"),
         "benefits": MessageLookupByLibrary.simpleMessage("メリット"),
+        "bindFunctionsFromDart":
+            MessageLookupByLibrary.simpleMessage("- JsからDartの関数を接続する"),
         "boring": MessageLookupByLibrary.simpleMessage("退屈"),
         "buildWeb":
             MessageLookupByLibrary.simpleMessage("- flutterアプリのwebのバシオンをビルドする"),
@@ -56,6 +60,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
+        "exportStateAndFunctions":
+            MessageLookupByLibrary.simpleMessage("状態と関数を当てる"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime ビデオ"),
         "fileOne": MessageLookupByLibrary.simpleMessage(
             "🇩🇪🇧🇷\n23歳\nモバイルと\nウェブエンジニア"),
@@ -68,8 +74,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "guyName": MessageLookupByLibrary.simpleMessage("新八さん"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
         "howToEmbedd": MessageLookupByLibrary.simpleMessage("どうやってエンベディングする"),
+        "initAppStateSetCallbacks":
+            MessageLookupByLibrary.simpleMessage("アプリの状態を初期化するとコールバックをセットする"),
         "initEngine":
             MessageLookupByLibrary.simpleMessage("- スクリップとエンジンを初期化する"),
+        "jsInteropInteract": MessageLookupByLibrary.simpleMessage(
+            "Js Interopでアプリとウェブサイト間で情報の交換が可能"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
         "lazy": MessageLookupByLibrary.simpleMessage("怠惰"),
         "loadAppIntoDiv":
@@ -91,6 +101,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "repoLink": MessageLookupByLibrary.simpleMessage(
             "https://github.com/lucas-goldner/FlutterShow"),
         "selfIntroduction": MessageLookupByLibrary.simpleMessage("自己紹介"),
+        "setIds": MessageLookupByLibrary.simpleMessage("入力のためにidsをセットする"),
+        "setupJSInterop":
+            MessageLookupByLibrary.simpleMessage("- Js Interopのセットアップ"),
         "sideWidget": MessageLookupByLibrary.simpleMessage("サイドwidget"),
         "slides": MessageLookupByLibrary.simpleMessage("スライド"),
         "step1": MessageLookupByLibrary.simpleMessage("ステップ一"),

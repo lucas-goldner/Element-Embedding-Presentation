@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_show/generated/l10n.dart';
 import 'package:fluttershow_base/components/model/enum/code_display_themes.dart';
 import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:fluttershow_base/components/widgets/wrapper/code_display.dart';
@@ -8,63 +9,57 @@ class SetupJSInFlutter extends StatelessWidget {
   const SetupJSInFlutter({super.key});
 
   @override
-  Widget build(BuildContext context) => Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Add js dependency in pubspec.yaml',
-            style: KeynoteTextstyles.body(),
-          ),
-          verticalMargin24,
-          SizedBox(
-            width: 600,
-            child: CodeDisplay(
-              """
+  Widget build(BuildContext context) {
+    final t = S.of(context);
 
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          t.addJSDep,
+          style: KeynoteTextstyles.body(),
+        ),
+        verticalMargin24,
+        SizedBox(
+          width: 600,
+          child: CodeDisplay(
+            '''
+  
                 name: red_counter_app
-                description: "A new Flutter project."
-                publish_to: 'none'
-                
-                version: 1.0.0+1
+                description: "The best counter app ever. In Red!"
                 
                 environment:
-                  sdk: '>=3.2.0 <4.0.0'
+                ...
                 
                 dependencies:
                   flutter:
                     sdk: flutter
-                
-                  cupertino_icons: ^1.0.2
-                  js: ^0.6.7
-                
+                ...
+                  js: ^0.6.7 <<<<<<<<<<<<<<<<<<
+                ...
+  
                 dev_dependencies:
-                  flutter_test:
-                    sdk: flutter
+                ...
                 
-                  flutter_lints: ^2.0.0
-                
-                flutter:
-                  uses-material-design: true
-                
-                """,
-              codeColorTheme: CodeDisplayColorThemes.cobalt,
-              height: 560,
-              boxDecoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8),
-              ),
+                ''',
+            codeColorTheme: CodeDisplayColorThemes.cobalt,
+            height: 340,
+            boxDecoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
             ),
           ),
-          verticalMargin48,
-          Text(
-            'Export state and functions',
-            style: KeynoteTextstyles.body(),
-          ),
-          verticalMargin24,
-          SizedBox(
-            width: 720,
-            child: CodeDisplay(
-              """
-
+        ),
+        verticalMargin48,
+        Text(
+          t.exportStateAndFunctions,
+          style: KeynoteTextstyles.body(),
+        ),
+        verticalMargin24,
+        SizedBox(
+          width: 720,
+          child: CodeDisplay(
+            """
+  
           import 'dart:async';
           
           import 'package:flutter/material.dart';
@@ -143,13 +138,14 @@ class SetupJSInFlutter extends StatelessWidget {
             Widget build(BuildContext context) ...
           }
           """,
-              codeColorTheme: CodeDisplayColorThemes.cobalt,
-              height: 1600,
-              boxDecoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(8),
-              ),
+            codeColorTheme: CodeDisplayColorThemes.cobalt,
+            height: 1600,
+            boxDecoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
             ),
           ),
-        ],
-      );
+        ),
+      ],
+    );
+  }
 }

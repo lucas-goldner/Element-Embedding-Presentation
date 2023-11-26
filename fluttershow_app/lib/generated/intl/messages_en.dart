@@ -23,6 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
+        "addJSDep":
+            MessageLookupByLibrary.simpleMessage("Add the js dependency"),
         "agenda": MessageLookupByLibrary.simpleMessage("Agenda"),
         "amazing": MessageLookupByLibrary.simpleMessage("Amazing"),
         "annoying": MessageLookupByLibrary.simpleMessage("Annoying"),
@@ -30,6 +32,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "awesome": MessageLookupByLibrary.simpleMessage("Awesome"),
         "basic": MessageLookupByLibrary.simpleMessage("Basic"),
         "benefits": MessageLookupByLibrary.simpleMessage("Benefits"),
+        "bindFunctionsFromDart": MessageLookupByLibrary.simpleMessage(
+            "- Bind functions from Dart using Js"),
         "boring": MessageLookupByLibrary.simpleMessage("Boring"),
         "buildWeb": MessageLookupByLibrary.simpleMessage("- Build web version"),
         "chatMessage1": MessageLookupByLibrary.simpleMessage(
@@ -50,20 +54,22 @@ class MessageLookup extends MessageLookupByLibrary {
         "decline": MessageLookupByLibrary.simpleMessage("Decline"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
         "elementEmbInfo1":
-            MessageLookupByLibrary.simpleMessage("Flutterアプリをウェブサイトに統合する方法"),
-        "elementEmbInfo2":
-            MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
-        "elementEmbInfo3":
-            MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
+            MessageLookupByLibrary.simpleMessage("Released with Flutter 3.7"),
+        "elementEmbInfo2": MessageLookupByLibrary.simpleMessage(
+            "Allows embedding Flutter apps into any website"),
+        "elementEmbInfo3": MessageLookupByLibrary.simpleMessage(
+            "Sharing state between Flutter and JS"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("Element Embedding"),
+        "exportStateAndFunctions":
+            MessageLookupByLibrary.simpleMessage("Export state and functions"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime Video"),
         "fileOne": MessageLookupByLibrary.simpleMessage(
-            "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM\n\nWorking at Bitfactory"),
+            "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM"),
         "fileThree": MessageLookupByLibrary.simpleMessage(
             "Love learning languages\n\nCurrently studying Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
-            "Programming for 3 years\n\nMostly interested in Flutter and iOS development,\n\nFull stack dev for web development"),
+            "Programming for 3 years\n\nMostly interested in Flutter and iOS development"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterInsideOfAWebsite": MessageLookupByLibrary.simpleMessage(
             "Flutter apps inside of websites"),
@@ -72,8 +78,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "howToEmbedd": MessageLookupByLibrary.simpleMessage(
             "How to embedd your Flutter app?"),
+        "initAppStateSetCallbacks": MessageLookupByLibrary.simpleMessage(
+            "Init app state and set callbacks"),
         "initEngine": MessageLookupByLibrary.simpleMessage(
             "- Load script and initialize engine"),
+        "jsInteropInteract": MessageLookupByLibrary.simpleMessage(
+            "Interact with app using JS Interop"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),
         "lazy": MessageLookupByLibrary.simpleMessage("Lazy"),
         "loadAppIntoDiv":
@@ -96,6 +106,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "repoLink": MessageLookupByLibrary.simpleMessage(
             "https://github.com/lucas-goldner/FlutterShow"),
         "selfIntroduction": MessageLookupByLibrary.simpleMessage("About me"),
+        "setIds":
+            MessageLookupByLibrary.simpleMessage("Set ids on input fields"),
+        "setupJSInterop":
+            MessageLookupByLibrary.simpleMessage("- Setup Js Interop"),
         "sideWidget": MessageLookupByLibrary.simpleMessage("Side Widget"),
         "slides": MessageLookupByLibrary.simpleMessage("Slides"),
         "step1": MessageLookupByLibrary.simpleMessage("Step One"),

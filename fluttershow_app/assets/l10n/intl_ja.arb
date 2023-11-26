@@ -60,5 +60,12 @@
   "webBuildCommand": "webビリどのコマンドをする",
   "output": "アウトプット",
   "initEngine": "- スクリップとエンジンを初期化する",
-  "loadAppIntoDiv": "- アプリはdivにロードする"
+  "loadAppIntoDiv": "- アプリはdivにロードする",
+  "jsInteropInteract": "Js Interopでアプリとウェブサイト間で情報の交換が可能",
+  "setupJSInterop": "- Js Interopのセットアップ",
+  "addJSDep": "pubspec.yamlに「js」を追加する",
+  "exportStateAndFunctions": "状態と関数を当てる",
+  "bindFunctionsFromDart": "- JsからDartの関数を接続する",
+  "initAppStateSetCallbacks": "アプリの状態を初期化するとコールバックをセットする",
+  "setIds": "入力のためにidsをセットする"
 }
