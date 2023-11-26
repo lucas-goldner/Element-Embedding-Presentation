@@ -10,9 +10,15 @@ class WebView extends StatelessWidget {
   final String url;
 
   @override
-  Widget build(BuildContext context) => switch ((Platform.isMacOS, kIsWeb)) {
-        (true, false) => WebViewMacOs(url),
-        (false, true) => WebViewWeb(url),
-        (_, _) => throw UnsupportedError('Unsupported platform'),
-      };
+  Widget build(BuildContext context) {
+    if (kIsWeb) {
+      return WebViewWeb(url);
+    } else {
+      if (Platform.isMacOS) {
+        return WebViewMacOs(url);
+      }
+    }
+
+    throw UnsupportedError('Unsupported platform');
+  }
 }
