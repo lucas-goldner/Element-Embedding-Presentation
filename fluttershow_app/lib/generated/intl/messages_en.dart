@@ -53,12 +53,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "darkMode": MessageLookupByLibrary.simpleMessage("Darkmode"),
         "decline": MessageLookupByLibrary.simpleMessage("Decline"),
         "downsides": MessageLookupByLibrary.simpleMessage("Downsides"),
-        "elementEmbInfo1":
-            MessageLookupByLibrary.simpleMessage("Released with Flutter 3.7"),
+        "elementEmbInfo1": MessageLookupByLibrary.simpleMessage(
+            "Allows embedding Flutter apps into any website "),
         "elementEmbInfo2": MessageLookupByLibrary.simpleMessage(
-            "Allows embedding Flutter apps into any website"),
-        "elementEmbInfo3": MessageLookupByLibrary.simpleMessage(
             "Sharing state between Flutter and JS"),
+        "elementEmbInfo3":
+            MessageLookupByLibrary.simpleMessage("Released with Flutter 3.7"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("Element Embedding"),
         "exportStateAndFunctions":

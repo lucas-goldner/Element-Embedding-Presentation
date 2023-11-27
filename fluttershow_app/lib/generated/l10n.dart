@@ -460,30 +460,30 @@ class S {
     );
   }
 
-  /// `Released with Flutter 3.7`
+  /// `Allows embedding Flutter apps into any website `
   String get elementEmbInfo1 {
     return Intl.message(
-      'Released with Flutter 3.7',
+      'Allows embedding Flutter apps into any website ',
       name: 'elementEmbInfo1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Allows embedding Flutter apps into any website`
+  /// `Sharing state between Flutter and JS`
   String get elementEmbInfo2 {
     return Intl.message(
-      'Allows embedding Flutter apps into any website',
+      'Sharing state between Flutter and JS',
       name: 'elementEmbInfo2',
       desc: '',
       args: [],
     );
   }
 
-  /// `Sharing state between Flutter and JS`
+  /// `Released with Flutter 3.7`
   String get elementEmbInfo3 {
     return Intl.message(
-      'Sharing state between Flutter and JS',
+      'Released with Flutter 3.7',
       name: 'elementEmbInfo3',
       desc: '',
       args: [],

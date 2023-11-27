@@ -61,9 +61,6 @@ flutter:
         - asset: assets/fonts/GraphikRegular.otf
           weight: 400
 
-  shaders:
-    - shaders/glitch.frag
-
 flutter_intl:
   enabled: true
   main_locale: en

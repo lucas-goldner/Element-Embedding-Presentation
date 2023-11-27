@@ -36,12 +36,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("- JsからDartの関数を接続する"),
         "boring": MessageLookupByLibrary.simpleMessage("退屈"),
         "buildWeb":
-            MessageLookupByLibrary.simpleMessage("- flutterアプリのwebのバシオンをビルドする"),
+            MessageLookupByLibrary.simpleMessage("flutterアプリのwebのバシオンをビルドする"),
         "chatMessage1":
             MessageLookupByLibrary.simpleMessage("金さん、新しいアプリを作りました！"),
         "chatMessage2":
             MessageLookupByLibrary.simpleMessage("早くホームページをチェックしてください！"),
-        "chatMessage3": MessageLookupByLibrary.simpleMessage("今ちょっと忙しいですけど。。。"),
+        "chatMessage3": MessageLookupByLibrary.simpleMessage("今忙しいですけど。。。"),
         "chatMessage4": MessageLookupByLibrary.simpleMessage("お願いします！"),
         "chatMessage5": MessageLookupByLibrary.simpleMessage("オーけ、ちょっとだけ見ましょう"),
         "chatMessage6":
@@ -53,18 +53,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "decline": MessageLookupByLibrary.simpleMessage("拒否"),
         "downsides": MessageLookupByLibrary.simpleMessage("デメリット"),
         "elementEmbInfo1":
-            MessageLookupByLibrary.simpleMessage("Flutter 3.7から出来ます"),
-        "elementEmbInfo2":
             MessageLookupByLibrary.simpleMessage("Flutterアプリをウェブサイトに統合する方法"),
-        "elementEmbInfo3":
+        "elementEmbInfo2":
             MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
+        "elementEmbInfo3":
+            MessageLookupByLibrary.simpleMessage("Flutter 3.7から出来ます"),
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
         "exportStateAndFunctions":
             MessageLookupByLibrary.simpleMessage("状態と関数を当てる"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime ビデオ"),
-        "fileOne": MessageLookupByLibrary.simpleMessage(
-            "🇩🇪🇧🇷\n23歳\nモバイルと\nウェブエンジニア"),
+        "fileOne":
+            MessageLookupByLibrary.simpleMessage("🇩🇪🇧🇷\nモバイルと\nウェブエンジニア"),
         "fileThree": MessageLookupByLibrary.simpleMessage("２年ぐらい独学で本語を勉強しています"),
         "fileTwo": MessageLookupByLibrary.simpleMessage("筑波大学の留学"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
@@ -77,7 +77,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "initAppStateSetCallbacks":
             MessageLookupByLibrary.simpleMessage("アプリの状態を初期化するとコールバックをセットする"),
         "initEngine":
-            MessageLookupByLibrary.simpleMessage("- スクリップとエンジンを初期化する"),
+            MessageLookupByLibrary.simpleMessage("- スックリプトとエンジンを初期化する"),
         "jsInteropInteract": MessageLookupByLibrary.simpleMessage(
             "Js Interopでアプリとウェブサイト間で情報の交換が可能"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
