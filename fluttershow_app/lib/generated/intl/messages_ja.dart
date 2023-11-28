@@ -35,8 +35,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "bindFunctionsFromDart":
             MessageLookupByLibrary.simpleMessage("- JsからDartの関数を接続する"),
         "boring": MessageLookupByLibrary.simpleMessage("退屈"),
-        "buildWeb":
-            MessageLookupByLibrary.simpleMessage("flutterアプリのwebのバシオンをビルドする"),
+        "buildWeb": MessageLookupByLibrary.simpleMessage(
+            "- flutterアプリ(web)のバシオンをビルドする"),
         "chatMessage1":
             MessageLookupByLibrary.simpleMessage("金さん、新しいアプリを作りました！"),
         "chatMessage2":
@@ -44,8 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chatMessage3": MessageLookupByLibrary.simpleMessage("今忙しいですけど。。。"),
         "chatMessage4": MessageLookupByLibrary.simpleMessage("お願いします！"),
         "chatMessage5": MessageLookupByLibrary.simpleMessage("オーけ、ちょっとだけ見ましょう"),
-        "chatMessage6":
-            MessageLookupByLibrary.simpleMessage("ありがとうございます！！！これで見られます。"),
+        "chatMessage6": MessageLookupByLibrary.simpleMessage("ありがとうございます！！！"),
         "chatMessage7": MessageLookupByLibrary.simpleMessage("これで見られます。"),
         "close": MessageLookupByLibrary.simpleMessage("閉じる"),
         "custom": MessageLookupByLibrary.simpleMessage("カスタム"),
@@ -53,7 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "decline": MessageLookupByLibrary.simpleMessage("拒否"),
         "downsides": MessageLookupByLibrary.simpleMessage("デメリット"),
         "elementEmbInfo1":
-            MessageLookupByLibrary.simpleMessage("Flutterアプリをウェブサイトに統合する方法"),
+            MessageLookupByLibrary.simpleMessage("Flutterアプリをウェブサイトに組み合わせる方法"),
         "elementEmbInfo2":
             MessageLookupByLibrary.simpleMessage("アプリとウェブサイト間で情報の交換が可能"),
         "elementEmbInfo3":
@@ -61,7 +60,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "elementEmbedding":
             MessageLookupByLibrary.simpleMessage("エレメントエンベディング"),
         "exportStateAndFunctions":
-            MessageLookupByLibrary.simpleMessage("状態と関数を当てる"),
+            MessageLookupByLibrary.simpleMessage("状態と関数をエクスポートする"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime ビデオ"),
         "fileOne":
             MessageLookupByLibrary.simpleMessage("🇩🇪🇧🇷\nモバイルと\nウェブエンジニア"),
@@ -69,21 +68,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "fileTwo": MessageLookupByLibrary.simpleMessage("筑波大学の留学"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterInsideOfAWebsite":
-            MessageLookupByLibrary.simpleMessage("flutterアプリのwebサイトの中に"),
+            MessageLookupByLibrary.simpleMessage("flutterアプリがwebサイトの中に"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "guyName": MessageLookupByLibrary.simpleMessage("新八さん"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
-        "howToEmbedd": MessageLookupByLibrary.simpleMessage("どうやってエンベディングする"),
+        "howToEmbedd": MessageLookupByLibrary.simpleMessage("エンベディングの手順"),
         "initAppStateSetCallbacks":
-            MessageLookupByLibrary.simpleMessage("アプリの状態を初期化するとコールバックをセットする"),
+            MessageLookupByLibrary.simpleMessage("アプリの状態を初期化し、コールバックをセットする"),
         "initEngine":
-            MessageLookupByLibrary.simpleMessage("- スックリプトとエンジンを初期化する"),
+            MessageLookupByLibrary.simpleMessage("- スクリプトとエンジンを初期化する"),
         "jsInteropInteract": MessageLookupByLibrary.simpleMessage(
             "Js Interopでアプリとウェブサイト間で情報の交換が可能"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
         "lazy": MessageLookupByLibrary.simpleMessage("怠惰"),
         "loadAppIntoDiv":
-            MessageLookupByLibrary.simpleMessage("- アプリはdivにロードする"),
+            MessageLookupByLibrary.simpleMessage("- アプリをdivにロードする"),
         "madeWith": MessageLookupByLibrary.simpleMessage("このプレゼンフレームワークは"),
         "madeWithFlutter": MessageLookupByLibrary.simpleMessage("Flutterで作成💙"),
         "menu": MessageLookupByLibrary.simpleMessage("メニュー"),
@@ -111,7 +110,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "step3": MessageLookupByLibrary.simpleMessage("ステップ三"),
         "thanks": MessageLookupByLibrary.simpleMessage("ありがとう!"),
         "webBuildCommand":
-            MessageLookupByLibrary.simpleMessage("webビリどのコマンドをする"),
+            MessageLookupByLibrary.simpleMessage("webビリどのコマンドコマンド"),
         "what": MessageLookupByLibrary.simpleMessage("何")
       };
 }

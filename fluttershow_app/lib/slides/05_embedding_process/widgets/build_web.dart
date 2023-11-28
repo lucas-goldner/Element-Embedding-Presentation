@@ -18,12 +18,6 @@ class BuildWeb extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        verticalMargin16,
-        Text(
-          t.buildWeb,
-          style: KeynoteTextstyles.body(),
-        ),
-        verticalMargin4,
         SizedBox(
           width: 180,
           child: CodeDisplay(
