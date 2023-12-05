@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
+import 'package:flutter_show/slides/shared/constants.dart';
 import 'package:flutter_show/slides/shared/widgets/webview/web_view.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
 import 'package:fluttershow_keynote/slides/blank/keynote_blank_slide.dart';
@@ -17,7 +18,7 @@ class WebsiteReviewSlide extends ConsumerWidget {
         gradient: FSGradients.dynamicBackground(presentation.brightness),
       ),
       child: const KeynoteBlankSlide(
-        bodyWidget: WebView('https://red-counter-app-demo.vercel.app/'),
+        bodyWidget: WebView(PresentationConstants.baseURL),
       ),
     );
   }
