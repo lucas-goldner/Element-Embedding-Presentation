@@ -16,13 +16,13 @@ enum PagesOfPresentation {
       title: 'Title',
     ),
   ),
-  agendaSlide(
-    PresentationSlide(
-      slideWidget: IntroductionSlide(),
-      title: 'Introduction',
-      animationSteps: 4,
-    ),
-  ),
+  // agendaSlide(
+  //   PresentationSlide(
+  //     slideWidget: IntroductionSlide(),
+  //     title: 'Introduction',
+  //     animationSteps: 4,
+  //   ),
+  // ),
   elementEmbedding(
     PresentationSlide(
       slideWidget: ElementEmbeddingSlide(),
