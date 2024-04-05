@@ -71,8 +71,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "Programming for 3 years\n\nMostly interested in Flutter and iOS development"),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
-        "flutterInsideOfAWebsite": MessageLookupByLibrary.simpleMessage(
-            "Flutter apps inside of websites"),
+        "flutterInsideOfAWebsite":
+            MessageLookupByLibrary.simpleMessage("Element Embedding Made Easy"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "guyName": MessageLookupByLibrary.simpleMessage("FlutterFAN98"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
@@ -99,7 +99,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "outstanding": MessageLookupByLibrary.simpleMessage("Outstanding"),
         "party": MessageLookupByLibrary.simpleMessage("Party 🎉"),
         "presentationTitle":
-            MessageLookupByLibrary.simpleMessage("Flutter on the Web"),
+            MessageLookupByLibrary.simpleMessage("Flutter Web Laughs"),
         "presentationsInFlutter": MessageLookupByLibrary.simpleMessage(
             "Element Embedding for Next-Level Websites"),
         "reallyBad": MessageLookupByLibrary.simpleMessage("Really bad"),

@@ -11,7 +11,7 @@ class TitleSlideTokyoTower extends StatelessWidget {
         left: 40,
         child: Transform.rotate(
           angle: 270,
-          child: Assets.images.titleSlide.tokyoTower.image(
+          child: Assets.images.titleSlide.eiffelTower.svg(
             height: 500,
           ),
         ),

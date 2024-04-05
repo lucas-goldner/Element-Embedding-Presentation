@@ -3,8 +3,8 @@ import 'package:flutter/cupertino.dart';
 class FSGradients {
   static const LinearGradient titlePrimary = LinearGradient(
     colors: [
-      Color(0xFFFF57DD),
-      Color(0xFF56C2FF),
+      Color.fromARGB(255, 125, 211, 252),
+      Color.fromARGB(255, 165, 180, 252),
     ],
   );
 
@@ -22,8 +22,8 @@ class FSGradients {
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
     colors: [
-      Color(0xFF020202),
-      Color(0xFF333333),
+      Color.fromARGB(255, 4, 30, 60),
+      Color.fromARGB(255, 4, 30, 60),
     ],
     stops: [0.1, 1.0],
   );

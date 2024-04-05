@@ -39,8 +39,6 @@ class $AssetsImagesGen {
   $AssetsImagesSharedGen get shared => const $AssetsImagesSharedGen();
   $AssetsImagesTitleSlideGen get titleSlide =>
       const $AssetsImagesTitleSlideGen();
-  $AssetsImagesWebsiteReviewGen get websiteReview =>
-      const $AssetsImagesWebsiteReviewGen();
 }
 
 class $AssetsRiveGen {
@@ -141,9 +139,21 @@ class $AssetsImagesSharedGen {
 class $AssetsImagesTitleSlideGen {
   const $AssetsImagesTitleSlideGen();
 
+  /// File path: assets/images/title_slide/Eiffel_tower.svg
+  SvgGenImage get eiffelTower =>
+      const SvgGenImage('assets/images/title_slide/Eiffel_tower.svg');
+
   /// File path: assets/images/title_slide/elizabeth_welcome.png
   AssetGenImage get elizabethWelcome =>
       const AssetGenImage('assets/images/title_slide/elizabeth_welcome.png');
+
+  /// File path: assets/images/title_slide/flutterconnection_logo.svg
+  SvgGenImage get flutterconnectionLogo =>
+      const SvgGenImage('assets/images/title_slide/flutterconnection_logo.svg');
+
+  /// File path: assets/images/title_slide/louvre-paris.svg
+  SvgGenImage get louvreParis =>
+      const SvgGenImage('assets/images/title_slide/louvre-paris.svg');
 
   /// File path: assets/images/title_slide/meiji_jingu.png
   AssetGenImage get meijiJingu =>
@@ -158,19 +168,15 @@ class $AssetsImagesTitleSlideGen {
       const AssetGenImage('assets/images/title_slide/tokyo_tower.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [elizabethWelcome, meijiJingu, osakaCastle, tokyoTower];
-}
-
-class $AssetsImagesWebsiteReviewGen {
-  const $AssetsImagesWebsiteReviewGen();
-
-  /// File path: assets/images/website_review/website_preview.png
-  AssetGenImage get websitePreview =>
-      const AssetGenImage('assets/images/website_review/website_preview.png');
-
-  /// List of all assets
-  List<AssetGenImage> get values => [websitePreview];
+  List<dynamic> get values => [
+        eiffelTower,
+        elizabethWelcome,
+        flutterconnectionLogo,
+        louvreParis,
+        meijiJingu,
+        osakaCastle,
+        tokyoTower
+      ];
 }
 
 class Assets {

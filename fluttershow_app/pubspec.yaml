@@ -46,10 +46,10 @@ flutter:
     - assets/images/shared/
     - assets/images/introduction/
     - assets/images/title_slide/
-    - assets/images/website_review/
     - assets/images/embedding_process/
     - assets/images/js_interop/
     - assets/rive/
+    - assets/video/
 
   fonts:
     - family: Graphik

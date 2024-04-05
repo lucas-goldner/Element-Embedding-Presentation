@@ -140,10 +140,10 @@ class S {
     );
   }
 
-  /// `Flutter on the Web`
+  /// `Flutter Web Laughs`
   String get presentationTitle {
     return Intl.message(
-      'Flutter on the Web',
+      'Flutter Web Laughs',
       name: 'presentationTitle',
       desc: '',
       args: [],
@@ -530,10 +530,10 @@ class S {
     );
   }
 
-  /// `Flutter apps inside of websites`
+  /// `Element Embedding Made Easy`
   String get flutterInsideOfAWebsite {
     return Intl.message(
-      'Flutter apps inside of websites',
+      'Element Embedding Made Easy',
       name: 'flutterInsideOfAWebsite',
       desc: '',
       args: [],
