@@ -1,4 +1,5 @@
 import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/assets.gen.dart';
@@ -7,7 +8,6 @@ import 'package:flutter_show/slides/03_element_embedding/widgets/phone_call/chat
 import 'package:flutter_show/styles/fs_text_styles.dart';
 import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:fluttershow_base/components/widgets/spacing/paddings.dart';
-import 'package:rive/rive.dart';
 
 class ChatView extends StatelessWidget {
   const ChatView({super.key});
@@ -36,12 +36,13 @@ class ChatView extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    verticalMargin16,
                     Row(
                       children: [
                         Text(
                           t.guyName,
                           style: FSTextStyles.title(
-                            fontSize: 80,
+                            fontSize: 60,
                             color: CupertinoColors.white,
                           ),
                         ),
@@ -49,12 +50,9 @@ class ChatView extends StatelessWidget {
                     ),
                     verticalMargin48,
                     CircleAvatar(
-                      radius: 240,
+                      radius: 20,
                       child: ClipOval(
-                        child: RiveAnimation.asset(
-                          Assets.rive.guy,
-                          artboard: 'Guy',
-                        ),
+                        child: Assets.images.videoCall.raouf.image(),
                       ),
                     ),
                   ],

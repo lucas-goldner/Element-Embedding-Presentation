@@ -48,6 +48,7 @@ flutter:
     - assets/images/title_slide/
     - assets/images/embedding_process/
     - assets/images/js_interop/
+    - assets/images/video_call/
     - assets/rive/
     - assets/video/
 

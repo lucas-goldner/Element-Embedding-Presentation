@@ -74,7 +74,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "flutterInsideOfAWebsite":
             MessageLookupByLibrary.simpleMessage("Element Embedding Made Easy"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
-        "guyName": MessageLookupByLibrary.simpleMessage("FlutterFAN98"),
+        "guyName": MessageLookupByLibrary.simpleMessage("Raouf Rahiche"),
         "hiIam": MessageLookupByLibrary.simpleMessage("Hi, I am"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "howToEmbedd": MessageLookupByLibrary.simpleMessage(

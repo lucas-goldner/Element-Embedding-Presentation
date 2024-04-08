@@ -33,10 +33,7 @@ class FacetimeCallBox extends ConsumerWidget {
             CircleAvatar(
               radius: 20,
               child: ClipOval(
-                child: RiveAnimation.asset(
-                  Assets.rive.guy,
-                  artboard: 'Guy',
-                ),
+                child: Assets.images.videoCall.raouf.image(),
               ),
             ),
             horizontalMargin16,

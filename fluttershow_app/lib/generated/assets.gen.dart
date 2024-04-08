@@ -39,6 +39,7 @@ class $AssetsImagesGen {
   $AssetsImagesSharedGen get shared => const $AssetsImagesSharedGen();
   $AssetsImagesTitleSlideGen get titleSlide =>
       const $AssetsImagesTitleSlideGen();
+  $AssetsImagesVideoCallGen get videoCall => const $AssetsImagesVideoCallGen();
 }
 
 class $AssetsRiveGen {
@@ -191,6 +192,17 @@ class $AssetsImagesTitleSlideGen {
         osakaCastle,
         tokyoTower
       ];
+}
+
+class $AssetsImagesVideoCallGen {
+  const $AssetsImagesVideoCallGen();
+
+  /// File path: assets/images/video_call/raouf.jpg
+  AssetGenImage get raouf =>
+      const AssetGenImage('assets/images/video_call/raouf.jpg');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [raouf];
 }
 
 class Assets {

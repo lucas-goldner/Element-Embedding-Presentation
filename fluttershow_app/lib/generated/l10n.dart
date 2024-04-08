@@ -490,10 +490,10 @@ class S {
     );
   }
 
-  /// `FlutterFAN98`
+  /// `Raouf Rahiche`
   String get guyName {
     return Intl.message(
-      'FlutterFAN98',
+      'Raouf Rahiche',
       name: 'guyName',
       desc: '',
       args: [],
