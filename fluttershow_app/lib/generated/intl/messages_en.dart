@@ -64,17 +64,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "exportStateAndFunctions":
             MessageLookupByLibrary.simpleMessage("Export state and functions"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime Video"),
-        "fileOne": MessageLookupByLibrary.simpleMessage(
-            "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM"),
+        "fileOne":
+            MessageLookupByLibrary.simpleMessage("🇩🇪🇧🇷\n\n23 years old"),
         "fileThree": MessageLookupByLibrary.simpleMessage(
             "Love learning languages\n\nCurrently studying Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
-            "Programming for 3 years\n\nMostly interested in Flutter and iOS development"),
+            "Working now at: YOUTRUST Inc."),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
         "flutterInsideOfAWebsite":
             MessageLookupByLibrary.simpleMessage("Element Embedding Made Easy"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
         "guyName": MessageLookupByLibrary.simpleMessage("FlutterFAN98"),
+        "hiIam": MessageLookupByLibrary.simpleMessage("Hi, I am"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "howToEmbedd": MessageLookupByLibrary.simpleMessage(
             "How to embedd your Flutter app?"),
@@ -88,6 +89,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "lazy": MessageLookupByLibrary.simpleMessage("Lazy"),
         "loadAppIntoDiv":
             MessageLookupByLibrary.simpleMessage("- Load app into div"),
+        "lucasGoldner":
+            MessageLookupByLibrary.simpleMessage("Lucas Goldner ⚡️"),
         "madeWith": MessageLookupByLibrary.simpleMessage("Made with:"),
         "madeWithFlutter":
             MessageLookupByLibrary.simpleMessage("Made with Flutter💙"),

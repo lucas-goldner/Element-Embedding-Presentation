@@ -34,8 +34,8 @@
   "step2": "Step Two",
   "step3": "Step Three",
   "selfIntroduction": "About me",
-  "fileOne": "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM",
-  "fileTwo": "Programming for 3 years\n\nMostly interested in Flutter and iOS development",
+  "fileOne": "🇩🇪🇧🇷\n\n23 years old",
+  "fileTwo": "Working now at: YOUTRUST Inc.",
   "fileThree": "Love learning languages\n\nCurrently studying Japanese🇯🇵",
   "what": "What?",
   "elementEmbedding": "Element Embedding",
@@ -67,5 +67,7 @@
   "exportStateAndFunctions": "Export state and functions",
   "bindFunctionsFromDart": "- Bind functions from Dart using Js",
   "initAppStateSetCallbacks": "Init app state and set callbacks",
-  "setIds": "Set ids on input fields"
+  "setIds": "Set ids on input fields",
+  "hiIam": "Hi, I am",
+  "lucasGoldner": "Lucas Goldner ⚡️"
 }

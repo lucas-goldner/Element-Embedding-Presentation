@@ -400,20 +400,20 @@ class S {
     );
   }
 
-  /// `🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM`
+  /// `🇩🇪🇧🇷\n\n23 years old`
   String get fileOne {
     return Intl.message(
-      '🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM',
+      '🇩🇪🇧🇷\n\n23 years old',
       name: 'fileOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Programming for 3 years\n\nMostly interested in Flutter and iOS development`
+  /// `Working now at: YOUTRUST Inc.`
   String get fileTwo {
     return Intl.message(
-      'Programming for 3 years\n\nMostly interested in Flutter and iOS development',
+      'Working now at: YOUTRUST Inc.',
       name: 'fileTwo',
       desc: '',
       args: [],
@@ -735,6 +735,26 @@ class S {
     return Intl.message(
       'Set ids on input fields',
       name: 'setIds',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hi, I am`
+  String get hiIam {
+    return Intl.message(
+      'Hi, I am',
+      name: 'hiIam',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lucas Goldner ⚡️`
+  String get lucasGoldner {
+    return Intl.message(
+      'Lucas Goldner ⚡️',
+      name: 'lucasGoldner',
       desc: '',
       args: [],
     );

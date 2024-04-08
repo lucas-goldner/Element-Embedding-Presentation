@@ -54,6 +54,16 @@ class $AssetsRiveGen {
   List<String> get values => [folder, guy];
 }
 
+class $AssetsVideoGen {
+  const $AssetsVideoGen();
+
+  /// File path: assets/video/call.MP4
+  String get call => 'assets/video/call.MP4';
+
+  /// List of all assets
+  List<String> get values => [call];
+}
+
 class $AssetsImagesCustomGen {
   const $AssetsImagesCustomGen();
 
@@ -94,12 +104,16 @@ class $AssetsImagesEmbeddingProcessGen {
 class $AssetsImagesIntroductionGen {
   const $AssetsImagesIntroductionGen();
 
-  /// File path: assets/images/introduction/tsukuba_daigaku.png
-  AssetGenImage get tsukubaDaigaku =>
-      const AssetGenImage('assets/images/introduction/tsukuba_daigaku.png');
+  /// File path: assets/images/introduction/lucas.jpeg
+  AssetGenImage get lucas =>
+      const AssetGenImage('assets/images/introduction/lucas.jpeg');
+
+  /// File path: assets/images/introduction/youtrust.png
+  AssetGenImage get youtrust =>
+      const AssetGenImage('assets/images/introduction/youtrust.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [tsukubaDaigaku];
+  List<AssetGenImage> get values => [lucas, youtrust];
 }
 
 class $AssetsImagesJsInteropGen {
@@ -185,6 +199,7 @@ class Assets {
   static const $AssetsFontsGen fonts = $AssetsFontsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsRiveGen rive = $AssetsRiveGen();
+  static const $AssetsVideoGen video = $AssetsVideoGen();
 }
 
 class AssetGenImage {
