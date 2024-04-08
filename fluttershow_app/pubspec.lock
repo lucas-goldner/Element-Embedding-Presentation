@@ -738,6 +738,46 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.0+1"
+  video_player:
+    dependency: "direct main"
+    description:
+      name: video_player
+      sha256: efa2e24042166906ddf836dd131258d0371d0009cdf0476f6a83fd992a17f5d0
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.8.5"
+  video_player_android:
+    dependency: transitive
+    description:
+      name: video_player_android
+      sha256: "4dd9b8b86d70d65eecf3dcabfcdfbb9c9115d244d022654aba49a00336d540c2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.12"
+  video_player_avfoundation:
+    dependency: transitive
+    description:
+      name: video_player_avfoundation
+      sha256: "309e3962795e761be010869bae65c0b0e45b5230c5cee1bec72197ca7db040ed"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.6"
+  video_player_platform_interface:
+    dependency: transitive
+    description:
+      name: video_player_platform_interface
+      sha256: "236454725fafcacf98f0f39af0d7c7ab2ce84762e3b63f2cbb3ef9a7e0550bc6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.2.2"
+  video_player_web:
+    dependency: transitive
+    description:
+      name: video_player_web
+      sha256: "41245cef5ef29c4585dbabcbcbe9b209e34376642c7576cabf11b4ad9289d6e4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.0"
   vm_service:
     dependency: transitive
     description:
@@ -754,6 +794,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+  web:
+    dependency: transitive
+    description:
+      name: web
+      sha256: "97da13628db363c635202ad97068d47c5b8aa555808e7a9411963c533b449b27"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.1"
   webview_flutter:
     dependency: transitive
     description:
@@ -803,5 +851,5 @@ packages:
     source: hosted
     version: "3.1.2"
 sdks:
-  dart: ">=3.2.0-0 <4.0.0"
-  flutter: ">=3.10.0"
+  dart: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"

@@ -4,7 +4,6 @@ import 'package:flutter_show/generated/assets.gen.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:rive/rive.dart';
 
 class FacetimeCallBox extends ConsumerWidget {
   const FacetimeCallBox({super.key});
