@@ -69,5 +69,6 @@
   "initAppStateSetCallbacks": "Init app state and set callbacks",
   "setIds": "Set ids on input fields",
   "hiIam": "Hi, I am",
-  "lucasGoldner": "Lucas Goldner ⚡️"
+  "lucasGoldner": "Lucas Goldner ⚡️",
+  "andThatsIt": "And that's it!"
 }

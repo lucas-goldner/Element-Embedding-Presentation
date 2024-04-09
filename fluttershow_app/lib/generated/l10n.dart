@@ -759,6 +759,16 @@ class S {
       args: [],
     );
   }
+
+  /// `And that's it!`
+  String get andThatsIt {
+    return Intl.message(
+      'And that\'s it!',
+      name: 'andThatsIt',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

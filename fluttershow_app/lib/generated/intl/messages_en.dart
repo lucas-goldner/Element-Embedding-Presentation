@@ -27,6 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Add the js dependency"),
         "agenda": MessageLookupByLibrary.simpleMessage("Agenda"),
         "amazing": MessageLookupByLibrary.simpleMessage("Amazing"),
+        "andThatsIt": MessageLookupByLibrary.simpleMessage("And that\'s it!"),
         "annoying": MessageLookupByLibrary.simpleMessage("Annoying"),
         "author": MessageLookupByLibrary.simpleMessage("Made by Lucas Goldner"),
         "awesome": MessageLookupByLibrary.simpleMessage("Awesome"),

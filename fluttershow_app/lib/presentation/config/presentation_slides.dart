@@ -2,7 +2,9 @@ import 'package:flutter_show/slides/01_title/view/title_slide.dart';
 import 'package:flutter_show/slides/02_introduction/view/introduction_slide.dart';
 import 'package:flutter_show/slides/03_element_embedding/view/element_embedding_slide.dart';
 import 'package:flutter_show/slides/04_website_review/view/website_review_slide.dart';
-import 'package:flutter_show/slides/05_embedding_process/view/embedding_process_slide.dart';
+import 'package:flutter_show/slides/05_embedding_process/view/embedding_process_slide_1.dart';
+import 'package:flutter_show/slides/05_embedding_process/view/embedding_process_slide_2.dart';
+import 'package:flutter_show/slides/05_embedding_process/view/embedding_process_slide_3.dart';
 import 'package:flutter_show/slides/06_website_read_only/view/website_read_only_slide.dart';
 import 'package:flutter_show/slides/07_js_interop/view/js_interop_slide.dart';
 import 'package:flutter_show/slides/08_website_interactive/view/website_interactive.dart';
@@ -38,7 +40,19 @@ enum PagesOfPresentation {
   ),
   embeddingProcess(
     PresentationSlide(
-      slideWidget: EmbeddingProcessSlide(),
+      slideWidget: EmbeddingProcessSlide1(),
+      title: 'Embedding Process',
+    ),
+  ),
+  embeddingProcess2(
+    PresentationSlide(
+      slideWidget: EmbeddingProcessSlide2(),
+      title: 'Embedding Process',
+    ),
+  ),
+  embeddingProcess3(
+    PresentationSlide(
+      slideWidget: EmbeddingProcessSlide3(),
       title: 'Embedding Process',
       animationSteps: 2,
     ),
