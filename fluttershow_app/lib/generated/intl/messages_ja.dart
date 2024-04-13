@@ -25,8 +25,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "accept": MessageLookupByLibrary.simpleMessage("応答"),
         "addJSDep":
             MessageLookupByLibrary.simpleMessage("pubspec.yamlに「js」を追加する"),
+        "adjustmentsReact": MessageLookupByLibrary.simpleMessage(
+            "Adjustments for React were necessary"),
         "agenda": MessageLookupByLibrary.simpleMessage("アジェンダ"),
         "amazing": MessageLookupByLibrary.simpleMessage("驚くばかり"),
+        "andThatsIt": MessageLookupByLibrary.simpleMessage("And that\'s it!"),
         "annoying": MessageLookupByLibrary.simpleMessage("厄介"),
         "author": MessageLookupByLibrary.simpleMessage("金・ルーカス"),
         "awesome": MessageLookupByLibrary.simpleMessage("素晴らしい"),
@@ -71,6 +74,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("flutterアプリがwebサイトの中に"),
         "great": MessageLookupByLibrary.simpleMessage("素晴らしい"),
         "guyName": MessageLookupByLibrary.simpleMessage("新八さん"),
+        "hiIam": MessageLookupByLibrary.simpleMessage("Hi, I am"),
         "hidden": MessageLookupByLibrary.simpleMessage("非表示"),
         "howToEmbedd": MessageLookupByLibrary.simpleMessage("エンベディングの手順"),
         "initAppStateSetCallbacks":
@@ -83,12 +87,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "lazy": MessageLookupByLibrary.simpleMessage("怠惰"),
         "loadAppIntoDiv":
             MessageLookupByLibrary.simpleMessage("- アプリをdivにロードする"),
+        "lucasGoldner":
+            MessageLookupByLibrary.simpleMessage("Lucas Goldner ⚡️"),
         "madeWith": MessageLookupByLibrary.simpleMessage("このプレゼンフレームワークは"),
         "madeWithFlutter": MessageLookupByLibrary.simpleMessage("Flutterで作成💙"),
         "menu": MessageLookupByLibrary.simpleMessage("メニュー"),
         "motiviation": MessageLookupByLibrary.simpleMessage("モチベーション"),
         "mouse": MessageLookupByLibrary.simpleMessage("マウス"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Flutterではありません"),
+        "otherFrameworks":
+            MessageLookupByLibrary.simpleMessage("Other Frameworks"),
         "output": MessageLookupByLibrary.simpleMessage("アウトプット"),
         "outstanding": MessageLookupByLibrary.simpleMessage("傑出"),
         "party": MessageLookupByLibrary.simpleMessage("パーティー 🎉"),
@@ -111,6 +119,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "thanks": MessageLookupByLibrary.simpleMessage("ありがとう!"),
         "webBuildCommand":
             MessageLookupByLibrary.simpleMessage("webビリどのコマンドコマンド"),
-        "what": MessageLookupByLibrary.simpleMessage("何")
+        "what": MessageLookupByLibrary.simpleMessage("何"),
+        "worksWith": MessageLookupByLibrary.simpleMessage(
+            "Will work anywhere by loading scripts")
       };
 }

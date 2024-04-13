@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:flutter_show/presentation/provider/presentation_controller_provider.dart';
-import 'package:flutter_show/slides/01_title/widgets/title_slide_elizabeth.dart';
-import 'package:flutter_show/slides/01_title/widgets/title_slide_gdg_tokyo_logo.dart';
-import 'package:flutter_show/slides/01_title/widgets/title_slide_meiji_jingu.dart';
+import 'package:flutter_show/slides/01_title/widgets/title_slide_flutter_connection_logo.dart';
+import 'package:flutter_show/slides/01_title/widgets/title_slide_louvre.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_title.dart';
 import 'package:flutter_show/slides/01_title/widgets/title_slide_tokyo_tower.dart';
 import 'package:flutter_show/styles/fs_gradients.dart';
@@ -38,10 +37,9 @@ class TitleSlide extends ConsumerWidget {
             titleWidgetReplacement: const TitleSlideTitle(),
             titleSubTitleSpacing: verticalMargin12,
           ),
-          const TitleSlideGDGTokyoLogo(),
-          const TitleSlideMeijiJingu(),
+          const TitleSlideFlutterConnectionLogo(),
+          const TitleSlideLouvre(),
           const TitleSlideTokyoTower(),
-          const TitleSlideElizabeth(),
         ],
       ),
     );

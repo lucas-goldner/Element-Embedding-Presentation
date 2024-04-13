@@ -28,6 +28,7 @@ dependencies:
   intl_utils: ^2.8.1
   rive: ^0.12.3
   scratcher: ^2.3.0
+  video_player: ^2.8.5
 
 dev_dependencies:
   dart_code_metrics: ^5.7.3
@@ -46,10 +47,11 @@ flutter:
     - assets/images/shared/
     - assets/images/introduction/
     - assets/images/title_slide/
-    - assets/images/website_review/
     - assets/images/embedding_process/
     - assets/images/js_interop/
+    - assets/images/video_call/
     - assets/rive/
+    - assets/video/
 
   fonts:
     - family: Graphik

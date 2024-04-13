@@ -4,7 +4,6 @@ import 'package:flutter_show/generated/assets.gen.dart';
 import 'package:flutter_show/generated/l10n.dart';
 import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:rive/rive.dart';
 
 class FacetimeCallBox extends ConsumerWidget {
   const FacetimeCallBox({super.key});
@@ -33,10 +32,7 @@ class FacetimeCallBox extends ConsumerWidget {
             CircleAvatar(
               radius: 20,
               child: ClipOval(
-                child: RiveAnimation.asset(
-                  Assets.rive.guy,
-                  artboard: 'Guy',
-                ),
+                child: Assets.images.videoCall.raouf.image(),
               ),
             ),
             horizontalMargin16,

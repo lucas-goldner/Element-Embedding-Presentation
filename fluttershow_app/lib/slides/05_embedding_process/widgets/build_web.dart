@@ -32,7 +32,7 @@ class BuildWeb extends StatelessWidget {
           style: KeynoteTextstyles.body(),
         ),
         verticalMargin16,
-        Assets.images.embeddingProcess.webOutput.image(),
+        Assets.images.embeddingProcess.webOutput.image(height: 400),
       ],
     );
   }

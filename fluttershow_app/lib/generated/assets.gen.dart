@@ -39,8 +39,7 @@ class $AssetsImagesGen {
   $AssetsImagesSharedGen get shared => const $AssetsImagesSharedGen();
   $AssetsImagesTitleSlideGen get titleSlide =>
       const $AssetsImagesTitleSlideGen();
-  $AssetsImagesWebsiteReviewGen get websiteReview =>
-      const $AssetsImagesWebsiteReviewGen();
+  $AssetsImagesVideoCallGen get videoCall => const $AssetsImagesVideoCallGen();
 }
 
 class $AssetsRiveGen {
@@ -54,6 +53,16 @@ class $AssetsRiveGen {
 
   /// List of all assets
   List<String> get values => [folder, guy];
+}
+
+class $AssetsVideoGen {
+  const $AssetsVideoGen();
+
+  /// File path: assets/video/call.MP4
+  String get call => 'assets/video/call.MP4';
+
+  /// List of all assets
+  List<String> get values => [call];
 }
 
 class $AssetsImagesCustomGen {
@@ -96,12 +105,16 @@ class $AssetsImagesEmbeddingProcessGen {
 class $AssetsImagesIntroductionGen {
   const $AssetsImagesIntroductionGen();
 
-  /// File path: assets/images/introduction/tsukuba_daigaku.png
-  AssetGenImage get tsukubaDaigaku =>
-      const AssetGenImage('assets/images/introduction/tsukuba_daigaku.png');
+  /// File path: assets/images/introduction/lucas.jpeg
+  AssetGenImage get lucas =>
+      const AssetGenImage('assets/images/introduction/lucas.jpeg');
+
+  /// File path: assets/images/introduction/youtrust.png
+  AssetGenImage get youtrust =>
+      const AssetGenImage('assets/images/introduction/youtrust.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [tsukubaDaigaku];
+  List<AssetGenImage> get values => [lucas, youtrust];
 }
 
 class $AssetsImagesJsInteropGen {
@@ -141,9 +154,21 @@ class $AssetsImagesSharedGen {
 class $AssetsImagesTitleSlideGen {
   const $AssetsImagesTitleSlideGen();
 
+  /// File path: assets/images/title_slide/Eiffel_tower.svg
+  SvgGenImage get eiffelTower =>
+      const SvgGenImage('assets/images/title_slide/Eiffel_tower.svg');
+
   /// File path: assets/images/title_slide/elizabeth_welcome.png
   AssetGenImage get elizabethWelcome =>
       const AssetGenImage('assets/images/title_slide/elizabeth_welcome.png');
+
+  /// File path: assets/images/title_slide/flutterconnection_logo.svg
+  SvgGenImage get flutterconnectionLogo =>
+      const SvgGenImage('assets/images/title_slide/flutterconnection_logo.svg');
+
+  /// File path: assets/images/title_slide/louvre-paris.svg
+  SvgGenImage get louvreParis =>
+      const SvgGenImage('assets/images/title_slide/louvre-paris.svg');
 
   /// File path: assets/images/title_slide/meiji_jingu.png
   AssetGenImage get meijiJingu =>
@@ -158,19 +183,26 @@ class $AssetsImagesTitleSlideGen {
       const AssetGenImage('assets/images/title_slide/tokyo_tower.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [elizabethWelcome, meijiJingu, osakaCastle, tokyoTower];
+  List<dynamic> get values => [
+        eiffelTower,
+        elizabethWelcome,
+        flutterconnectionLogo,
+        louvreParis,
+        meijiJingu,
+        osakaCastle,
+        tokyoTower
+      ];
 }
 
-class $AssetsImagesWebsiteReviewGen {
-  const $AssetsImagesWebsiteReviewGen();
+class $AssetsImagesVideoCallGen {
+  const $AssetsImagesVideoCallGen();
 
-  /// File path: assets/images/website_review/website_preview.png
-  AssetGenImage get websitePreview =>
-      const AssetGenImage('assets/images/website_review/website_preview.png');
+  /// File path: assets/images/video_call/raouf.jpg
+  AssetGenImage get raouf =>
+      const AssetGenImage('assets/images/video_call/raouf.jpg');
 
   /// List of all assets
-  List<AssetGenImage> get values => [websitePreview];
+  List<AssetGenImage> get values => [raouf];
 }
 
 class Assets {
@@ -179,6 +211,7 @@ class Assets {
   static const $AssetsFontsGen fonts = $AssetsFontsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsRiveGen rive = $AssetsRiveGen();
+  static const $AssetsVideoGen video = $AssetsVideoGen();
 }
 
 class AssetGenImage {

@@ -8,9 +8,15 @@ import 'package:fluttershow_base/components/widgets/spacing/margins.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class FolderFile extends HookConsumerWidget {
-  const FolderFile(this.text, this.animationIndex, {super.key});
+  const FolderFile(
+    this.text,
+    this.animationIndex, {
+    this.textReplacement,
+    super.key,
+  });
   final String text;
   final int animationIndex;
+  final Widget? textReplacement;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -20,9 +26,9 @@ class FolderFile extends HookConsumerWidget {
 
     final child = Padding(
       padding: EdgeInsets.only(
-        bottom: 180,
-        left: (100 * normalizedAnimationIndex).toDouble(),
-        right: 140,
+        bottom: 120,
+        left: (2 * normalizedAnimationIndex).toDouble(),
+        right: 24,
       ),
       child: Container(
         decoration: BoxDecoration(
@@ -34,18 +40,23 @@ class FolderFile extends HookConsumerWidget {
         child: Padding(
           padding: const EdgeInsets.all(8),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                text,
-                style: FSTextStyles.regularText(
-                  color: Colors.black,
-                  fontSize: 24,
-                ),
-              ),
+              if (textReplacement == null)
+                Text(
+                  text,
+                  style: FSTextStyles.regularText(
+                    color: Colors.black,
+                    fontSize: 24,
+                  ),
+                  textAlign: TextAlign.center,
+                )
+              else
+                textReplacement ?? const SizedBox.shrink(),
               verticalMargin16,
               Visibility(
                 visible: animationIndex == 5 && languageCode != 'en',
-                child: Assets.images.introduction.tsukubaDaigaku.image(
+                child: Assets.images.introduction.youtrust.image(
                   width: 100,
                   height: 100,
                 ),

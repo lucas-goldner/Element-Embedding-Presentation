@@ -25,8 +25,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "addJSDep":
             MessageLookupByLibrary.simpleMessage("Add the js dependency"),
+        "adjustmentsReact": MessageLookupByLibrary.simpleMessage(
+            "Adjustments for React were necessary"),
         "agenda": MessageLookupByLibrary.simpleMessage("Agenda"),
         "amazing": MessageLookupByLibrary.simpleMessage("Amazing"),
+        "andThatsIt": MessageLookupByLibrary.simpleMessage("And that\'s it!"),
         "annoying": MessageLookupByLibrary.simpleMessage("Annoying"),
         "author": MessageLookupByLibrary.simpleMessage("Made by Lucas Goldner"),
         "awesome": MessageLookupByLibrary.simpleMessage("Awesome"),
@@ -64,17 +67,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "exportStateAndFunctions":
             MessageLookupByLibrary.simpleMessage("Export state and functions"),
         "faceTimeVideo": MessageLookupByLibrary.simpleMessage("Facetime Video"),
-        "fileOne": MessageLookupByLibrary.simpleMessage(
-            "🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM"),
+        "fileOne":
+            MessageLookupByLibrary.simpleMessage("🇩🇪🇧🇷\n\n23 years old"),
         "fileThree": MessageLookupByLibrary.simpleMessage(
-            "Love learning languages\n\nCurrently studying Japanese🇯🇵"),
+            "Talk to me in German, English, Portuguese, Spanish\n\nOr now in Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
-            "Programming for 3 years\n\nMostly interested in Flutter and iOS development"),
+            "Working now at: YOUTRUST Inc."),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
-        "flutterInsideOfAWebsite": MessageLookupByLibrary.simpleMessage(
-            "Flutter apps inside of websites"),
+        "flutterInsideOfAWebsite":
+            MessageLookupByLibrary.simpleMessage("Element Embedding Made Easy"),
         "great": MessageLookupByLibrary.simpleMessage("Great"),
-        "guyName": MessageLookupByLibrary.simpleMessage("FlutterFAN98"),
+        "guyName": MessageLookupByLibrary.simpleMessage("Raouf Rahiche"),
+        "hiIam": MessageLookupByLibrary.simpleMessage("Hi, I am"),
         "hidden": MessageLookupByLibrary.simpleMessage("Hidden"),
         "howToEmbedd": MessageLookupByLibrary.simpleMessage(
             "How to embedd your Flutter app?"),
@@ -88,6 +92,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "lazy": MessageLookupByLibrary.simpleMessage("Lazy"),
         "loadAppIntoDiv":
             MessageLookupByLibrary.simpleMessage("- Load app into div"),
+        "lucasGoldner":
+            MessageLookupByLibrary.simpleMessage("Lucas Goldner ⚡️"),
         "madeWith": MessageLookupByLibrary.simpleMessage("Made with:"),
         "madeWithFlutter":
             MessageLookupByLibrary.simpleMessage("Made with Flutter💙"),
@@ -95,11 +101,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "motiviation": MessageLookupByLibrary.simpleMessage("Motiviation"),
         "mouse": MessageLookupByLibrary.simpleMessage("Mouse"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Its not Flutter"),
+        "otherFrameworks":
+            MessageLookupByLibrary.simpleMessage("Other Frameworks"),
         "output": MessageLookupByLibrary.simpleMessage("Output"),
         "outstanding": MessageLookupByLibrary.simpleMessage("Outstanding"),
         "party": MessageLookupByLibrary.simpleMessage("Party 🎉"),
         "presentationTitle":
-            MessageLookupByLibrary.simpleMessage("Flutter on the Web"),
+            MessageLookupByLibrary.simpleMessage("Flutter Web Laughs"),
         "presentationsInFlutter": MessageLookupByLibrary.simpleMessage(
             "Element Embedding for Next-Level Websites"),
         "reallyBad": MessageLookupByLibrary.simpleMessage("Really bad"),
@@ -118,6 +126,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "thanks": MessageLookupByLibrary.simpleMessage("Thanks!"),
         "webBuildCommand":
             MessageLookupByLibrary.simpleMessage("Run build command"),
-        "what": MessageLookupByLibrary.simpleMessage("What?")
+        "what": MessageLookupByLibrary.simpleMessage("What?"),
+        "worksWith": MessageLookupByLibrary.simpleMessage(
+            "Will work anywhere by loading scripts")
       };
 }

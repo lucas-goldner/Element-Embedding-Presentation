@@ -140,10 +140,10 @@ class S {
     );
   }
 
-  /// `Flutter on the Web`
+  /// `Flutter Web Laughs`
   String get presentationTitle {
     return Intl.message(
-      'Flutter on the Web',
+      'Flutter Web Laughs',
       name: 'presentationTitle',
       desc: '',
       args: [],
@@ -400,30 +400,30 @@ class S {
     );
   }
 
-  /// `🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM`
+  /// `🇩🇪🇧🇷\n\n23 years old`
   String get fileOne {
     return Intl.message(
-      '🇩🇪🇧🇷\n\n22 years old\n\nUniversity student at HdM',
+      '🇩🇪🇧🇷\n\n23 years old',
       name: 'fileOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Programming for 3 years\n\nMostly interested in Flutter and iOS development`
+  /// `Working now at: YOUTRUST Inc.`
   String get fileTwo {
     return Intl.message(
-      'Programming for 3 years\n\nMostly interested in Flutter and iOS development',
+      'Working now at: YOUTRUST Inc.',
       name: 'fileTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Love learning languages\n\nCurrently studying Japanese🇯🇵`
+  /// `Talk to me in German, English, Portuguese, Spanish\n\nOr now in Japanese🇯🇵`
   String get fileThree {
     return Intl.message(
-      'Love learning languages\n\nCurrently studying Japanese🇯🇵',
+      'Talk to me in German, English, Portuguese, Spanish\n\nOr now in Japanese🇯🇵',
       name: 'fileThree',
       desc: '',
       args: [],
@@ -490,10 +490,10 @@ class S {
     );
   }
 
-  /// `FlutterFAN98`
+  /// `Raouf Rahiche`
   String get guyName {
     return Intl.message(
-      'FlutterFAN98',
+      'Raouf Rahiche',
       name: 'guyName',
       desc: '',
       args: [],
@@ -530,10 +530,10 @@ class S {
     );
   }
 
-  /// `Flutter apps inside of websites`
+  /// `Element Embedding Made Easy`
   String get flutterInsideOfAWebsite {
     return Intl.message(
-      'Flutter apps inside of websites',
+      'Element Embedding Made Easy',
       name: 'flutterInsideOfAWebsite',
       desc: '',
       args: [],
@@ -735,6 +735,66 @@ class S {
     return Intl.message(
       'Set ids on input fields',
       name: 'setIds',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hi, I am`
+  String get hiIam {
+    return Intl.message(
+      'Hi, I am',
+      name: 'hiIam',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lucas Goldner ⚡️`
+  String get lucasGoldner {
+    return Intl.message(
+      'Lucas Goldner ⚡️',
+      name: 'lucasGoldner',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `And that's it!`
+  String get andThatsIt {
+    return Intl.message(
+      'And that\'s it!',
+      name: 'andThatsIt',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Other Frameworks`
+  String get otherFrameworks {
+    return Intl.message(
+      'Other Frameworks',
+      name: 'otherFrameworks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Will work anywhere by loading scripts`
+  String get worksWith {
+    return Intl.message(
+      'Will work anywhere by loading scripts',
+      name: 'worksWith',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Adjustments for React were necessary`
+  String get adjustmentsReact {
+    return Intl.message(
+      'Adjustments for React were necessary',
+      name: 'adjustmentsReact',
       desc: '',
       args: [],
     );
