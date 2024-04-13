@@ -1,8 +1,8 @@
-# GDG devfest Tokyo
+# Flutterconnection 2024
 
-Presentation slides, but made in Flutter for the https://gdg-tokyo.connpass.com/event/301690/ event.
+Presentation slides, but made in Flutter for the [Flutterconnection 2024](https://flutterconnection.io/) event.
 
-![IMG](https://media.connpass.com/thumbs/ad/a7/ada722fd3498d8b4d841a9946fc4c42a.png)
+<img src="./assets/svgviewer-png-output.png" alt="Flutterconnection Logo" width="300" height="300">
 
 Presentation ressources:
 
@@ -14,6 +14,7 @@ For embedded flutter app examples check the following links:
 
 - React example:
   - Instructions -> https://github.com/lucas-goldner/flutter_react_element_embedding
-  - Actual example + automation scripts -> https://github.com/lucas-goldner/Element-Embedding-Presentation/tree/main/presentation_embedded
+  - Actual example -> https://github.com/lucas-goldner/Element-Embedding-Presentation/tree/main/presentation_embedded
+  - Automation scripts -> https://github.com/lucas-goldner/Element-Embedding-Presentation/blob/main/presentation_embedded/scripts/update_flutter_web_app.sh
 - Angular example: https://github.com/flutter/samples/tree/main/web_embedding/ng-flutter
 - HTML only example: https://github.com/lucas-goldner/Element-Embedding-Presentation/tree/main/example_website
