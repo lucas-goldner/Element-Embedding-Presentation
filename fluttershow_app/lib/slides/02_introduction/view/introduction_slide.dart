@@ -82,7 +82,6 @@ class IntroductionSlide extends HookConsumerWidget {
             ),
           ],
         ),
-
         headerFlexUnits: 4,
         bodyWidget: Stack(
           children: [
@@ -104,7 +103,7 @@ class IntroductionSlide extends HookConsumerWidget {
                   children: [
                     Visibility(
                       visible: presentation.animationIndex >= 4,
-                      child: FolderFile(t.fileThree, 6),
+                      child: FolderFile(t.fileOne, 6),
                     ),
                     Visibility(
                       visible: presentation.animationIndex >= 3,
@@ -134,7 +133,7 @@ class IntroductionSlide extends HookConsumerWidget {
                     ),
                     Visibility(
                       visible: presentation.animationIndex >= 5,
-                      child: FolderFile(t.fileOne, 4),
+                      child: FolderFile(t.fileThree, 4),
                     ),
                   ],
                 ),
@@ -142,32 +141,6 @@ class IntroductionSlide extends HookConsumerWidget {
             ),
           ],
         ),
-        //  Stack(
-        //   children: [
-        //     FadeAnimation(
-        //       delay: 3,
-        //       child: RiveAnimation.asset(
-        //         'assets/rive/folder.riv',
-        //         artboard: 'fold_er.svg',
-        //         controllers: [
-        //           openAnimationController.value,
-        //         ],
-        //       ),
-        //     ),
-        //     Visibility(
-        //       visible: presentation.animationIndex >= 3,
-        //       child: Center(
-        //         child: Stack(
-        //           children: [
-        //             FolderFile(t.fileThree, 6),
-        //             FolderFile(t.fileTwo, 5),
-        //             FolderFile(t.fileOne, 4),
-        //           ],
-        //         ),
-        //       ),
-        //     ),
-        //   ],
-        // ),
       ),
     );
   }

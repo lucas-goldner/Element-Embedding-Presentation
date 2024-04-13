@@ -36,7 +36,7 @@
   "selfIntroduction": "About me",
   "fileOne": "🇩🇪🇧🇷\n\n23 years old",
   "fileTwo": "Working now at: YOUTRUST Inc.",
-  "fileThree": "Love learning languages\n\nCurrently studying Japanese🇯🇵",
+  "fileThree": "Talk to me in German, English, Portuguese, Spanish\n\nOr now in Japanese🇯🇵",
   "what": "What?",
   "elementEmbedding": "Element Embedding",
   "flutter": "Flutter",
@@ -70,5 +70,8 @@
   "setIds": "Set ids on input fields",
   "hiIam": "Hi, I am",
   "lucasGoldner": "Lucas Goldner ⚡️",
-  "andThatsIt": "And that's it!"
+  "andThatsIt": "And that's it!",
+  "otherFrameworks": "Other Frameworks",
+  "worksWith": "Will work anywhere by loading scripts",
+  "adjustmentsReact": "Adjustments for React were necessary"
 }

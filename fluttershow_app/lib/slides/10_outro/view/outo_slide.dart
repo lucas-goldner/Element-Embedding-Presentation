@@ -47,13 +47,6 @@ class OutroSlide extends ConsumerWidget {
               ),
             ],
           ),
-          verticalMargin32,
-          Text(
-            S.of(context).repoLink,
-            style: FSTextStyles.regularText(
-              fontSize: 32,
-            ),
-          ),
         ],
       ),
     );

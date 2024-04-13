@@ -25,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "addJSDep":
             MessageLookupByLibrary.simpleMessage("Add the js dependency"),
+        "adjustmentsReact": MessageLookupByLibrary.simpleMessage(
+            "Adjustments for React were necessary"),
         "agenda": MessageLookupByLibrary.simpleMessage("Agenda"),
         "amazing": MessageLookupByLibrary.simpleMessage("Amazing"),
         "andThatsIt": MessageLookupByLibrary.simpleMessage("And that\'s it!"),
@@ -68,7 +70,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fileOne":
             MessageLookupByLibrary.simpleMessage("🇩🇪🇧🇷\n\n23 years old"),
         "fileThree": MessageLookupByLibrary.simpleMessage(
-            "Love learning languages\n\nCurrently studying Japanese🇯🇵"),
+            "Talk to me in German, English, Portuguese, Spanish\n\nOr now in Japanese🇯🇵"),
         "fileTwo": MessageLookupByLibrary.simpleMessage(
             "Working now at: YOUTRUST Inc."),
         "flutter": MessageLookupByLibrary.simpleMessage("Flutter"),
@@ -99,6 +101,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "motiviation": MessageLookupByLibrary.simpleMessage("Motiviation"),
         "mouse": MessageLookupByLibrary.simpleMessage("Mouse"),
         "notFlutter": MessageLookupByLibrary.simpleMessage("Its not Flutter"),
+        "otherFrameworks":
+            MessageLookupByLibrary.simpleMessage("Other Frameworks"),
         "output": MessageLookupByLibrary.simpleMessage("Output"),
         "outstanding": MessageLookupByLibrary.simpleMessage("Outstanding"),
         "party": MessageLookupByLibrary.simpleMessage("Party 🎉"),
@@ -122,6 +126,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "thanks": MessageLookupByLibrary.simpleMessage("Thanks!"),
         "webBuildCommand":
             MessageLookupByLibrary.simpleMessage("Run build command"),
-        "what": MessageLookupByLibrary.simpleMessage("What?")
+        "what": MessageLookupByLibrary.simpleMessage("What?"),
+        "worksWith": MessageLookupByLibrary.simpleMessage(
+            "Will work anywhere by loading scripts")
       };
 }

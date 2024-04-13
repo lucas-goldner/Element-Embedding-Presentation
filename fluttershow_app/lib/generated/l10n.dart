@@ -420,10 +420,10 @@ class S {
     );
   }
 
-  /// `Love learning languages\n\nCurrently studying Japanese🇯🇵`
+  /// `Talk to me in German, English, Portuguese, Spanish\n\nOr now in Japanese🇯🇵`
   String get fileThree {
     return Intl.message(
-      'Love learning languages\n\nCurrently studying Japanese🇯🇵',
+      'Talk to me in German, English, Portuguese, Spanish\n\nOr now in Japanese🇯🇵',
       name: 'fileThree',
       desc: '',
       args: [],
@@ -765,6 +765,36 @@ class S {
     return Intl.message(
       'And that\'s it!',
       name: 'andThatsIt',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Other Frameworks`
+  String get otherFrameworks {
+    return Intl.message(
+      'Other Frameworks',
+      name: 'otherFrameworks',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Will work anywhere by loading scripts`
+  String get worksWith {
+    return Intl.message(
+      'Will work anywhere by loading scripts',
+      name: 'worksWith',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Adjustments for React were necessary`
+  String get adjustmentsReact {
+    return Intl.message(
+      'Adjustments for React were necessary',
+      name: 'adjustmentsReact',
       desc: '',
       args: [],
     );

@@ -67,5 +67,11 @@
   "exportStateAndFunctions": "状態と関数をエクスポートする",
   "bindFunctionsFromDart": "- JsからDartの関数を接続する",
   "initAppStateSetCallbacks": "アプリの状態を初期化し、コールバックをセットする",
-  "setIds": "入力のためにidsをセットする"
+  "setIds": "入力のためにidsをセットする",
+  "hiIam": "Hi, I am",
+  "lucasGoldner": "Lucas Goldner ⚡️",
+  "andThatsIt": "And that's it!",
+  "otherFrameworks": "Other Frameworks",
+  "worksWith": "Will work anywhere by loading scripts",
+  "adjustmentsReact": "Adjustments for React were necessary"
 }
