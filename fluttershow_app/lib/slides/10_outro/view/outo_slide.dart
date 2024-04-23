@@ -42,7 +42,7 @@ class OutroSlide extends ConsumerWidget {
                     textAlign: TextAlign.left,
                     style: FSTextStyles.regularText(),
                   ),
-                  Assets.images.custom.fluttershow.image(),
+                  const FlutterLogo(size: 300),
                 ],
               ),
             ],

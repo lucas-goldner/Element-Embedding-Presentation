@@ -21,11 +21,13 @@ class ReactEmbeddingSlide extends ConsumerWidget {
       child: KeynoteTitleAndBulletsSlide(
         animationIndex: presentation.animationIndex,
         titleText: t.otherFrameworks,
+        subTitleText: t.worksWith,
         bulletPoints: [
-          t.worksWith,
           t.adjustmentsReact,
+          t.jasprHas,
         ],
         titleStyle: KeynoteTextstyles.title(),
+        subtitleStyle: KeynoteTextstyles.body(),
         bulletTextStyle: KeynoteTextstyles.body(),
       ),
     );

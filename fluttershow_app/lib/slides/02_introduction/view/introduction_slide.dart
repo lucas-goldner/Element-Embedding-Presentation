@@ -76,6 +76,12 @@ class IntroductionSlide extends HookConsumerWidget {
                         fontSize: 80,
                       ),
                     ),
+                    Text(
+                      'X: @LucasGoldner',
+                      style: FSTextStyles.regularText(
+                        fontSize: 40,
+                      ),
+                    ),
                   ],
                 ),
               ],
