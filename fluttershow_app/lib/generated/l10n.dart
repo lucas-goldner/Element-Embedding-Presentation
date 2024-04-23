@@ -780,10 +780,10 @@ class S {
     );
   }
 
-  /// `Will work anywhere by loading scripts`
+  /// `Works but...`
   String get worksWith {
     return Intl.message(
-      'Will work anywhere by loading scripts',
+      'Works but...',
       name: 'worksWith',
       desc: '',
       args: [],
@@ -795,6 +795,16 @@ class S {
     return Intl.message(
       'Adjustments for React were necessary',
       name: 'adjustmentsReact',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jaspr has support for it as well!`
+  String get jasprHas {
+    return Intl.message(
+      'Jaspr has support for it as well!',
+      name: 'jasprHas',
       desc: '',
       args: [],
     );

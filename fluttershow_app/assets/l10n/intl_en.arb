@@ -72,6 +72,7 @@
   "lucasGoldner": "Lucas Goldner ⚡️",
   "andThatsIt": "And that's it!",
   "otherFrameworks": "Other Frameworks",
-  "worksWith": "Will work anywhere by loading scripts",
-  "adjustmentsReact": "Adjustments for React were necessary"
+  "worksWith": "Works but...",
+  "adjustmentsReact": "Adjustments for React were necessary",
+  "jasprHas": "Jaspr has support for it as well!"
 }

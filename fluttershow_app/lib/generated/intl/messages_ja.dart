@@ -81,6 +81,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("アプリの状態を初期化し、コールバックをセットする"),
         "initEngine":
             MessageLookupByLibrary.simpleMessage("- スクリプトとエンジンを初期化する"),
+        "jasprHas": MessageLookupByLibrary.simpleMessage(
+            "Jaspr has support for it as well!"),
         "jsInteropInteract": MessageLookupByLibrary.simpleMessage(
             "Js Interopでアプリとウェブサイト間で情報の交換が可能"),
         "language": MessageLookupByLibrary.simpleMessage("言語"),
@@ -120,7 +122,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "webBuildCommand":
             MessageLookupByLibrary.simpleMessage("webビリどのコマンドコマンド"),
         "what": MessageLookupByLibrary.simpleMessage("何"),
-        "worksWith": MessageLookupByLibrary.simpleMessage(
-            "Will work anywhere by loading scripts")
+        "worksWith": MessageLookupByLibrary.simpleMessage("Works but...")
       };
 }

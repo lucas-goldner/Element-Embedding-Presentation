@@ -86,6 +86,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Init app state and set callbacks"),
         "initEngine": MessageLookupByLibrary.simpleMessage(
             "- Load script and initialize engine"),
+        "jasprHas": MessageLookupByLibrary.simpleMessage(
+            "Jaspr has support for it as well!"),
         "jsInteropInteract": MessageLookupByLibrary.simpleMessage(
             "Interact with app using JS Interop"),
         "language": MessageLookupByLibrary.simpleMessage("Locale"),
@@ -127,7 +129,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "webBuildCommand":
             MessageLookupByLibrary.simpleMessage("Run build command"),
         "what": MessageLookupByLibrary.simpleMessage("What?"),
-        "worksWith": MessageLookupByLibrary.simpleMessage(
-            "Will work anywhere by loading scripts")
+        "worksWith": MessageLookupByLibrary.simpleMessage("Works but...")
       };
 }
